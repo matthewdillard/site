@@ -1,0 +1,18 @@
+{{ define "main" }}
+<article class="grid-paper">
+    <div class="grid-paper__text">
+        {{ partial "header.html" . }}
+        <div class="spacer__sm"></div>
+        {{ .Content }}
+    </div>
+    <div class="grid-paper-lines"></div>
+    <div class="bg__texture"></div>
+    <div class="bg__color"></div>
+</article>
+
+<!-- {{ $works := where .Site.RegularPages "Section" "books" }}
+{{ range site.RegularPages }}
+<h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+{{ .Summary }}
+{{ end }} -->
+{{ end }}

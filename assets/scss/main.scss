@@ -1,0 +1,116 @@
+@import '/flex.scss';
+@import '/typography.scss';
+@import '/handwritten.scss';
+@import '/mixins.scss';
+@import '/responsive.scss';
+@import '/variables.scss';
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.spacer {
+  &__sm {
+    @include spacer-inst(1);
+  }
+
+  &__md {
+    @include spacer-inst(2);
+  }
+
+  &__lg {
+    @include spacer-inst(3);
+  }
+
+  &__xl {
+    @include spacer-inst(4);
+  }
+
+  &__xxl {
+    @include spacer-inst(5);
+  }
+}
+
+.bg {
+  height: 100vh;
+  width: 100vw;
+
+  &__texture {
+    z-index: -3;
+    opacity: .15;
+    mix-blend-mode: multiply;
+    background-image: url("/images/security-envelope.png");
+    background-position: 0 0;
+    position: fixed;
+    inset: 0%;
+  }
+
+  &__color {
+    background-color: $color-bg;
+    z-index: -4;
+    position: fixed;
+    inset: 0%;
+  }
+}
+
+article {
+  width: 100%;
+}
+
+.grid-paper {
+  margin: 0;
+  padding: calc(4 * var(--grid-base)) calc(3 * var(--grid-base));
+  background: var(--grid-paper-bg);
+  color: var(--text-heading-color);
+  width: 100%;
+  max-width: calc(768px * var(--scale-factor));
+  position: relative;
+
+  &__text {
+    padding: 0px 4px;
+    z-index: 1;
+    position: relative;
+  }
+
+  .rich-text {
+    padding: 0 calc(4px * var(--scale-factor));
+  }
+}
+
+.grid-paper-lines {
+  z-index: 0;
+  position: absolute;
+  inset: 0%;
+  background:
+    repeating-linear-gradient(180deg, var(--grid-line-color), var(--grid-line-color) 1px, transparent 1px, transparent var(--grid-base)),
+    repeating-linear-gradient(90deg, var(--grid-line-color), var(--grid-line-color) 1px, transparent 1px, transparent var(--grid-base));
+}
+
+// Theme variants
+.theme-light {
+  --grid-paper-bg: #{$color-paper-bg};
+  --grid-line-color: #{$color-grid-line};
+  --text-heading-color: #{$color-text-heading};
+  --text-body-color: #{$color-text-body};
+}
+
+.theme-dark {
+  --grid-paper-bg: #1A1A1A;
+  --grid-line-color: #333333;
+  --text-heading-color: #E0E0E0;
+  --text-body-color: #CCCCCC;
+  --blockquote-border-color: #777777;
+}

@@ -1,0 +1,15 @@
+@import '/variables.scss';
+
+// RESPONSIVE SIZING
+
+@media (max-width: 768px) {
+  :root {
+    --scale-factor: 0.75;
+  }
+}
+
+@media (max-width: 480px) {
+  :root {
+    --scale-factor: 0.5;
+  }
+}

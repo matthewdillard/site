@@ -1,0 +1,117 @@
+
+.handwritten {
+  --font-family-primary: #{$font-handwritten};
+  
+  h1,
+  .font-title-xl,
+  h2,
+  .font-title-lg,
+  h3,
+  .font-title-md,
+  h4,
+  .font-title-sm,
+  h5,
+  .font-title-xs,
+  h6,
+  .font-title-xxs {
+    font-weight: 500;
+    @include heading-base;
+  }
+
+  // —— Markdown 
+  h1,
+  .font-title-xl {
+    font-weight: 700;
+    @include grid-aligned-text(calc(--font-size-h1 * 2), calc(#{$font-unit-h1} / 2), --grid-offset-h1);
+  }
+
+  h2,
+  .font-title-lg {
+    font-weight: 600;
+    @include grid-aligned-text(calc(--font-size-h2 * 2), calc(#{$font-unit-h2} / 2), --grid-offset-h2);
+  }
+
+  h3,
+  .font-title-md {
+    font-weight: 600;
+    @include grid-aligned-text(calc(--font-size-h3 * 2), calc(#{$font-unit-h3} / 2), --grid-offset-h3);
+  }
+
+  h4,
+  .font-title-sm {
+    font-weight: 600;
+    @include grid-aligned-text(calc(--font-size-h4 * 2), calc(#{$font-unit-h4} / 2), --grid-offset-h4);
+  }
+
+  h5,
+  .font-title-xs {
+    font-weight: 600;
+    @include grid-aligned-text(calc(--font-size-h5 * 2), calc(#{$font-unit-h5} / 2), --grid-offset-h5);
+  }
+
+  h6,
+  .font-title-xxs {
+    font-weight: 600;
+    @include grid-aligned-text(calc(--font-size-h6 *2), calc(#{$font-unit-h6} / 2), --grid-offset-h6);
+  }
+
+  p,
+  li,
+  span,
+  .font-body {
+    font-family: var(--font-family-primary);
+    font-size: calc(var(--font-size-p) * 2);
+    line-height: calc(100% * var(--scale-factor));
+    padding: var(--grid-offset-hp) 0 calc(var(--grid-base) - calc(1 * var(--grid-offset-hp))) 0;
+    letter-spacing: calc(0.2px * var(--scale-factor));
+    margin: 0;
+    color: var(--text-body-color);
+  }
+
+  a,
+  .font-link {
+    color: inherit;
+  }
+
+  .link-clear {
+    text-decoration: none;
+  }
+
+  .nav-link {
+    text-decoration: none;
+    
+    &.about {
+        width: calc(var(--grid-base) * 3);
+        text-align: right;
+    }
+
+    &.work {
+        width: calc(var(--grid-base) * 2);
+        text-align: right;
+    }
+  } 
+  .nav-link:hover {
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  blockquote {
+    font-family: var(--font-family-primary);
+    font-size: calc(var(--font-size-p) * 2);
+    line-height: calc((var(--grid-base-unit) / #{$font-unit-p}) * 100%);
+    border-left: calc(4px * var(--scale-factor)) solid var(--blockquote-border-color);
+    margin-block: var(--grid-base);
+    padding: calc(var(--grid-base) + var(--grid-offset-hp)) var(--grid-base) calc(var(--grid-base) - var(--grid-offset-hp)) var(--grid-base);
+    margin: 0;
+    color: var(--text-body-color);
+  }
+
+  ul,
+  ol {
+    margin-top: 0;
+    margin-bottom: var(--grid-base);
+    padding-left: var(--grid-base);
+    margin: 0;
+  }
+
+}

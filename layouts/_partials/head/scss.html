@@ -1,0 +1,11 @@
+{{- with resources.Get "scss/main.scss" }}
+  {{- if hugo.IsDevelopment }}
+    {{- $options := dict "enableSourceMap" true }}
+    {{- $style := . | toCSS $options }}
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+  {{- else }}
+    {{- $options := dict "outputStyle" "compressed" }}
+    {{- $style := . | toCSS $options | fingerprint }}
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}" crossorigin="anonymous">
+  {{- end }}
+{{- end }}

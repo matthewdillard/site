@@ -1,0 +1,15 @@
+{{ define "main" }}
+<article class="grid-paper">
+    <div class="grid-paper__text">
+        {{ partial "header.html" . }}
+        <div class="spacer__sm"></div>
+        <h1>{{ .Title }}</h1>
+        <div class="spacer__md"></div>
+        {{ .Content }}
+        {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+    </div>
+    <div class="grid-paper-lines"></div>
+    <div class="bg__texture"></div>
+    <div class="bg__color"></div>
+</article>
+{{ end }}
