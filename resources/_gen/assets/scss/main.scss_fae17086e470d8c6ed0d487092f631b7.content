@@ -450,14 +450,14 @@ html {
   width: 100vw; }
   .bg__texture {
     z-index: -3;
-    opacity: .15;
+    opacity: .5;
     mix-blend-mode: multiply;
     background-image: url("/images/security-envelope.png");
     background-position: 0 0;
     position: fixed;
     inset: 0%; }
   .bg__color {
-    background-color: #f1f0ea;
+    background-color: #686d56;
     z-index: -4;
     position: fixed;
     inset: 0%; }
