@@ -35,6 +35,10 @@
   </url><url>
     <loc>http://localhost:1313/education/</loc>
   </url><url>
+    <loc>http://localhost:1313/work/terragotchi/</loc>
+  </url><url>
+    <loc>http://localhost:1313/work/terragotchi_tldr/</loc>
+  </url><url>
     <loc>http://localhost:1313/work/</loc>
   </url>
 </urlset>

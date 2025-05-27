@@ -101,6 +101,14 @@ a,
   text-decoration: none;
 }
 
+.link-hide {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
 .nav-link:hover {
   text-decoration: none;
 }

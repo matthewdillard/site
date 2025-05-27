@@ -1,0 +1,26 @@
+{{ define "main" }}
+<article class="grid-paper">
+    <div class="grid-paper__text">
+        {{ partial "header.html" . }}
+        <div class="spacer__sm"></div>
+        <h1>{{ .Title }}</h1>
+        {{ .Content }}
+        {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+    </div>
+    <div class="grid-paper-lines"></div>
+</article>
+
+{{ range sort (.Resources.ByType "page") "Params.weight" }}
+<div class="spacer__xl"></div>
+<article class="grid-paper">
+    <div class="grid-paper__text"> 
+        {{ .Content }}
+        {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+    </div>
+    <div class="grid-paper-lines"></div>
+</article>
+
+{{ end }}
+
+
+{{ end }}

@@ -1,4 +1,5 @@
 {{ define "main" }}
+<p>this is a work list</p>
 <article class="grid-paper">
     <div class="grid-paper__text">
         {{ partial "header.html" . }}
@@ -6,13 +7,13 @@
         <h1>{{ .Title }}</h1>
         {{ .Content }}
         {{ range .Pages }}
-            <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-            {{ .Description }}
+            <h2><a class="link-hide" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+            <p>{{ .Description }}</p>
         {{ end }}
-        <!-- {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }} -->
+        {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
     </div>
     <div class="grid-paper-lines"></div>
-    <div class="bg__texture"></div>
-    <div class="bg__color"></div>
 </article>
+
+
 {{ end }}

@@ -20,8 +20,8 @@
   --font-size-500: calc(20px * var(--scale-factor));
   --font-size-600: calc(22px * var(--scale-factor));
   --font-size-700: calc(24px * var(--scale-factor));
-  --font-size-800: calc(28px * var(--scale-factor));
-  --font-size-900: calc(30px * var(--scale-factor));
+  --font-size-800: calc(26px * var(--scale-factor));
+  --font-size-900: calc(28px * var(--scale-factor));
   --font-size-h1: var(--font-size-900);
   --font-size-h2: var(--font-size-800);
   --font-size-h3: var(--font-size-700);
@@ -55,8 +55,8 @@
   --font-size-500: calc(20px * var(--scale-factor));
   --font-size-600: calc(22px * var(--scale-factor));
   --font-size-700: calc(24px * var(--scale-factor));
-  --font-size-800: calc(28px * var(--scale-factor));
-  --font-size-900: calc(30px * var(--scale-factor));
+  --font-size-800: calc(26px * var(--scale-factor));
+  --font-size-900: calc(28px * var(--scale-factor));
   --font-size-h1: var(--font-size-900);
   --font-size-h2: var(--font-size-800);
   --font-size-h3: var(--font-size-700);
@@ -117,7 +117,7 @@ h1,
 .font-title-xl {
   font-weight: 700;
   font-size: var(--font-size-h1);
-  line-height: calc((var(--grid-base-unit)/30) * 100%);
+  line-height: calc((var(--grid-base-unit)/28) * 100%);
   padding-top: var(--grid-offset-h1);
   padding-bottom: calc(var(--grid-base) - var(--grid-offset-h1)); }
 
@@ -125,7 +125,7 @@ h2,
 .font-title-lg {
   font-weight: 600;
   font-size: var(--font-size-h2);
-  line-height: calc((var(--grid-base-unit)/28) * 100%);
+  line-height: calc((var(--grid-base-unit)/26) * 100%);
   padding-top: var(--grid-offset-h2);
   padding-bottom: calc(var(--grid-base) - var(--grid-offset-h2)); }
 
@@ -180,6 +180,11 @@ a,
 .link-clear {
   text-decoration: none; }
 
+.link-hide {
+  text-decoration: none; }
+  .link-hide:hover {
+    text-decoration: underline; }
+
 .nav-link:hover {
   text-decoration: none; }
 
@@ -199,6 +204,9 @@ ol {
   margin-bottom: var(--grid-base);
   padding-left: var(--grid-base);
   margin: 0; }
+
+.sharpie {
+  --font-family-primary: Canary Post, sans-serif; }
 
 .handwritten {
   --font-family-primary: Matturm Leuch, sans-serif; }
@@ -222,14 +230,14 @@ ol {
   .handwritten .font-title-xl {
     font-weight: 700;
     font-size: var(calc(--font-size-h1 * 2));
-    line-height: calc((var(--grid-base-unit)/calc(30 / 2)) * 100%);
+    line-height: calc((var(--grid-base-unit)/calc(28 / 2)) * 100%);
     padding-top: var(--grid-offset-h1);
     padding-bottom: calc(var(--grid-base) - var(--grid-offset-h1)); }
   .handwritten h2,
   .handwritten .font-title-lg {
     font-weight: 600;
     font-size: var(calc(--font-size-h2 * 2));
-    line-height: calc((var(--grid-base-unit)/calc(28 / 2)) * 100%);
+    line-height: calc((var(--grid-base-unit)/calc(26 / 2)) * 100%);
     padding-top: var(--grid-offset-h2);
     padding-bottom: calc(var(--grid-base) - var(--grid-offset-h2)); }
   .handwritten h3,
@@ -314,8 +322,8 @@ ol {
   --font-size-500: calc(20px * var(--scale-factor));
   --font-size-600: calc(22px * var(--scale-factor));
   --font-size-700: calc(24px * var(--scale-factor));
-  --font-size-800: calc(28px * var(--scale-factor));
-  --font-size-900: calc(30px * var(--scale-factor));
+  --font-size-800: calc(26px * var(--scale-factor));
+  --font-size-900: calc(28px * var(--scale-factor));
   --font-size-h1: var(--font-size-900);
   --font-size-h2: var(--font-size-800);
   --font-size-h3: var(--font-size-700);
@@ -349,8 +357,8 @@ ol {
   --font-size-500: calc(20px * var(--scale-factor));
   --font-size-600: calc(22px * var(--scale-factor));
   --font-size-700: calc(24px * var(--scale-factor));
-  --font-size-800: calc(28px * var(--scale-factor));
-  --font-size-900: calc(30px * var(--scale-factor));
+  --font-size-800: calc(26px * var(--scale-factor));
+  --font-size-900: calc(28px * var(--scale-factor));
   --font-size-h1: var(--font-size-900);
   --font-size-h2: var(--font-size-800);
   --font-size-h3: var(--font-size-700);
@@ -392,8 +400,8 @@ ol {
   --font-size-500: calc(20px * var(--scale-factor));
   --font-size-600: calc(22px * var(--scale-factor));
   --font-size-700: calc(24px * var(--scale-factor));
-  --font-size-800: calc(28px * var(--scale-factor));
-  --font-size-900: calc(30px * var(--scale-factor));
+  --font-size-800: calc(26px * var(--scale-factor));
+  --font-size-900: calc(28px * var(--scale-factor));
   --font-size-h1: var(--font-size-900);
   --font-size-h2: var(--font-size-800);
   --font-size-h3: var(--font-size-700);
@@ -428,7 +436,8 @@ html {
   justify-content: center;
   align-items: center;
   padding-top: 150px;
-  padding-bottom: 150px; }
+  padding-bottom: 150px;
+  flex-direction: column; }
 
 .spacer__sm {
   height: calc(var(--grid-base) * 1); }
@@ -457,7 +466,7 @@ html {
     position: fixed;
     inset: 0%; }
   .bg__color {
-    background-color: #686d56;
+    background-color: #525E3B;
     z-index: -4;
     position: fixed;
     inset: 0%; }

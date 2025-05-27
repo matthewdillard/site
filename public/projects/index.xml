@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Work on Matthew Dillard</title>
+    <link>http://localhost:1313/projects/</link>
+    <description>Recent content in Work on Matthew Dillard</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Terragotchi</title>
+      <link>http://localhost:1313/projects/terragotchi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/terragotchi/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;Tend to your own pocket-sized Earth by learning and practicing sustainable behaviors and mindsets, supported by constructive strategies for navigating climate anxiety.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;Terragotchi is a concept app I researched, designed, and developed between January-May 2025 as my UX Design Masters Capstone Project at the Maryland Institute College of Art.&lt;/p&gt;&#xA;&lt;p&gt;Terragotchi seeks to cultivate sustainable self-efficacy by addressing climate anxiety within an engaging, educational, and supportive digital experience. Terragotchi combines a resource wiki, habit tracking, mindfulness exercises, and virtual-pet gamification into a resource that educates, encourages, and strengthens sustainable lifestyles. Importantly, it also provides guidance on navigating climate anxiety and channeling that energy into positive action.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Terragotchi tldr</title>
+      <link>http://localhost:1313/projects/terragotchi_tldr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/terragotchi_tldr/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;Tend to your own pocket-sized Earth by learning and practicing sustainable behaviors and mindsets, supported by constructive strategies for navigating climate anxiety.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;Terragotchi is a concept app researched, designed, and developed between January-May 2025 as my Capstone Project for the UX Design Masters Program at the Maryland Institute College of Art. The app combines resource wiki, habit tracking, mindfulness, and virtual-pet gamification to educate, encourage, and strengthen sustainable lifestyles while providing guidance on navigating climate anxiety.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
