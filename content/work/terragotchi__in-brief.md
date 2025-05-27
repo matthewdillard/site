@@ -1,3 +1,12 @@
+---
+title: Terragotchi tldr
+linkTitle: Terragotchi
+description: ‍Practice sustainable behaviors, develop environmental awareness, and navigate climate anxiety by taking care of a pocket-sized Earth.
+date: 
+draft: "true"
+tags: []
+---
+
 # Terragotchi
 
 > *Tend to your own pocket-sized Earth by learning and practicing sustainable behaviors and mindsets, supported by constructive strategies for navigating climate anxiety.*

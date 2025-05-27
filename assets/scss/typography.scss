@@ -111,7 +111,7 @@ blockquote {
   line-height: calc((var(--grid-base-unit) / #{$font-unit-p}) * 100%);
   border-left: calc(4px * var(--scale-factor)) solid var(--blockquote-border-color);
   margin-block: var(--grid-base);
-  padding: calc(var(--grid-base) + var(--grid-offset-p)) var(--grid-base) calc(var(--grid-base) - var(--grid-offset-p)) var(--grid-base);
+  padding: var(--grid-base);
   margin: 0;
   color: var(--text-body-color);
 }

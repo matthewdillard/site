@@ -119,7 +119,7 @@ h1,
   font-size: var(--font-size-h1);
   line-height: calc((var(--grid-base-unit)/30) * 100%);
   padding-top: var(--grid-offset-h1);
-  padding-bottom: calc(var(--grid-base) - var($grid-offset-var)); }
+  padding-bottom: calc(var(--grid-base) - var(--grid-offset-h1)); }
 
 h2,
 .font-title-lg {
@@ -127,7 +127,7 @@ h2,
   font-size: var(--font-size-h2);
   line-height: calc((var(--grid-base-unit)/28) * 100%);
   padding-top: var(--grid-offset-h2);
-  padding-bottom: calc(var(--grid-base) - var($grid-offset-var)); }
+  padding-bottom: calc(var(--grid-base) - var(--grid-offset-h2)); }
 
 h3,
 .font-title-md {
@@ -135,7 +135,7 @@ h3,
   font-size: var(--font-size-h3);
   line-height: calc((var(--grid-base-unit)/24) * 100%);
   padding-top: var(--grid-offset-h3);
-  padding-bottom: calc(var(--grid-base) - var($grid-offset-var)); }
+  padding-bottom: calc(var(--grid-base) - var(--grid-offset-h3)); }
 
 h4,
 .font-title-sm {
@@ -143,7 +143,7 @@ h4,
   font-size: var(--font-size-h4);
   line-height: calc((var(--grid-base-unit)/22) * 100%);
   padding-top: var(--grid-offset-h4);
-  padding-bottom: calc(var(--grid-base) - var($grid-offset-var)); }
+  padding-bottom: calc(var(--grid-base) - var(--grid-offset-h4)); }
 
 h5,
 .font-title-xs {
@@ -151,7 +151,7 @@ h5,
   font-size: var(--font-size-h5);
   line-height: calc((var(--grid-base-unit)/20) * 100%);
   padding-top: var(--grid-offset-h5);
-  padding-bottom: calc(var(--grid-base) - var($grid-offset-var)); }
+  padding-bottom: calc(var(--grid-base) - var(--grid-offset-h5)); }
 
 h6,
 .font-title-xxs {
@@ -159,7 +159,7 @@ h6,
   font-size: var(--font-size-h6);
   line-height: calc((var(--grid-base-unit)/18) * 100%);
   padding-top: var(--grid-offset-h6);
-  padding-bottom: calc(var(--grid-base) - var($grid-offset-var)); }
+  padding-bottom: calc(var(--grid-base) - var(--grid-offset-h6)); }
 
 p,
 li,
@@ -189,7 +189,7 @@ blockquote {
   line-height: calc((var(--grid-base-unit) / 16) * 100%);
   border-left: calc(4px * var(--scale-factor)) solid var(--blockquote-border-color);
   margin-block: var(--grid-base);
-  padding: calc(var(--grid-base) + var(--grid-offset-p)) var(--grid-base) calc(var(--grid-base) - var(--grid-offset-p)) var(--grid-base);
+  padding: var(--grid-base);
   margin: 0;
   color: var(--text-body-color); }
 
@@ -224,42 +224,42 @@ ol {
     font-size: var(calc(--font-size-h1 * 2));
     line-height: calc((var(--grid-base-unit)/calc(30 / 2)) * 100%);
     padding-top: var(--grid-offset-h1);
-    padding-bottom: calc(var(--grid-base) - var($grid-offset-var)); }
+    padding-bottom: calc(var(--grid-base) - var(--grid-offset-h1)); }
   .handwritten h2,
   .handwritten .font-title-lg {
     font-weight: 600;
     font-size: var(calc(--font-size-h2 * 2));
     line-height: calc((var(--grid-base-unit)/calc(28 / 2)) * 100%);
     padding-top: var(--grid-offset-h2);
-    padding-bottom: calc(var(--grid-base) - var($grid-offset-var)); }
+    padding-bottom: calc(var(--grid-base) - var(--grid-offset-h2)); }
   .handwritten h3,
   .handwritten .font-title-md {
     font-weight: 600;
     font-size: var(calc(--font-size-h3 * 2));
     line-height: calc((var(--grid-base-unit)/calc(24 / 2)) * 100%);
     padding-top: var(--grid-offset-h3);
-    padding-bottom: calc(var(--grid-base) - var($grid-offset-var)); }
+    padding-bottom: calc(var(--grid-base) - var(--grid-offset-h3)); }
   .handwritten h4,
   .handwritten .font-title-sm {
     font-weight: 600;
     font-size: var(calc(--font-size-h4 * 2));
     line-height: calc((var(--grid-base-unit)/calc(22 / 2)) * 100%);
     padding-top: var(--grid-offset-h4);
-    padding-bottom: calc(var(--grid-base) - var($grid-offset-var)); }
+    padding-bottom: calc(var(--grid-base) - var(--grid-offset-h4)); }
   .handwritten h5,
   .handwritten .font-title-xs {
     font-weight: 600;
     font-size: var(calc(--font-size-h5 * 2));
     line-height: calc((var(--grid-base-unit)/calc(20 / 2)) * 100%);
     padding-top: var(--grid-offset-h5);
-    padding-bottom: calc(var(--grid-base) - var($grid-offset-var)); }
+    padding-bottom: calc(var(--grid-base) - var(--grid-offset-h5)); }
   .handwritten h6,
   .handwritten .font-title-xxs {
     font-weight: 600;
     font-size: var(calc(--font-size-h6 *2));
     line-height: calc((var(--grid-base-unit)/calc(18 / 2)) * 100%);
     padding-top: var(--grid-offset-h6);
-    padding-bottom: calc(var(--grid-base) - var($grid-offset-var)); }
+    padding-bottom: calc(var(--grid-base) - var(--grid-offset-h6)); }
   .handwritten p,
   .handwritten li,
   .handwritten span,

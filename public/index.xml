@@ -37,25 +37,11 @@
       <description></description>
     </item>
     <item>
-      <title></title>
-      <link>http://localhost:1313/work/citations/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/work/citations/</guid>
-      <description>&lt;h2 id=&#34;citations&#34;&gt;Citations&lt;/h2&gt;&#xA;&lt;p&gt;Anderson, R. E., &amp;amp; Stevenson, H. C. (2019). RECASTing racial stress and trauma: Theorizing the healing potential of racial socialization in families. In American Psychologist (Vol. 74, Issue 1, pp. 63–75). American Psychological Association (APA). &lt;a href=&#34;https://doi.org/10.1037/amp0000392&#34;&gt;https://doi.org/10.1037/amp0000392&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Chen, Kaiping and Lee, Nathan and Lee, Nathan and Marble, William, How Policymakers Evaluate Online versus Offline Constituent Messages (November 30, 2018). &lt;a href=&#34;http://dx.doi.org/10.2139/ssrn.3251651&#34;&gt;http://dx.doi.org/10.2139/ssrn.3251651&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Clear, James, author. Atomic Habits: Tiny Changes, Remarkable Results: an Easy &amp;amp; Proven Way to Build Good Habits &amp;amp; Break Bad Ones. New York, New York:Avery, an imprint of Penguin Random House, 2018.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/work/terragotchi__in-brief/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/work/terragotchi__in-brief/</guid>
-      <description>&lt;h1 id=&#34;terragotchi&#34;&gt;Terragotchi&lt;/h1&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;Tend to your own pocket-sized Earth by learning and practicing sustainable behaviors and mindsets, supported by constructive strategies for navigating climate anxiety.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;Terragotchi is a concept app researched, designed, and developed between January-May 2025 as my Capstone Project for the UX Design Masters Program at the Maryland Institute College of Art. The app combines resource wiki, habit tracking, mindfulness, and virtual-pet gamification to educate, encourage, and strengthen sustainable lifestyles while providing guidance on navigating climate anxiety.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Education</title>
       <link>http://localhost:1313/education/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/education/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Maryland Institute College of Art&lt;/strong&gt;&lt;br&gt;&#xA;&lt;em&gt;MPS User Experience Design&lt;/em&gt;&lt;br&gt;&#xA;2024 - 2025&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;John Hopkins University&lt;/strong&gt;&lt;br&gt;&#xA;&lt;em&gt;BS Computer Science&lt;/em&gt;, Baseball&lt;br&gt;&#xA;2018 - 2022&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Maryland Institute College of Art&lt;/strong&gt;&lt;br&gt;&#xA;&lt;em&gt;MPS User Experience Design&lt;/em&gt;&lt;br&gt;&#xA;2024 - 2025&lt;/p&gt;&#xA;&lt;div class=&#34;spacer__sm&#34;&gt;&lt;/div&gt;&#xA;&lt;p&gt;&lt;strong&gt;John Hopkins University&lt;/strong&gt;&lt;br&gt;&#xA;&lt;em&gt;BS Computer Science&lt;/em&gt;, Baseball&lt;br&gt;&#xA;2018 - 2022&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

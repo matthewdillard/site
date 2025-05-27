@@ -1,5 +1,6 @@
 ---
 title: Terragotchi
+linkTitle: Terragotchi
 description: ‍Practice sustainable behaviors, develop environmental awareness, and navigate climate anxiety by taking care of a pocket-sized Earth.
 date: 
 draft: "true"

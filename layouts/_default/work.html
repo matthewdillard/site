@@ -5,7 +5,11 @@
         <div class="spacer__sm"></div>
         <h1>{{ .Title }}</h1>
         {{ .Content }}
-        {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+        {{ range .Pages }}
+            <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+            {{ .Description }}
+        {{ end }}
+        <!-- {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }} -->
     </div>
     <div class="grid-paper-lines"></div>
     <div class="bg__texture"></div>

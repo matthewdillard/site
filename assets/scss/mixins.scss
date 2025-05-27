@@ -13,7 +13,7 @@
   font-size: var($font-size-var);
   line-height: calc((var(--grid-base-unit)/#{$font-unit-var}) * 100%);
   padding-top: var($grid-offset-var);
-  padding-bottom: calc(var(--grid-base) - var($grid-offset-var));
+  padding-bottom: calc(var(--grid-base) - var(#{$grid-offset-var}));
 }
 
 @mixin spacer-inst($mult) {
