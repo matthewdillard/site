@@ -1,6 +1,3 @@
-@import '/variables.scss';
-
-
 // MIXINS
 
 @mixin heading-base {
@@ -13,7 +10,14 @@
   font-size: var($font-size-var);
   line-height: calc((var(--grid-base-unit)/#{$font-unit-var}) * 100%);
   padding-top: var($grid-offset-var);
-  padding-bottom: calc(var(--grid-base) - var(#{$grid-offset-var}));
+  margin: 0 0 var(--grid-base) 0;
+}
+
+@mixin grid-aligned-heading($font-size-var, $font-unit-var, $grid-offset-var) {
+  font-size: var($font-size-var);
+  line-height: calc((var(--grid-base-unit)/#{$font-unit-var}) * 100%);
+  padding-top: var(--grid-base);
+  margin: var(--grid-base) 0;
 }
 
 @mixin spacer-inst($mult) {

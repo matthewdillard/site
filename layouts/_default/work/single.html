@@ -1,25 +1,42 @@
 {{ define "main" }}
-<article class="grid-paper">
-    <div class="grid-paper__text">
-        {{ partial "header.html" . }}
-        <div class="spacer__sm"></div>
+<article class="grid-wrap">
+    {{ partial "header.html" . }}
+    <div class="spacer__sm"></div>
+    <div class="grid-wrap__text">
         <h1>{{ .Title }}</h1>
+        {{ if .Param "website" }}
+            <span><a class="subtle" href="https://{{ .Param "website" }}">{{ .Param "website" }}</a></span>
+        {{ end }}
+        
+        <p><i>{{.Description}}</i></p>
+        
+        <details>
+            <summary>Table of contents</summary>
+            {{ .TableOfContents }}
+        </details>
+
         {{ .Content }}
+        <ol>
+            {{ range sort (.Resources.ByType "page") "Params.weight" }}
+            <li>
+                <a href="#{{ .Title | anchorize }}">{{ .Title }}</a>
+            </li>
+            {{ end }}
+        </ol>
         {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
     </div>
-    <div class="grid-paper-lines"></div>
+    {{ partial "grid-paper.html" .}}
 </article>
 
 {{ range sort (.Resources.ByType "page") "Params.weight" }}
-<div class="spacer__xl"></div>
-<article class="grid-paper">
-    <div class="grid-paper__text"> 
+<div class="spacer__lg"></div>
+<article id="{{ .Title | anchorize }}" class="grid-wrap">
+    <div class="grid-wrap__text"> 
         {{ .Content }}
         {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
     </div>
-    <div class="grid-paper-lines"></div>
+    {{ partial "grid-paper.html" .}}
 </article>
-
 {{ end }}
 
 

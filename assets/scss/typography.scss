@@ -1,100 +1,76 @@
 @import '/variables.scss';
 @import '/mixins.scss';
 
-.sans {
-  --font-family-primary: #{$font-sans};
-}
+// Headers
 
-.serif {
-  --font-family-primary: #{$font-serif};
-}
-
-.new-serif {
-  --font-family-primary: #{$font-new-serif};
-
-
-  p,
-  li,
-  span,
-  .font-body,
-  ul,
-  ol,
-  a,
-  blockquote {
-    font-weight: 500;
-  }
-}
-
-
-// Apply base styles to all headings
 h1,
-.title-xl,
 h2,
-.title-lg,
 h3,
-.title-md,
 h4,
-.title-sm,
 h5,
-.title-xs,
 h6,
-.title-xxs {
-  @include heading-base;
-}
-
-// —— Markdown 
-h1,
-.font-title-xl {
-  font-weight: 700;
-  @include grid-aligned-text(--font-size-h1, $font-unit-h1, --grid-offset-h1);
-}
-
-h2,
-.font-title-lg {
-  font-weight: 600;
-  @include grid-aligned-text(--font-size-h2, $font-unit-h2, --grid-offset-h2);
-}
-
-h3,
-.font-title-md {
-  font-weight: 600;
-  @include grid-aligned-text(--font-size-h3, $font-unit-h3, --grid-offset-h3);
-}
-
-h4,
-.font-title-sm {
-  font-weight: 600;
-  @include grid-aligned-text(--font-size-h4, $font-unit-h4, --grid-offset-h4);
-}
-
-h5,
-.font-title-xs {
-  font-weight: 600;
-  @include grid-aligned-text(--font-size-h5, $font-unit-h5, --grid-offset-h5);
-}
-
-h6,
-.font-title-xxs {
-  font-weight: 600;
-  @include grid-aligned-text(--font-size-h6, $font-unit-h6, --grid-offset-h6);
-}
-
 p,
-li,
 span,
-.font-body {
-  font-family: var(--font-family-primary);
-  font-size: var(--font-size-p);
-  line-height: calc(200% * var(--scale-factor));
-  padding: var(--grid-offset-p) 0 calc(var(--grid-base) - calc(1 * var(--grid-offset-p))) 0;
-  letter-spacing: calc(0.33px * var(--scale-factor));
-  margin: 0;
-  color: var(--text-body-color);
+summary {
+  padding: 0px var(--text-h-offset);
 }
 
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+}
+
+h1, .fs-6 {
+  font-weight: 600;
+  font-size: var(--font-size-600);
+
+  margin-top: var(--cell-size);
+}
+
+h2, .fs-5 {
+  font-size: var(--font-size-500);
+  margin-block: var(--cell-size);
+  font-weight: 600;
+}
+
+h3, .fs-4 {
+  font-size: var(--font-size-400);
+  margin-block: var(--cell-size);
+  font-weight: 500;
+}
+
+h4, .fs-3 {
+  font-size: var(--font-size-300);
+  font-weight: 500;
+}
+
+h5, .fs-2 {
+  font-size: var(--font-size-200);
+  font-weight: 500;
+}
+
+h6, .fs-1 {
+  font-size: var(--font-size-100);
+  font-weight: 500;
+}
+
+// Paragraph
+
+p {
+  margin-top: var(--cell-size);
+}
+
+// Links
 a,
 .font-link {
   color: inherit;
+}
+
+a:hover {
+  color: var(--color-olive);
 }
 
 .link-clear {
@@ -103,31 +79,63 @@ a,
 
 .link-hide {
   text-decoration: none;
+}
 
-  &:hover {
-    text-decoration: underline;
-  }
+.link-hide:hover {
+  text-decoration: underline;
 }
 
 .nav-link:hover {
   text-decoration: none;
 }
 
-blockquote {
-  font-family: var(--font-family-primary);
-  font-size: var(--font-size-p);
-  line-height: calc((var(--grid-base-unit) / #{$font-unit-p}) * 100%);
-  border-left: calc(4px * var(--scale-factor)) solid var(--blockquote-border-color);
-  margin-block: var(--grid-base);
-  padding: var(--grid-base);
-  margin: 0;
-  color: var(--text-body-color);
-}
+
+// Lists
 
 ul,
 ol {
   margin-top: 0;
-  margin-bottom: var(--grid-base);
-  padding-left: var(--grid-base);
-  margin: 0;
+  padding-right: var(--text-h-offset);
+  list-style-position: inside;
+}
+
+ul {
+    padding-left: calc(var(--cell-size) * 1.4);
+}
+
+ol {
+padding-left: var(--cell-size);
+  list-style: none;
+  counter-reset: list_counter;
+}
+
+ol li {
+  counter-increment: list_counter;
+}
+
+ol li::before {
+  content: counter(list_counter) ". ";
+  width: var(--cell-size);
+  height: var(--cell-size);
+  display: inline-block;
+  line-height: var(--cell-size);
+  text-align: center;
+  margin-right: var(--text-h-offset);
+}
+
+// Details/summary
+
+details:hover summary {
+    cursor: pointer;
+    color: var(--color-text-hover);
+}
+
+summary:focus-visible {
+    outline: var(--color-text-hover) 1px auto;
+    border-radius: 0px;
+}
+
+details {
+    margin-top: var(--cell-size);
+    box-shadow: 0px 1px 0px var(--color-grid-line);
 }

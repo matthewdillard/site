@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Organization on Matthew Dillard</title>
+    <link>http://localhost:9999/tags/organization/</link>
+    <description>Recent content in Organization on Matthew Dillard</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:9999/tags/organization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Anvilor</title>
+      <link>http://localhost:9999/organizations/anvilor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:9999/organizations/anvilor/</guid>
+      <description>&lt;pre&gt;&lt;code&gt;- Business, design strategy&#xA;- Branding/identity&#xA;- Website&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Company founded by [[Tim Kutcher]]&lt;/li&gt;&#xA;&lt;li&gt;Data-based framework for developing custom data-collection solutions&lt;/li&gt;&#xA;&lt;li&gt;Conceived as part of R&amp;amp;D efforts at DICORP, Anvilor launched as it&amp;rsquo;s own company in early 2024&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;company-launch&#34;&gt;Company launch&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;[[anvilor-launch]]&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;em&gt;Anvilor logo (iterations)?&lt;/em&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;support-internal-team-operations-tool-ux&#34;&gt;Support internal team operations, tool UX&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Anvilor platform primarily a means to empower internal development of custom data-collection solutions for clients (e.g., forms, online auctions) with advantages in logic and data formatting.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>DICORP, Inc.</title>
+      <link>http://localhost:9999/organizations/dicorp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:9999/organizations/dicorp/</guid>
+      <description>&lt;p&gt;I joined DICORP, Inc. in 2022, serving as the first &amp;amp; only designer in the healthcare software company&amp;rsquo;s nearly 40-year history. My primary responsibilities are user-experience, graphic, and web design, with additional roles in research, development, IT, branding, and communications.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve pioneered user-centric design, contributing a perspective that challenges the status quo&lt;/p&gt;&#xA;&lt;p&gt;As one man team, I&amp;rsquo;ve developed my skills as a communicator—championing and educating design to clients, engineers, and leadership—and as an architect—creating the systems and infrastructure that enable everyone to design.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Technology 4 Causes</title>
+      <link>http://localhost:9999/organizations/t4c/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:9999/organizations/t4c/</guid>
+      <description>&lt;p&gt;Philanthropic arm of DICORP, Inc., base of operation/contribution for the first chapter with the company.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;[[jc-website]]&lt;/li&gt;&#xA;&lt;li&gt;[[harford-helps]]&lt;/li&gt;&#xA;&lt;li&gt;[[landing-page-builder]]&lt;/li&gt;&#xA;&lt;li&gt;[[continual community]]&lt;/li&gt;&#xA;&lt;li&gt;[[transformation-guild]]&lt;/li&gt;&#xA;&lt;li&gt;[[i4t]]&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,8 +1,7 @@
 {{ define "main" }}
   <h1>{{ .Title }}</h1>
-  <p>this is a term template</p>
   {{ .Content }}
   {{ range .Pages }}
-    <h2><a href="{{ .RelPermalink }}">TERM {{ .LinkTitle }}</a></h2>
+    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
   {{ end }}
 {{ end }}

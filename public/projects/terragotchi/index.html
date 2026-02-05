@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en-us" dir="ltr">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=9999&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
 <title>Terragotchi | Matthew Dillard</title>
 
       <script src="/js/main.js"></script>
+
+
+    <link rel="stylesheet" href="/css/style.css">
 
 
     <link rel="stylesheet" href="/scss/main.css">
@@ -15,51 +18,241 @@
 
 <body>
     <main>
-        <div class="wrapper">
-            
-<p>this is a single template</p>
-<article class="grid-paper">
-    <div class="grid-paper__text">
-        <div class="flex">
-    <div class="flex-grow sharpie">
+        
+<article class="grid-wrap">
+    <header class="flex">
+    <div class="flex-grow handwritten">
         <span class="nav-link"><a href="/" class="link-clear">Matthew Dillard</a></span>
     </div>
     <div class="flex-shrink handwritten">
-        <span class="nav-link work"><a class="link-clear" href="/work">Work</a></span>
-        <span class="nav-link about"><a class="link-clear" href="/about">About</a></span>
+        <span class="nav-link pd-ll work"><a class="link-clear" href="/work">Work</a></span>
+        <span class="nav-link pd-ll about"><a class="link-clear" href="/education">Education</a></span>
     </div>
 
 
-</div>
+</header>
 
 
-        <div class="spacer__sm"></div>
+    <div class="spacer__md"></div>
+    <div class="grid-wrap__text">
         <h1>Terragotchi</h1>
-        <blockquote>
+        <p><img src="https://cdn.prod.website-files.com/652f0cc73610f38db0f3fbc9/68201113de3fede4f6a349b2_landing-gif.gif" alt=""></p>
+<blockquote>
 <p><em>Tend to your own pocket-sized Earth by learning and practicing sustainable behaviors and mindsets, supported by constructive strategies for navigating climate anxiety.</em></p></blockquote>
-<h2 id="overview">Overview</h2>
-<p>Terragotchi is a concept app I researched, designed, and developed between January-May 2025 as my UX Design Masters Capstone Project at the Maryland Institute College of Art.</p>
-<p>Terragotchi seeks to cultivate sustainable self-efficacy by addressing climate anxiety within an engaging, educational, and supportive digital experience. Terragotchi combines a resource wiki, habit tracking, mindfulness exercises, and virtual-pet gamification into a resource that educates, encourages, and strengthens sustainable lifestyles. Importantly, it also provides guidance on navigating climate anxiety and channeling that energy into positive action.</p>
-<h3 id="philosophy">Philosophy</h3>
-<p>I centered this project around consisted of three key principles:</p>
+<p>Terragotchi is a concept app researched, designed, and developed between January and May 2025 for my UX Design Masters Capstone Project at the <a href="https://www.mica.edu/graduate-programs/ux-design-mps/">Maryland Institute College of Art</a>, seeking to educate &amp; cultivate everyday sustainable behaviors like socioecological well-being, with a focus on mindfulness, positivity, and fun.</p>
 <ul>
-<li>Treating sustainability as socioecological well-being — something beneficial for both people and the planet</li>
-<li>Prioritizing positivity, because fighting for something is more powerful than fighting against something</li>
-<li>Focusing on what&rsquo;s within each&rsquo;s control, recognizing that no one can do it all, but that everyone must do what they can</li>
+<li><a href="https://www.youtube.com/watch?v=MWX49AXJ83A">Video walkthrough</a></li>
+<li><a href="https://www.figma.com/proto/T1zlQt0G7rhZ20JrQ90dD2/Terragotchi?page-id=1386%3A13500&amp;node-id=1465-28104&amp;viewport=-1718%2C368%2C0.23&amp;t=9NrKE4sY0gT2Yvnz-1&amp;scaling=min-zoom&amp;content-scaling=fixed&amp;starting-point-node-id=1465%3A28104">Figma prototype</a></li>
+<li><a href="https://www.canva.com/design/DAGmL2bdHAY/I7Eei7aibNEWbs2QV6qg9Q/edit?utm_content=DAGmL2bdHAY&amp;utm_campaign=designshare&amp;utm_medium=link2&amp;utm_source=sharebutton">Presentation pitchdeck</a></li>
 </ul>
+<h2 id="summary">Summary</h2>
+<p>Climate anxiety creates avoidance patterns, leading to disengagement &amp; inaction, particularly for the youngest generations, who have the most at stake.
+The barriers to sustainable action are often lack of knowledge, social norms, personal capacity, and poor supportive infrastructure. On the other hand, action is made possible by environmental awareness, accessible information, personal benefit, self-efficacy, social support, and enjoyment. To change a behavior, people need a compelling alternative.</p>
+<p>The two user types I focused on I describe as the <em>Conflicted Environmentalist</em>—someone with sustainable values and established behaviors who struggles to balance their ideals with reality amidst lifestyle changes—and the <em>Anxious Amateur</em>—someone who feels they should be doing more for the environment, but lacks environmental awareness, confidence, and direction, leading to anxiety and avoidance patterns.</p>
+<p>My solution, Terragotchi, combines a resource wiki, habit tracking, and virtual-pet gamification to support users in learning about, and consistently practicing sustainable behaviors in a fun and engaging way. Users save behaviors from a library, and log them to keep their pet Earth healthy. Information with each action provides environmental, personal, and community benefits in accessible, bite-sized pieces, backed by trusted sources. When users are faced with climate anxiety, mindfulness exercises offer an avenue to ground themselves, cultivate greater awareness, and reinforce channeling their energy into constructive action.</p>
+<p>Terragotchi treats sustainability like socioecological well-being: something that is good for people, and the planet. This project sought to emphasize positivity and focus on developing what&rsquo;s within each&rsquo;s control, because fighting for something is better than fighting against something, and no one can do it all, but we all must do what we can.</p>
+<hr>
+<h2 id="problem-space">Problem space</h2>
+<p>Climate change is the most critical issue of our time, and the costs and threats it poses are indisputable. Whether you&rsquo;re concerned about pollution, extreme heat and weather, rising sea levels, depletion of natural resources, loss of habit and biodiversity, food and water security, inequality, and so on&hellip; climate change will be felt by everyone.</p>
+<p>Our current resources, technology, and knowledge are fully capable of addressing climate change. It&rsquo;s a matter of applying them to the problem at hand.</p>
+<p>Governments and private industry can each tackle climate change in their own way, but they are respectively slow and profit-driven. Public opinion and collective action can, however, through the everyday behavior of everyday people reshape the fabric of society, becoming the greatest change of all.</p>
+<h3 id="alarmed-anxious-overwhelmed">Alarmed, anxious, overwhelmed</h3>
+<p>As dire as the situation is, the scope of the climate change is beyond anyone&rsquo;s individual capacity. Bleak forecasts bombard people without clear guidance or direction, who feel disconnected from nature and their communities, and struggle to see how their choices matter. As a result, they feel powerless, anxious, and paralyzed to act.</p>
+<p>Anxiety is a fear of the future, and results in parasympathetic responses and patterns of avoidance. In response, people worry, which staves off the unpleasant uncertainty, but it prevents them from living in, and dealing with the present moment. The anxiety which climate change creates is taking a toll not just on people, but the planet too.</p>
+<h3 id="thesis-question">Thesis question</h3>
+<blockquote>
+<p><em>What is the environmental impact of anxiety?</em></p></blockquote>
+<h2 id="audience">Audience</h2>
+<p>Most people are aware of, and concerned about climate change — but none more so than young people. They are the most likely to see it as priority, are reliably aware of proper sustainable behaviors, and are likely to engage in basic, well-established sustainable practices.</p>
+<p>At the same time, they are also the most likely to feel emotions like anxiety, fear, and anger. They are prone to doubt their ability to make a difference, and deflect responsibility onto elder society, who they don&rsquo;t believe are concerned enough, and</p>
+<p>No one has more at stake than the youngest generations, and so it&rsquo;s critically important that they be able to navigate the crisis at hand, and have the confidence, skills, and awareness to cultivate a more sustainable society. Our early experiences and education play a significant role in shaping our worldview, values, and behavior, so cultivating sustainability early in life is critical.</p>
+<h2 id="problem-statement">Problem statement</h2>
+<blockquote>
+<p><em>How might we redirect climate anxiety into climate action, cultivate ecological awareness, and support the development and agency of young people to define and aspire towards a sustainable lifestyle in a fun and engaging way?</em></p></blockquote>
+<h2 id="research">Research</h2>
+<p>My research consisted of competitive analysis, literature review, conversations with subject matter experts, and interviews with members of my target audience.</p>
+<h3 id="connection-and-disconnection">Connection and disconnection</h3>
+<p>With a lot of young people living in urban areas, they feel disconnected from the natural environment. This lack of visibility makes it much harder for people to internalize how their behaviors impact the environment. Furthermore, people aren&rsquo;t naturally wired to think long-term or process large-scale problems, and environmental impacts are often difficult to quantify or intuit.</p>
+<blockquote>
+<p>&ldquo;&hellip;the problem is so like zoomed out and I&rsquo;m small part of it and it&rsquo;s so hard to see that impact&hellip; People talk about tons of CO2&hellip; that is a meaningless metric to me.&rdquo;</p></blockquote>
+<p>On the other hand, connecting with nature, feeling more in tune with the environment, is as simple as stepping outdoors, and taking a moment to be mindful of the natural world all around. Participants notes how time spent outside improves personal well-being, and they associate it with time spent with others.</p>
+<blockquote>
+<p>&ldquo;I associate the outdoors with hanging out with people and having a good time. I put those hand in hand because I normally go outside to de-stress or just take a moment to breathe.&rdquo;</p></blockquote>
+<h3 id="barriers-to-action">Barriers to action</h3>
+<p>When it comes to one&rsquo;s personal behavior, the three main barriers to sustainable action are a lack of actionable knowledge, social norms, and one&rsquo;s personal capacity. More broadly, there is a significant role played in the supportive infrastructure and systems which make sustainable action accessible, or even possible.</p>
+<blockquote>
+<p>&ldquo;I don&rsquo;t really know what there is to do.&rdquo;</p></blockquote>
+<p>Convenience is a significant contributor as to whether an action is adopted, or maintained. Additionally, some people simply don&rsquo;t want to sacrifice their standard of living, or don&rsquo;t feel compelled enough to make a change.</p>
+<blockquote>
+<p>&ldquo;I shouldn&rsquo;t be eating meat&hellip; I think many of us, myself included, are just probably not willing to.&rdquo;</p></blockquote>
+<h3 id="incentives-for-action">Incentives for action</h3>
+<p>No one does anything without an incentive. So, if you intend to change behavior, you should not try to change people — instead, give them a compelling alternative. External forces can incite action, but the most sustainable motivations are personal, and positively-focused.</p>
+<h4 id="information-accessible-balanced-relevant">Information: accessible, balanced, relevant</h4>
+<p>Previously, I held the belief that negative climate change coverage was doing more harm than good by disheartening and discouraging people — but I learned that without a threat, there is no urgency. The problem is more so that the news seldom instructs what to do about it. Effective messaging must therefore balance the dangers posed with self-efficacy, with information backed by trustworthy sources, while conveying behaviors as easy and fun.</p>
+<blockquote>
+<p>&ldquo;If someone were to tell me that every time that you throw out a battery, this happens&hellip; I&rsquo;d probably be more likely to recycle batteries.&rdquo;</p></blockquote>
+<h4 id="personal-benefit-growth">Personal benefit, growth</h4>
+<p>Sustainability does not have to be a chore — nutrition, health, well-being, social connection, better communities/systems, are all benefits of sustainable practice. Personal growth, and the development of new skills, is also rewarding, and self-motivating. This positive feedback loop is also essential for developing self-efficacy.</p>
+<blockquote>
+<p>&ldquo;&hellip; usually when I form a habit to do something, it&rsquo;s because I&rsquo;m learning something.&rdquo;</p></blockquote>
+<h4 id="positivity-aspiration-and-agency">Positivity, aspiration, and agency</h4>
+<p>Each person must be entrusted to define the life that makes the most sense for them, so they have something reasonable to aspire for something. As the saying goes, without a goal, you cannot score.</p>
+<blockquote>
+<p>&ldquo;&hellip;if the version of myself that I see at the end of that is something that I aspire to be like, then like I am motivated to do that.&rdquo;</p></blockquote>
+<h4 id="fun--games">Fun &amp; games</h4>
+<p>No one wants to live a life they can&rsquo;t enjoy, and the enjoyment inherent in an activity significantly influences interest and engagement. This can manifest as doing something with friends, or by making a game/challenge out of a task someone needs to complete.</p>
+<h2 id="users--journeys">Users &amp; Journeys</h2>
+<p>Drawn from patterns observed in experiences shared during user interviews, I identified two distinct patterns, which are characterized by <em>aspiration</em> &amp; <em>guilt</em>, and <em>anxiety</em> &amp; <em>paralysis</em>. I subsequently refer to these user types/personas as the <em>Conflicted Environmentalist</em>, and the <em>Anxious Amateur</em>.</p>
+<h3 id="conflicted-environmentalist">Conflicted Environmentalist</h3>
+<p>Exhibiting <em>aspiration</em> and <em>guilt</em>, these individuals have strong environmental values, well developed habits, and are motivated improve in both areas. When things outside their control force them to act less sustainably, however, they struggle to maintain their behaviors and deal with feelings of guilt as their ideals conflict with their reality.</p>
+<p><img src="https://cdn.prod.website-files.com/652f0cc73610f38db0f3fbc9/681fac680108d6f2be594d65_Aspiration%20%26%20Guilt%20-%20Current%20State%20Journey%20Map.png" alt=""></p>
+<h3 id="anxious-amateur">Anxious Amateur</h3>
+<p>Exhibiting <em>anxiety</em> and <em>paralysis</em>, these individual have low levels of sustainable awareness, which results in more anxiety when they feel they should do something to address climate change. Without clear pathways to action, they develop patterns of avoidance, or else disengage entirely.</p>
+<p><img src="https://cdn.prod.website-files.com/652f0cc73610f38db0f3fbc9/681fac68f7ed9d15b27eb23c_Anxiety%20%26%20Paralysis%20-%20Current%20State%20Journey%20Map.png" alt=""></p>
+<h3 id="opportunities">Opportunities</h3>
+<p><strong>Action library</strong></p>
+<ul>
+<li>Provide broad set of actions with flexible, varied levels of difficulty</li>
+<li>Allow for filtering, personal relevance, ability to curate and find accessible actions</li>
+<li>Provide suggestions based on current habits, areas of engagement, experience</li>
+</ul>
+<p><strong>Information and resources</strong></p>
+<ul>
+<li>Offer information on what, why, and how to perform actions, behaviors</li>
+<li>Compile, utilize existing resources for sustainable living</li>
+<li>Supply related, adjacent actions; encourage building upon existing habits</li>
+</ul>
+<p><strong>Habit tracking and management</strong></p>
+<ul>
+<li>Easy adaptation of goals and actions</li>
+<li>Aid prioritizing one&rsquo;s energy/actions, understanding commitment cost</li>
+<li>Habit tracking, support, and progress visualization</li>
+</ul>
+<p><strong>Mindfulness exercises</strong></p>
+<ul>
+<li>Navigate negative emotions; break anxiety spirals</li>
+<li>Foster emotional resilience</li>
+<li>Teach redirection of negative energy into positive action</li>
+<li>Encourage mindfulness, presence, and a more holistic perspective</li>
+</ul>
+<p><strong>Gamification</strong></p>
+<ul>
+<li>Provide accountability and externalization with virtual pet</li>
+<li>Positive and encouraging; playful, fun, lighthearted</li>
+</ul>
+<h3 id="future-state">Future state</h3>
+<p>By introducing these features into the scenarios of the <em>Conflicted Environmentalist</em> and the <em>Anxious Amateur</em>, we can observe how each is only only able to effectively navigate the behavioral and psychological challenges faced, but turn the situation into an opportunity for growth.</p>
+<p><img src="https://cdn.prod.website-files.com/652f0cc73610f38db0f3fbc9/681fac681fb565c13224d6c0_Aspiration%20%26%20Guilt%20-%20Future%20State%20Journey%20Map.png" alt=""></p>
+<p><img src="https://cdn.prod.website-files.com/652f0cc73610f38db0f3fbc9/681fac686ffe7910ab8a1993_Anxiety%20%26%20Paralysis%20-%20Future%20State%20Journey%20Map.png" alt=""></p>
+<h2 id="design">Design</h2>
+<h3 id="low-fidelity">Low-fidelity</h3>
+<p>With the journey maps outlined and features ideated, I combined them into a holistic user-flow. The color coding here represents feature prioritization.</p>
+<p><img src="https://cdn.prod.website-files.com/652f0cc73610f38db0f3fbc9/68200e43a6060e271097c23b_user-flow__priority.png" alt=""></p>
+<p>Initial user flow. The red elements in the bottom left represent the omitted social engagement features.</p>
+<p>Sketches for the necessary interface elements were then completed and incorporated into the user flow above to create the low-fidelity flow map.</p>
+<p><img src="https://cdn.prod.website-files.com/652f0cc73610f38db0f3fbc9/6820106d027084bef78751da_sketch-flow.png" alt=""></p>
+<h3 id="visual-design">Visual design</h3>
+<p>With Terragotchi&rsquo;s aesthetic, I aimed to create something simple, playful, and practical. With a basis in education, and striving to embody positivity, I aimed towards the visual language present in education apps like <a href="https://brilliant.org/">Brilliant</a>, <a href="https://www.khanacademy.org/">Khan Academy</a>, <a href="https://quizlet.com/">Quizlet</a>, and <a href="https://www.duolingo.com/">Duolingo</a>, as well as the aforementioned <a href="https://finchcare.com/">Finch</a> app.</p>
+<p>The Terragotchi pet was a custom made vector graphic sourced from a hand drawn sketch. The Terragotchi typemark is also a vector graphic, sourced from my handwriting.</p>
+<p><img src="https://cdn.prod.website-files.com/652f0cc73610f38db0f3fbc9/68201113de3fede4f6a349b2_landing-gif.gif" alt=""></p>
+<p><img src="https://cdn.prod.website-files.com/652f0cc73610f38db0f3fbc9/68201165a86fdf2e60d920fd_typeface_seeds.jpg" alt=""></p>
+<p>The <a href="http://untitledui.com/">Untitled UI kit</a> was utilized early in development to accelerate from the low to mid-fidelity prototype, however almost all component referenced would, come the final iteration, be replace by custom elements. Iconography comes credit of <a href="http://phosphor.com/">Phosphor</a>, and <a href="https://fonts.google.com/specimen/Quicksand?query=quick">Quicksand</a> is used for the typeface. Quicksand&rsquo;s x-height gives it a more childish, playful feel, and both text and icons share a common thread of balanced, rounded lines.</p>
+<h2 id="usability-testing">Usability testing</h2>
+<p>Usability testing was conducted at both mid and high-fidelities. Each round had three participants, and testing was conducted both in-person and via video calls, which gave me insight into what was working and not working with my design.</p>
+<h4 id="adaptive-thinking-addressing-anxiety--self-efficacy">Adaptive thinking, addressing anxiety &amp; self-efficacy</h4>
+<p>The best-received feature of the prototype were the Mindset activities. During usability studies, I asked participants to read <a href="https://apnews.com/article/climate-change-chaos-warming-15-pollution-carbon-832773cebb14b4ea8c8930580537e567">this article</a>, then complete an adaptive thinking exercise.</p>
+<p><img src="https://cdn.prod.website-files.com/652f0cc73610f38db0f3fbc9/68201323ca000cf3fffa68d5_ground-walkthrough.png" alt=""></p>
+<p>Afterwards, participants expressed that they felt more grounded, and appreciated how the suggested actions at the end of the exercise provided an answer to the question of what to do next.</p>
+<blockquote>
+<p>&ldquo;The article is just telling you everything, and the only thing you can do is absorb&hellip; [in the app] there isn&rsquo;t a way that you can lose, you can only progress.&rdquo;</p></blockquote>
+<blockquote>
+<p>&ldquo;It&rsquo;s nice to take a second and ask “now what?”&hellip; it&rsquo;s a question that never gets asked.&rdquo;</p></blockquote>
+<h4 id="personal-benefit">Personal benefit</h4>
+<p>The impact of each action within Terragotchi is broken down by environmental, personal, and community benefits. Participants responded best to the inclusion of personal benefits, and the bite-sized information.</p>
+<blockquote>
+<p>&ldquo;I&rsquo;d be most interested to see how does this action benefit me&hellip; followed by environmental benefits.”</p></blockquote>
+<p><img src="https://cdn.prod.website-files.com/652f0cc73610f38db0f3fbc9/6820143fb945782e0d4a7533_personal-benefit.png" alt=""></p>
+<h4 id="interconnected-impact">Interconnected impact</h4>
+<p>Participants also liked seeing the impact across small, medium, and large-scales, which demonstrated how actions they may not have considered sustainable, could be good for themselves, their community, and the planet.</p>
+<blockquote>
+<p>&ldquo;You don&rsquo;t think about all of the ways that these things interact with each other&hellip; I could easily see one of these bullets be something that I hadn&rsquo;t thought of as a benefit.&rdquo;</p></blockquote>
+<h4 id="action-completion-feedback">Action completion, feedback</h4>
+<p><img src="https://cdn.prod.website-files.com/652f0cc73610f38db0f3fbc9/682014be2e5b8c350c3820a2_log-action__iterations.gif" alt=""></p>
+<p>Saved actions were initially a permanent list on the home screen, but this diminished the sense of accomplishment when users completed a behavior, as they expected behavior like that of conventional to-do apps. In the second iteration, logged actions collapsed away, but the use of a checkmark was often confused as an indicator the action was already completed. In the end, the checkmark was replaced with a plus icon, with the checkmark is now used to create a positive micro-interaction for the button.</p>
+<h4 id="finding-actions-mental-models">Finding actions, mental models</h4>
+<p>I designed actions such that related behaviors are listed within. My intent was to support a wiki-style action library, where users were encouraged to fall down rabbit holes to explore actions that built upon those there already performed, or were interested in. However, when tasked with finding related actions to a specified one from the home screen, users more frequently went to Library, suggesting they associated that task with the area it pertained to.</p>
+<p><img src="https://cdn.prod.website-files.com/652f0cc73610f38db0f3fbc9/682016216de51ab8d7e4b878_related-actions-it-1.png" alt=""></p>
+<p>A &ldquo;Suggested&rdquo; tab was added to the Action Library so to encourage building upon existing action at the place users instinctively went, but users overlooked this this area entirely in testing.</p>
+<p>The second iteration also revealed that the high-level category navigation within the Action library increased decision fatigue when users sought an action that belong to multiple categories. Categories are implemented in the app as mutually inclusive tags, yet their representation within the Library appeared as mutually exclusive categories.</p>
+<p><img src="https://cdn.prod.website-files.com/652f0cc73610f38db0f3fbc9/6820169a36bb659c52e33b1e_suggested.png" alt=""></p>
+<p>Ultimately, I recognized I was both failing to provide users enough agency to search and filter actions, and that a more fluid information architecture was necessary for the Library.</p>
+<p><img src="https://cdn.prod.website-files.com/652f0cc73610f38db0f3fbc9/6820169204d6af0835b11613_updated-filters.png" alt=""></p>
+<h3 id="high-fidelity-prototype">High-fidelity prototype</h3>
+<p>To see the final prototype as a video walkthrough, click the thumbnail below:</p>
+<p><img src="https://cdn.prod.website-files.com/652f0cc73610f38db0f3fbc9/682016bf61e4643aad9b502e_youtube-tumbnail.png" alt=""></p>
+<h2 id="honorable-mentions">Honorable mentions</h2>
+<h3 id="social-engagement-community">Social engagement, community</h3>
+<p>The most compelling feature area not ultimately developed was that of a social element. Community and social engagement reliably came up in research as a way to support behavior — whether it be for accountability, competition, shared experience, fun, or a sense of connection. However, the core of any solutions for supporting one&rsquo;s pursuit of a more sustainable lifestyle needed to have foundations that effectively addressed the user specifically. I viewed socialization as an added layer on top of the core functionality, which is ultimately why it was not pursued.</p>
+<h3 id="gamification">Gamification</h3>
+<p>From my competitive analysis, it was clear that, particularly for younger audiences, gamification had the potential to be a significant influence on motivation, participation, and engagement. This gamification would also have furthered my goal of incorporating joy and positivity. There were countless ways gamification could have been added (from micro-interactions to in-app collectibles) but ultimately I chose to focus on the functional core of the app first.</p>
+<h3 id="communication">Communication</h3>
+<p>The feature idea which was perhaps hardest to cut was the idea for Mad-Lib style conversations starters that were intended to encourage dialogue about climate change — particularly across generations, as research repeatedly pointed to the feelings of disconnect between young generations at their elders. Providing guidance while still encouraging active engagement in communication to bridge gaps and spread the word about sustainability was something that I was lamented to exclude, but as with the previous notes, Terragotchi needed to start with the user.</p>
+<p>This framework has parallels with socratic questioning, and is a strategy used in cognitive behavioral therapy.</p>
+<h3 id="content">Content</h3>
+<p>From the climate change communication expert, I recognized the value in effective messaging. For prototype to do its job, it would need to provide the scaffolding to convey the right information in the right ways, but for the ultimate goal of the app to be accomplished, the information itself would also need to be well designed.</p>
+<h2 id="reflections--lessons">Reflections &amp; lessons</h2>
+<ul>
+<li>You teach what you most need to learn</li>
+<li>Systems facilitate behavior</li>
+<li>Limit the number of works-in-progress</li>
+<li>Awareness precedes understanding, and understanding precedes action</li>
+<li>The only way out is through</li>
+<li>Don&rsquo;t race to a solution</li>
+<li>Stand on the shoulders of giants</li>
+</ul>
+<h2 id="acknowledgements">Acknowledgements</h2>
+<p>I wanted to extend my gratitude to my professors &amp; advisors (Arkadiy, Christina Lee, Logan, Meg Kemp), my subject matter experts (Karl Hausker, Sam Dillard), all of my discovery interview and usability study participants, and my classmates and peers of the Spring 2025 MICA MPS UX Design program.</p>
+<h2 id="citations">Citations</h2>
+<p>Anderson, R. E., &amp; Stevenson, H. C. (2019). RECASTing racial stress and trauma: Theorizing the healing potential of racial socialization in families. In American Psychologist (Vol. 74, Issue 1, pp. 63–75). American Psychological Association (APA). <a href="https://doi.org/10.1037/amp0000392">https://doi.org/10.1037/amp0000392</a></p>
+<p>Chen, Kaiping and Lee, Nathan and Lee, Nathan and Marble, William, How Policymakers Evaluate Online versus Offline Constituent Messages (November 30, 2018). <a href="http://dx.doi.org/10.2139/ssrn.3251651">http://dx.doi.org/10.2139/ssrn.3251651</a></p>
+<p>Clear, James, author. Atomic Habits: Tiny Changes, Remarkable Results: an Easy &amp; Proven Way to Build Good Habits &amp; Break Bad Ones. New York, New York:Avery, an imprint of Penguin Random House, 2018.</p>
+<p>Denney, Stephen C., and Alfred W. Daviso. “Self-Determination: A Critical Component of Education.” American Secondary Education, vol. 40, no. 2, 2012, pp. 43–51. JSTOR. <a href="http://www.jstor.org/stable/43694129">http://www.jstor.org/stable/43694129</a>. Accessed 19 Feb. 2025.</p>
+<p>Funk, Cary. “Key Findings: How Americans’ Attitudes about Climate Change Differ by Generation, Party and Other Factors.” Pew Research Center, Pew Research Center, 26 May 2021, <a href="https://www.pewresearch.org/short-reads/2021/05/26/key-findings-how-americans-attitudes-about-climate-change-differ-by-generation-party-and-other-factors/">www.pewresearch.org/short-reads/2021/05/26/key-findings-how-americans-attitudes-about-climate-change-differ-by-generation-party-and-other-factors/</a>.</p>
+<p>Gibson, Robert B. Research and Development Monograph Series: Specification of Sustainability-Based Environmental Assessment Decision Criteria and Implications for Determining the “Significance” in Environmental Assessment, 2001.</p>
+<p>Graff, Gerald, and Cathy Birkenstein. They Say / I Say: The Moves That Matter in Academic Writing. 4th ed., W.W. Norton &amp; Company, 2018.</p>
+<p>Hayhoe, D., Bloom, M. A., &amp; Webb, B. S. (2019). Changing evangelical minds on climate change. In Environmental Research Letters (Vol. 14, Issue 2, p. 024016). IOP Publishing. <a href="https://doi.org/10.1088/1748-9326/aaf0ce">https://doi.org/10.1088/1748-9326/aaf0ce</a></p>
+<p>Maibach, E. W., Uppalapati, S. S., Orr, M., &amp; Thaker, J. (2023). Harnessing the Power of Communication and Behavior Science to Enhance Society’s Response to Climate Change. Annual Review of Earth and Planetary Sciences, 51(1), 53–77. <a href="https://doi.org/10.1146/annurev-earth-031621-114417">https://doi.org/10.1146/annurev-earth-031621-114417</a></p>
+<p>Odell, Shannon. &ldquo;Why you feel stuck — and how to get motivated.&rdquo; TED-Ed, February 2025, <a href="https://www.youtube.com/watch?v=kD3-DKkiVeA">https://www.youtube.com/watch?v=kD3-DKkiVeA</a>.</p>
+<p>Office of the Surgeon General (OSG). Our Epidemic of Loneliness and Isolation: The U.S. Surgeon General’s Advisory on the Healing Effects of Social Connection and Community [Internet]. Washington (DC): US Department of Health and Human Services; 2023–. PMID: 37792968.</p>
+<p>Piscitelli, A., D’Uggento, A.M. Do young people really engage in sustainable behaviors in their lifestyles?. Soc Indic Res 163, 1467–1485 (2022). <a href="https://doi.org/10.1007/s11205-022-02955-0">https://doi.org/10.1007/s11205-022-02955-0</a></p>
+<p>Pitt, C., Norris, K., &amp; Pecl, G. (2024). Informing future directions for climate anxiety interventions: a mixed-method study of professional perspectives. Journal of Outdoor and Environmental Education, 27(1), 209–234. <a href="https://doi.org/10.1007/s42322-023-00156-y">https://doi.org/10.1007/s42322-023-00156-y</a></p>
+<p>Roser-Renouf, C., Stenhouse, N., Rolfe-Redding, J., Maibach, E. W., &amp; Leiserowitz, A. (2014). Engaging Diverse Audiences with Climate Change: Message Strategies for Global Warming’s Six Americas. SSRN Electronic Journal. <a href="https://doi.org/10.2139/ssrn.2410650">https://doi.org/10.2139/ssrn.2410650</a></p>
+<p>Rutter, L. (2025, February 10). Treat clients with climate anxiety by integrating Eco therapy. ICANotes. <a href="https://www.icanotes.com/2025/02/10/treating-clients-with-climate-anxiety-integrating-eco-therapy-into-traditional-practice/">https://www.icanotes.com/2025/02/10/treating-clients-with-climate-anxiety-integrating-eco-therapy-into-traditional-practice/</a></p>
+<p>SciShow. “How To Solve Game Theory’s Unsolvable Problem.” YouTube, 11 Feb. 2025, <a href="https://www.youtube.com/watch?v=s4Z1SNhYs18">www.youtube.com/watch?v=s4Z1SNhYs18</a>.</p>
+<p>Shane Timmons, Ylva Andersson &amp; Peter D. Lunn (2024) Communicating climate change as a generational issue: experimental effects on youth worry, motivation and belief in collective action, Climate Policy, 24:10, 1457-1473, DOI: 10.1080/14693062.2024.2341080</p>
+<p>Stevenson, A., &amp; Lindberg, C. A. (Eds.). (2010). New Oxford American Dictionary. Oxford University Press. <a href="https://doi.org/10.1093/acref/9780195392883.001.0001">https://doi.org/10.1093/acref/9780195392883.001.0001</a></p>
+<p>“This Is What the Climate Crisis Is Costing Economies around the World.” World Economic Forum, <a href="https://www.weforum.org/stories/2023/11/climate-crisis-cost-global-economies/">www.weforum.org/stories/2023/11/climate-crisis-cost-global-economies/</a>. Accessed 18 Feb. 2025.</p>
+<p>United States Department of Agriculture. (n.d.). Agricultural Marketing Service. <a href="https://www.ams.usda.gov/sites/default/files/media/Why%20Local%20Food%20Matters.pdf">https://www.ams.usda.gov/sites/default/files/media/Why%20Local%20Food%20Matters.pdf</a><br>
+van der Linden, S., Leiserowitz, A., &amp; Maibach, E. (2019). The gateway belief model: A large-scale replication. Journal of Environmental Psychology, 62, 49–58. <a href="https://doi.org/10.1016/j.jenvp.2019.01.009">https://doi.org/10.1016/j.jenvp.2019.01.009</a></p>
+<p>Watson, S. K. (2022, June 21). Transportation makes up a fifth of all food system carbon emissions. Popular Science. <a href="https://www.popsci.com/environment/food-transportation-carbon-emissions/">https://www.popsci.com/environment/food-transportation-carbon-emissions/</a></p>
 
         
 
     </div>
-    <div class="grid-paper-lines"></div>
+    <div class="grid-lines__container">
+    <div class="grid-lines"></div>
+</div>
 </article>
 
-        </div>
-        <div class="bg__texture"></div>
-        <div class="bg__color"></div>
+        <div class="bg-texture"></div>
     </main>
     <footer>
-        <p>Copyright 2025. All rights reserved.</p>
+        
+<div class="copyright-row">
+    <span class="subtle thin">©</span>
+    <img class="typemark" src="/images/typemark.svg">
+    <span class="subtle thin">2026</span>
+</div>
 
     </footer>
 </body>

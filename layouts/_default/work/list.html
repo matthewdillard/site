@@ -1,18 +1,45 @@
 {{ define "main" }}
-<p>this is a work list</p>
-<article class="grid-paper">
-    <div class="grid-paper__text">
-        {{ partial "header.html" . }}
-        <div class="spacer__sm"></div>
+<article class="grid-wrap">
+    {{ partial "header.html" . }}
+    <div class="spacer__sm"></div>
+    <div class="grid-wrap__text">
         <h1>{{ .Title }}</h1>
+        <div class="spacer__sm"></div>
         {{ .Content }}
-        {{ range .Pages }}
-            <h2><a class="link-hide" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-            <p>{{ .Description }}</p>
-        {{ end }}
+        <div class="article-list work-list">
+            {{ range sort .Pages.ByWeight }}
+            <div class="list-item fbr">
+                <div class="subtle duration-block">
+                    {{ $started := .Param "started" }}
+                    {{ $completed := .Param "completed" }}
+                    
+                    {{ $started := time.AsTime $started }}
+                    {{ $startedYear := $started.Year }}
+
+                    {{ if $completed }}
+                        {{ $completed := time.AsTime $completed }}
+                        {{ $completedYear := $completed.Year }}
+                        {{ if eq $startedYear $completedYear }}
+                            <span class="f-0">{{ $startedYear }}</span>
+                        {{ else }}
+                            <span class="f-0">{{ $startedYear }} - {{ $completedYear }}  </span>
+                        {{ end }}
+                    {{ else }}
+                        <span class="f-0">{{ $startedYear }} - </span>
+                    {{end }}    
+                </div>
+                <div class="f-1">
+                    <!-- <h2 class="fs-1"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2> -->
+                    <h2 class="fs-1">{{ .LinkTitle }}</h2>
+                    <p class="fw-3">{{ .Description }}</p>
+                </div>
+                
+            </div>
+            {{ end }}
+        </div>
         {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
     </div>
-    <div class="grid-paper-lines"></div>
+    {{ partial "grid-paper.html" .}}
 </article>
 
 

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=9999&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Injury Coder | Matthew Dillard</title>
+
+      <script src="/js/main.js"></script>
+
+
+    <link rel="stylesheet" href="/css/style.css">
+
+
+    <link rel="stylesheet" href="/scss/main.css">
+
+</head>
+
+<body>
+    <main>
+        
+<article class="grid-wrap">
+    <header class="flex">
+    <div class="flex-grow handwritten">
+        <span class="nav-link"><a href="/" class="link-clear">Matthew Dillard</a></span>
+    </div>
+    <div class="flex-shrink handwritten">
+        <span class="nav-link pd-ll work"><a class="link-clear" href="/work">Work</a></span>
+        <span class="nav-link pd-ll about"><a class="link-clear" href="/education">Education</a></span>
+    </div>
+
+
+</header>
+
+
+    <div class="spacer__sm"></div>
+    <div class="grid-wrap__text">
+        <h1>Injury Coder</h1>
+        
+        
+        <p><i>Designed &amp; built AIS injury coder prototype addressing accessibility and efficiency needs of trauma center registrars with RAG model, information transparency, and full keyboard-navigation.</i></p>
+        
+        <details>
+            <summary>Table of contents</summary>
+            <nav id="TableOfContents">
+  <ul>
+    <li><a href="#context">Context</a></li>
+    <li><a href="#research">Research</a>
+      <ul>
+        <li><a href="#algorithmic-assistance">Algorithmic assistance</a></li>
+        <li><a href="#broader-consequences">Broader consequences</a></li>
+      </ul>
+    </li>
+    <li><a href="#design">Design</a>
+      <ul>
+        <li><a href="#trustworthy-automation">Trustworthy automation</a></li>
+        <li><a href="#information-design">Information design</a></li>
+        <li><a href="#accessible-interactions">Accessible interactions</a></li>
+      </ul>
+    </li>
+    <li><a href="#feedback--takeaways">Feedback &amp; takeaways</a></li>
+  </ul>
+</nav>
+        </details>
+
+        <p>I designed a tool to help trauma center registrars accurately code patient injuries accurately under significant time constraints in high-stakes healthcare settings.</p>
+<h2 id="context">Context</h2>
+<blockquote>
+<p>&ldquo;We just want a streamlined process that we can feel confident is accurate.&rdquo;</p></blockquote>
+<p>Patient data accuracy is critical for trauma centers because of it affects research, funding, operations, and quality of care. It&rsquo;s the responsibility of only a handful of registrars to process upwards of thousands of patients that a trauma center takes in annually. To do this, registrar&rsquo;s must diligently scour clinical records to identify patient diagnoses, then apply the appropriate AIS &amp; ICD-10 injury codes to the patient&rsquo;s registry record for that patient as accurately as possible.</p>
+<h2 id="research">Research</h2>
+<p>I organized and conducting interviews with registrars, nurses, &amp; trauma center leadership at the Washington D.C. MedStar Hospital, allowing our team to gain an empathetic understanding of the circumstances and challenges for injury coders.</p>
+<h3 id="algorithmic-assistance">Algorithmic assistance</h3>
+<p>Injury coding tools currently employ hard-wired algorithms to generate code suggestions based on a list of diagnosis descriptions registrars type in, which can streamline injury coding while also offering a crutch to less-experienced registrars.</p>
+<blockquote>
+<p>The majority of the time (90 plus percent) our registrars are not doing anything manual with AIS and ICD 10. They it populate, glance at it, and we&rsquo;re good.</p></blockquote>
+<p>However, burdened by their extreme workload and points of procedural friction beyond their control, registrars are not reliably afforded the opportunity for meticulous injury coding, and are instead motivated a rely more heavily on these algorithms.</p>
+<blockquote>
+<p>It&rsquo;s very supportive for new people&hellip; but once you give them something that&rsquo;s easy to default to, they never grow.&quot;</p></blockquote>
+<h3 id="broader-consequences">Broader consequences</h3>
+<p>This over-reliance exacerbated a second problem, which was that the hard-wired algorithms were becoming less accurate. Updates to the AIS &amp; ICD-10 code sets meant that code suggestions were less precise, and less reliable.</p>
+<p>Alongside interface signal-to-noise problems, these conditions combined to create a scenario where real-time data validation was more necessary for the same reason it was more challenging. The consequences of it all was inaccurate injury-coding threatening not just trauma center funding and operations, but patient outcomes.</p>
+<blockquote>
+<p>&ldquo;The coding suffers, and the facility suffers, because it makes you look like you&rsquo;re not taking care of the sickest of the sick.&rdquo;</p></blockquote>
+<p>Our tool would need to seek a balance between automation and intentional, engaged injury coding — working <em>with</em> registrars, not around them, in order to support the immediate, and long-term needs of trauma centers.</p>
+<h2 id="design">Design</h2>
+<h3 id="trustworthy-automation">Trustworthy automation</h3>
+<p>Advances in ML provided the opportunity to establish an innovative natural-language injury-coding process, but I exercised caution: LLMs are opaque, are prone to hallucinate, and lack a reliable way to guarantee valid responses. Instead, we pursued a Retrieval Augmented Generation model, which references a knowledge base for its responses. This not only makes it more transparency and reliable, but less resource intensive, and easier to maintain as well.</p>
+<h3 id="information-design">Information design</h3>
+<p>We addressed accuracy &amp; efficiency through the user-interface and user-experience as well as by technical improvements. One way was by introducing a &ldquo;confidence&rdquo; score to accompany all codes the RAG model suggested, which repurposed a value inherently used by the model to determine the best response. By revealing this ranked value, we aid registrars in prioritizing their focus on the codes which need human review most, while also making the tool more transparent and credible.</p>
+<h3 id="accessible-interactions">Accessible interactions</h3>
+<p>For generated codes that need revision, a keyboard navigable inline dropdown displays codes within their dictionary, offering code laterality and context for easy refinement. This drill-down dictionary menu was also designed as an alternate  entry mode, supporting ad-hoc coding, power users, and visibility of system status. As many registrars are former nurses transitioning careers later in life, age-related accessibility concerns made prioritizing inclusive interactions important across the final design—not least because accessibility benefits everyone, not just those who need on it.</p>
+<h2 id="feedback--takeaways">Feedback &amp; takeaways</h2>
+<p>The &ldquo;confidence&rdquo; score feature was positively received—particularly regarding the increased transparency of AI-technologies which are not universally trusted—which maintained the level of automated assistance without ignoring the value registrar expertise provides. The easier means of revising codes was also received well, with feedback motiving this idea further to support editting of the diagnoses detail inline as a way to update coding as well.</p>
+<p>Readability was one of my earliest considerations—due to age-related accessibility concerns for registrars often transitioning to the role later in their careers—and I increased font sizing and spacing accordingly. However, feedback informed me that being able to view lots of information at once was worth the cost of information density. The lesson for me here: accessibility does not always mean &ldquo;best practices,&rdquo; but it does necessitate recognizing user&rsquo;s unique needs.</p>
+<p>This injury coding tool is part of Digital Innovation&rsquo;s V7 Platform and is still in development. The full scope of these refinements, and the degree to which they will be implemented is still being determined.</p>
+
+        <ol>
+            
+        </ol>
+        
+
+    </div>
+    <div class="grid-lines__container">
+    <div class="grid-lines"></div>
+</div>
+</article>
+
+
+
+
+
+        <div class="bg-texture"></div>
+    </main>
+    <footer>
+        
+<div class="copyright-row">
+    <span class="subtle thin">©</span>
+    <img class="typemark" src="/images/typemark.svg">
+    <span class="subtle thin">2026</span>
+</div>
+
+    </footer>
+</body>
+
+</html>

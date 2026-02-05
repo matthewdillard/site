@@ -1,15 +1,34 @@
-@import '/variables.scss';
+/* Responsive sizing */
 
-// RESPONSIVE SIZING
-
-@media (max-width: 768px) {
+@media screen and (max-width: 832px) {
   :root {
-    --scale-factor: 0.75;
+    --viewport-cells: 52;
+    --font-size: calc(100vw / var(--viewport-cells));
+    --grid-padding: 3;
+    --grid-cells: 26;
   }
 }
 
-@media (max-width: 480px) {
+@media screen and (max-width: 728px) {
   :root {
-    --scale-factor: 0.5;
+    --viewport-cells: 48;
+    --grid-padding: 2;
+    --grid-cells: 24;
+  }
+}
+
+@media screen and (max-width: 672px) {
+  :root {
+    --viewport-cells: 32;
+    --grid-padding: 2;
+    --grid-cells: 16;
+  }
+}
+
+@media screen and (max-width: 441px) {
+  :root {
+    --viewport-cells: 20;
+    --grid-padding: 1;
+    --grid-cells: 10;
   }
 }

@@ -1,10 +1,24 @@
 
 .sharpie {
   --font-family-primary: #{$font-sharpie};
+
+  p,
+  li,
+  span,
+  .font-body {
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-p);
+    padding: var(--grid-offset-p) 0 calc(var(--grid-base) - calc(1 * var(--grid-offset-p))) 0;
+    letter-spacing: calc(0.2px * var(--scale-factor));
+    margin: 0;
+    color: var(--text-body-color);
+  }
+
 }
 
 .handwritten {
   --font-family-primary: #{$font-handwritten};
+  
   
   h1,
   .font-title-xl,

@@ -1,0 +1,14 @@
+.work-list .list-item { 
+    h2 {
+        
+    }
+    p, h2 {
+        margin-top: 0px;
+    }
+
+    .duration-block {
+        width: calc(var(--cell-size) * 4);
+    }
+
+}
+

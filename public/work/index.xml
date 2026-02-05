@@ -2,24 +2,87 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Work on Matthew Dillard</title>
-    <link>http://localhost:1313/work/</link>
+    <link>http://localhost:9999/work/</link>
     <description>Recent content in Work on Matthew Dillard</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/work/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:9999/work/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Terragotchi</title>
-      <link>http://localhost:1313/work/terragotchi/</link>
+      <title>Technology &amp; Security Wiki</title>
+      <link>http://localhost:9999/work/techsec-wiki/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/work/terragotchi/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;Tend to your own pocket-sized Earth by learning and practicing sustainable behaviors and mindsets, supported by constructive strategies for navigating climate anxiety.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;Terragotchi is a concept app I researched, designed, and developed between January-May 2025 as my UX Design Masters Capstone Project at the Maryland Institute College of Art.&lt;/p&gt;&#xA;&lt;p&gt;Terragotchi seeks to cultivate sustainable self-efficacy by addressing climate anxiety within an engaging, educational, and supportive digital experience. Terragotchi combines a resource wiki, habit tracking, mindfulness exercises, and virtual-pet gamification into a resource that educates, encourages, and strengthens sustainable lifestyles. Importantly, it also provides guidance on navigating climate anxiety and channeling that energy into positive action.&lt;/p&gt;</description>
+      <guid>http://localhost:9999/work/techsec-wiki/</guid>
+      <description>&lt;p&gt;%%- Assigned to Technology &amp;amp; Security team&#xA;- focused on supporting internal operations, practices/management, design, user-centric in a way that our team is the user&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Context&#xA;&lt;ul&gt;&#xA;&lt;li&gt;minimal, deprioritized, siloed&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Initial efforts evident in [[rw-taxonomy]]&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Was not feasible for me alone, not demanding of expert&amp;rsquo;s time in a way that they could not allocate&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Importance of documentation&lt;/li&gt;&#xA;&lt;li&gt;Research, how people learn&lt;/li&gt;&#xA;&lt;li&gt;Analysis&#xA;&lt;ul&gt;&#xA;&lt;li&gt;drawbacks of confluence (ask Tim?)&lt;/li&gt;&#xA;&lt;li&gt;advantages of obsidian, md/git standards for our priorities&lt;/li&gt;&#xA;&lt;li&gt;leveraging for AI, ability to customize, own&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Philosophy&#xA;&lt;ul&gt;&#xA;&lt;li&gt;programming principles to knowledge management&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Where it&amp;rsquo;s going&#xA;&lt;ul&gt;&#xA;&lt;li&gt;employing patterns that can evolve%%&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
-      <title>Terragotchi tldr</title>
-      <link>http://localhost:1313/work/terragotchi_tldr/</link>
+      <title>Aegisonic</title>
+      <link>http://localhost:9999/work/aegisonic/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/work/terragotchi_tldr/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;Tend to your own pocket-sized Earth by learning and practicing sustainable behaviors and mindsets, supported by constructive strategies for navigating climate anxiety.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;Terragotchi is a concept app researched, designed, and developed between January-May 2025 as my Capstone Project for the UX Design Masters Program at the Maryland Institute College of Art. The app combines resource wiki, habit tracking, mindfulness, and virtual-pet gamification to educate, encourage, and strengthen sustainable lifestyles while providing guidance on navigating climate anxiety.&lt;/p&gt;</description>
+      <guid>http://localhost:9999/work/aegisonic/</guid>
+      <description>&lt;p&gt;Aegisonic is a project developing an adaptive audio headset designed to support individuals with heightened sound sensitivity and autism, offering a comfortable, equitable sonic experience for all.&lt;/p&gt;&#xA;&lt;p&gt;Founded by my friend Harry Rentzeperis, Aegisonic was kickstarted during a Mt. Sinai development program, and I&amp;rsquo;ve served as design advisor through the project launch, responsible for brand, strategy, communication, and user-experience.&lt;/p&gt;&#xA;&lt;p&gt;Aegisonic was selected as a winner at the 2025 DIH Pitch Day.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Injury Coder</title>
+      <link>http://localhost:9999/work/injury-coder/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:9999/work/injury-coder/</guid>
+      <description>&lt;p&gt;I designed a tool to help trauma center registrars accurately code patient injuries accurately under significant time constraints in high-stakes healthcare settings.&lt;/p&gt;&#xA;&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;We just want a streamlined process that we can feel confident is accurate.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Patient data accuracy is critical for trauma centers because of it affects research, funding, operations, and quality of care. It&amp;rsquo;s the responsibility of only a handful of registrars to process upwards of thousands of patients that a trauma center takes in annually. To do this, registrar&amp;rsquo;s must diligently scour clinical records to identify patient diagnoses, then apply the appropriate AIS &amp;amp; ICD-10 injury codes to the patient&amp;rsquo;s registry record for that patient as accurately as possible.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Terragotchi</title>
+      <link>http://localhost:9999/work/terragotchi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:9999/work/terragotchi/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://cdn.prod.website-files.com/652f0cc73610f38db0f3fbc9/68201113de3fede4f6a349b2_landing-gif.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;Tend to your own pocket-sized Earth by learning and practicing sustainable behaviors and mindsets, supported by constructive strategies for navigating climate anxiety.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Terragotchi is a concept app researched, designed, and developed between January and May 2025 for my UX Design Masters Capstone Project at the &lt;a href=&#34;https://www.mica.edu/graduate-programs/ux-design-mps/&#34;&gt;Maryland Institute College of Art&lt;/a&gt;, seeking to educate &amp;amp; cultivate everyday sustainable behaviors like socioecological well-being, with a focus on mindfulness, positivity, and fun.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Report Writer Taxonomy</title>
+      <link>http://localhost:9999/work/rw-taxonomy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:9999/work/rw-taxonomy/</guid>
+      <description>&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;&#xA;&lt;p&gt;When company leadership approached me to enhance our flagship report writing tool&amp;rsquo;s &amp;ldquo;look and feel,&amp;rdquo; I instead argued that improving the information architecture would be a better use of company resources, addressing fundamental accessibility barriers rather than apply cosmetic fixes.&lt;/p&gt;&#xA;&lt;p&gt;Advocating for systematic information architecture improvements was not just an economical and robust way to reduce mental fatigue for our users working in high-pressure clinical environments, but also to reduce cognitive barriers that affect all users — but disproportionately impact those with varying information processing needs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Digital Innovation relaunch</title>
+      <link>http://localhost:9999/work/di-relaunch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:9999/work/di-relaunch/</guid>
+      <description>&lt;p&gt;%%- DI as industry leader&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;made a deal which gave operation of trauma software to another company&#xA;&lt;ul&gt;&#xA;&lt;li&gt;things went south&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;end of contract period marked opportunity to reenter the market and reestablish their position—same trusted company, with 5 years of innovation to bolster their offerings&lt;/li&gt;&#xA;&lt;li&gt;needed brand to reflect that&#xA;&lt;ul&gt;&#xA;&lt;li&gt;distinction logo, remastered&lt;/li&gt;&#xA;&lt;li&gt;work with CEO/sales to refine identity, messaging&lt;/li&gt;&#xA;&lt;li&gt;rebuilt company website&#xA;&lt;ul&gt;&#xA;&lt;li&gt;web design, Webflow development&lt;/li&gt;&#xA;&lt;li&gt;information architecture&lt;/li&gt;&#xA;&lt;li&gt;copywriting&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;print: business card, conference banner, flyers&#xA;%%&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>AI-assisted form builder</title>
+      <link>http://localhost:9999/work/ai-form-builder/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:9999/work/ai-form-builder/</guid>
+      <description>&lt;p&gt;%%- Acquired by T4C, opportunity to assess/improve web presence, information arch.&#xA;- &lt;a href=&#34;https://web.archive.org/web/20231001212547/https://harfordhelps.com/&#34;&gt;Old site&lt;/a&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Worked within existing branding to determine design system for new site&lt;/li&gt;&#xA;&lt;li&gt;Collaborating alongside HH leader to refactor information architecture, metadata to better serve the hundreds of organizations now in their directory&#xA;&lt;ul&gt;&#xA;&lt;li&gt;balancing navigability/distribution&lt;/li&gt;&#xA;&lt;li&gt;considering language&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Webflow site design/build&#xA;&lt;ul&gt;&#xA;&lt;li&gt;establish CMS, import&lt;/li&gt;&#xA;&lt;li&gt;rebuilt directory search flow&lt;/li&gt;&#xA;&lt;li&gt;infrastructure/guidance so HH leader empowered to operate site herself&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Lessons learned&#xA;&lt;ul&gt;&#xA;&lt;li&gt;data complexity throttled by Webflow CMS%%&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Harford Helps</title>
+      <link>http://localhost:9999/work/harford-helps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:9999/work/harford-helps/</guid>
+      <description>&lt;p&gt;%%- Acquired by T4C, opportunity to assess/improve web presence, information arch.&#xA;- &lt;a href=&#34;https://web.archive.org/web/20231001212547/https://harfordhelps.com/&#34;&gt;Old site&lt;/a&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Worked within existing branding to determine design system for new site&lt;/li&gt;&#xA;&lt;li&gt;Collaborating alongside HH leader to refactor information architecture, metadata to better serve the hundreds of organizations now in their directory&#xA;&lt;ul&gt;&#xA;&lt;li&gt;balancing navigability/distribution&lt;/li&gt;&#xA;&lt;li&gt;considering language&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Webflow site design/build&#xA;&lt;ul&gt;&#xA;&lt;li&gt;establish CMS, import&lt;/li&gt;&#xA;&lt;li&gt;rebuilt directory search flow&lt;/li&gt;&#xA;&lt;li&gt;infrastructure/guidance so HH leader empowered to operate site herself&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Lessons learned&#xA;&lt;ul&gt;&#xA;&lt;li&gt;data complexity throttled by Webflow CMS%%&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Post Gold typeface</title>
+      <link>http://localhost:9999/work/post-gold/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:9999/work/post-gold/</guid>
+      <description>&lt;p&gt;In the year after graduation, I got into a habit of saving small wisdoms I&amp;rsquo;d happen across to Post-its which accumulated on the wall of my home office. I used the sum of these handwriting exhibitions to develop a typeface, which you can check out by typing within the sticky note below:&lt;/p&gt;&#xA;&lt;p&gt;![[sticky-note-wall-2.jpg]]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The John Carroll School</title>
+      <link>http://localhost:9999/work/john-carroll/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:9999/work/john-carroll/</guid>
+      <description>&lt;p&gt;I designed and developed a modernized web presence for the &lt;a href=&#34;https://www.johncarroll.org/&#34;&gt;John Carroll School&lt;/a&gt;. This was my first significant professional project, working independently to meet design, development, and client management needs.&lt;/p&gt;&#xA;&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;&#xA;&lt;p&gt;As part of a larger software agreement between my company and John Carroll, I was responsible for rebuilding the school website, which had become costly to maintain, poorly integrated with their data systems, and failed to communicate effectively with prospective families. Information architecture was unclear, and WCAG accessibility violations made the site both difficult to navigate and visually unappealing. The administration believed these shortcomings negatively impacted enrollment, community engagement, and their ability to connect with alumni.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Landing page builder</title>
+      <link>http://localhost:9999/work/landing-page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:9999/work/landing-page/</guid>
+      <description>&lt;h2 id=&#34;problem&#34;&gt;Problem&lt;/h2&gt;&#xA;&lt;p&gt;Small, non-profit organizations excel in advocating and accelerating their causes. However, several factors—ranging from a lack of expertise and funds to intimidation by technology—make it difficult to establish or maintain an online presence.&lt;/p&gt;&#xA;&lt;p&gt;A well-crafted website can significantly amplify their efforts, bringing outsized benefits to their cause, so the question then arises: How can we simplify the process for these organizations to create and grow their online presence? How can we increase engagement and exposure for their initiatives with a website?&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,15 +1,14 @@
 ---
 title: Education
-date: 
-tags: 
-draft:
+description:
+date:
+draft: false
+tags:
 ---
 **Maryland Institute College of Art**  
-*MPS User Experience Design*  
-2024 - 2025
-
-{{< spacer "sm" >}}
+MPS UX Design  
+2025
 
 **John Hopkins University**  
-*BS Computer Science*, Baseball  
-2018 - 2022
+BS Computer Science, Baseball   
+2022

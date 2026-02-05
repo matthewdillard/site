@@ -1,12 +1,12 @@
 {{ define "main" }}
-<p>this is home template</p>
-<article class="grid-paper">
-    <div class="grid-paper__text">
-        {{ partial "header.html" . }}
-        <div class="spacer__sm"></div>
+<article class="grid-wrap">
+    {{ partial "header.html" . }}
+    <div class="spacer__sm"></div>
+    <div class="grid-wrap__text">
+        <div class="spacer__md"></div>
         {{ .Content }}
     </div>
-    <div class="grid-paper-lines"></div>
+    {{ partial "grid-paper.html" .}}
 </article>
 
 <!-- {{ $works := where .Site.RegularPages "Section" "books" }}

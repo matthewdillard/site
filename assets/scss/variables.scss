@@ -1,112 +1,54 @@
-// Base Grid Configuration
-$grid-base-default: 32px;
-
-// COLOR
-$color-paper-bg: #F9FCFA;
-$color-grid-line: #DBF3EB;
-$color-text-heading: #1B1A1A;
-$color-text-body: #2B2929;
-$color-blockquote-border: #605A58;
-$color-bg: #525E3B; //#686d56; // #f1f0ea;
-
-
-
-// TYPOGRAPHY
-
-// —— Font Families
-
-$font-sans: "Inter",
-sans-serif;
-
-$font-serif: "Noto Serif",
-serif;
-
-$font-old-serif: "EB Garamond",
-serif;
-
-$font-new-serif: "Shippori Mincho B1", 
-serif;
-
-$font-handwritten: "Matturm Leuch",
-sans-serif;
-
-$font-sharpie: "Canary Post",
-sans-serif;
-
-// —— Unit Variables
-$font-unit-p: 16;
-$font-unit-h6: 18;
-$font-unit-h5: 20;
-$font-unit-h4: 22;
-$font-unit-h3: 24;
-$font-unit-h2: 26;
-$font-unit-h1: 28;
-
-// —— Base Font Sizes
-$font-size-100-base: 12px;
-$font-size-200-base: 14px;
-$font-size-300-base: 16px;
-$font-size-400-base: 18px;
-$font-size-500-base: 20px;
-$font-size-600-base: 22px;
-$font-size-700-base: 24px;
-$font-size-800-base: 26px;
-$font-size-900-base: 28px;
-
-// —— Base Grid Offsets
-$grid-offset-h1-base: 0px;
-$grid-offset-h2-base: 2px;
-$grid-offset-h3-base: 2px;
-$grid-offset-h4-base: 2px;
-$grid-offset-h5-base: 3px;
-$grid-offset-h6-base: 4px;
-$grid-offset-p-base: 5px;
-$grid-offset-hp-base: 5px;
-
-
-// ROOT
 :root {
-  --scale-factor: 1;
+  --font-size: 16px;
+  --cell-size: calc(var(--font-size) * 2);
+  --cell-spacing: calc(var(--cell-size) / 2);
+  --grid-padding: 3;
+  --grid-cells: 26;
 
-  // Grid Sizing
-  --grid-base: calc(#{$grid-base-default} * var(--scale-factor));
-  --grid-base-unit: 32;
+  /* Viewport sizing */
 
-  // Font Sizes
-  --font-size-100: calc(#{$font-size-100-base} * var(--scale-factor));
-  --font-size-200: calc(#{$font-size-200-base} * var(--scale-factor));
-  --font-size-300: calc(#{$font-size-300-base} * var(--scale-factor));
-  --font-size-400: calc(#{$font-size-400-base} * var(--scale-factor));
-  --font-size-500: calc(#{$font-size-500-base} * var(--scale-factor));
-  --font-size-600: calc(#{$font-size-600-base} * var(--scale-factor));
-  --font-size-700: calc(#{$font-size-700-base} * var(--scale-factor));
-  --font-size-800: calc(#{$font-size-800-base} * var(--scale-factor));
-  --font-size-900: calc(#{$font-size-900-base} * var(--scale-factor));
+  /* Base Grid Configuration */
+  --grid-base-default: 32px;
 
-  // Semantic Font Sizes
-  --font-size-h1: var(--font-size-900);
-  --font-size-h2: var(--font-size-800);
-  --font-size-h3: var(--font-size-700);
-  --font-size-h4: var(--font-size-600);
-  --font-size-h5: var(--font-size-500);
-  --font-size-h6: var(--font-size-400);
-  --font-size-p: var(--font-size-300);
+  /* Color */
+  --color-moss: #565e3b;
+  --color-green: #6a8616;
+  --color-yellow: #ffdc13;
+  --color-olive: #677736;
+  
+  --color-grid-line: #a1c6ba;
+  --color-text-base: #2a2624;
+  --color-text-light: #857e7a;
+  --color-text-hover: var(--color-olive);
+  --color-blockquote-border: var(--color-olive);
+  --color-bg: #faf9f2;
 
-  // Grid Offsets
-  --grid-offset-h1: calc(#{$grid-offset-h1-base} * var(--scale-factor));
-  --grid-offset-h2: calc(#{$grid-offset-h2-base} * var(--scale-factor));
-  --grid-offset-h3: calc(#{$grid-offset-h3-base} * var(--scale-factor));
-  --grid-offset-h4: calc(#{$grid-offset-h4-base} * var(--scale-factor));
-  --grid-offset-h5: calc(#{$grid-offset-h5-base} * var(--scale-factor));
-  --grid-offset-h6: calc(#{$grid-offset-h6-base} * var(--scale-factor));
-  --grid-offset-p: calc(#{$grid-offset-p-base} * var(--scale-factor));
-  --grid-offset-hp: calc(#{$grid-offset-hp-base} * var(--scale-factor));
+  /* TYPOGRAPHY */
 
-  // Theme Colors
-  --grid-paper-bg: #{$color-paper-bg};
-  --grid-line-color: #{$color-grid-line};
-  --text-heading-color: #{$color-text-heading};
-  --text-body-color: #{$color-text-body};
-  --blockquote-border-color: #{$color-blockquote-border};
-  --font-family-primary: #{$font-serif};
+  /* Font Families */
+
+  --font-sans: "Inter", sans-serif;
+  --font-serif: "Inclusive Sans", serif;
+  --font-handwritten: "MD038", sans-serif;
+  --font-sharpie: "Canary Post", sans-serif;
+
+  --font-size-600: calc(var(--font-size) * 1.4);
+  --font-size-500: calc(var(--font-size) * 1.2);
+  --font-size-400: calc(var(--font-size) * 1.1);
+  --font-size-300: calc(var(--font-size) * 1.05);
+  --font-size-200: calc(var(--font-size) * 1.025);
+  --font-size-100: calc(var(--font-size) * 1.0125);
+  --font-size-000: var(--font-size);
+
+  /* Grid Sizing */
+  --text-h-offset: calc(var(--font-size) / 3);
+
+  /* Theme Colors */
+  --grid-paper-bg: var(--color-paper-bg);
+  --grid-line-color: var(--color-grid-line);
+  --text-heading-color: var(--color-text-base);
+  --text-body-color: var(--color-text-base);
+  --text-color-light: var(--color-text-light);
+  --blockquote-border-color: var(--color-blockquote-border);
+  --font-family-primary: var(--font-serif);
 }
