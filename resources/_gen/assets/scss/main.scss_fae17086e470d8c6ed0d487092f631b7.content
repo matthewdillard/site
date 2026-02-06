@@ -179,14 +179,13 @@ details {
   background: #F5DB11;
   padding: 7%; }
   .postit .postit__text {
-    font-family: 'Gold Post';
     position: relative;
     display: flex;
     align-items: center;
     aspect-ratio: 1; }
     .postit .postit__text textarea {
+      font-family: 'Gold Post';
       resize: none;
-      font-family: inherit;
       font-size: 4vh;
       line-height: 1.3;
       text-transform: capitalize;

@@ -1,0 +1,4 @@
+
+{{ $font := .Get 0}}
+<div>{{$font}}</div>
+{{ partial "postit.html" (dict "context" . "font" $font) }}

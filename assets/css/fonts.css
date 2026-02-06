@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Gold Post';
+    src: local('Gold Post'),
+        url('/fonts/goldpost.woff2') format('woff2'),
+        url('/fonts/goldpost.woff') format('woff'),
+        url('/fonts/goldpost.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
