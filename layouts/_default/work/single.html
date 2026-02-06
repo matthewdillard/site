@@ -8,12 +8,14 @@
             <span><a class="subtle" href="https://{{ .Param "website" }}">{{ .Param "website" }}</a></span>
         {{ end }}
         
-        <p><i>{{.Description}}</i></p>
+        <span class="subtle"><i>{{.Description}}</i></span>
         
+        {{ if .Param "toc" }}
         <details>
             <summary>Table of contents</summary>
             {{ .TableOfContents }}
         </details>
+        {{ end }}
 
         {{ .Content }}
         <ol>

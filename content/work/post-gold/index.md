@@ -19,5 +19,5 @@ In the year after undergrad, I made a habit of saving wisdoms I encountered to P
 {{<figure
   src="/images/postit-wall.jpg"
   alt="Post-it notes on a wall."
-  class="ar-4-5-cvr"
+  class="ar-p cv"
 >}}
