@@ -9,28 +9,23 @@
         <div class="article-list work-list">
             {{ range sort .Pages.ByWeight }}
             <div class="list-item fbr">
-                <div class="subtle duration-block">
-                    {{ $started := .Param "started" }}
-                    {{ $completed := .Param "completed" }}
-                    
-                    {{ $started := time.AsTime $started }}
-                    {{ $startedYear := $started.Year }}
-
-                    {{ if $completed }}
-                        {{ $completed := time.AsTime $completed }}
-                        {{ $completedYear := $completed.Year }}
-                        {{ if eq $startedYear $completedYear }}
-                            <span class="f-0">{{ $startedYear }}</span>
-                        {{ else }}
-                            <span class="f-0">{{ $startedYear }} - {{ $completedYear }}  </span>
-                        {{ end }}
-                    {{ else }}
-                        <span class="f-0">{{ $startedYear }} - </span>
-                    {{end }}    
-                </div>
+                {{ $startYr := (time.AsTime (.Param "started")).Year }}
+                {{ $completed := .Param "completed" }}
+                {{ $completeYr := -1 }}
+                
+                {{ if $completed }}                
+                    {{ $completeYr = (time.AsTime $completed).Year }}
+                {{ end }}
+                <div class="hide-b-sm">
+                    {{ partial "year-span.html" (dict "context" . "sYr" $startYr "cYr" $completeYr) }}
+                </div>    
+                
                 <div class="f-1">
                     <!-- <h2 class="fs-1"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2> -->
                     <h2 class="fs-1">{{ .LinkTitle }}</h2>
+                    <div class="hide-a-sm">
+                        {{ partial "year-span.html" (dict "context" . "sYr" $startYr "cYr" $completeYr) }}
+                    </div>
                     <p class="fw-3">{{ .Description }}</p>
                 </div>
                 

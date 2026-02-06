@@ -1,0 +1,9 @@
+<div class="subtle year-span-block f-0 fbr">
+    {{ if eq .cYr -1 }}
+        <span>{{ .sYr }}</span>
+    {{ else if eq .sYr .cYr }}
+        <span>{{ .sYr }}</span>
+    {{ else }}
+        <span>{{ .sYr }}</span><span>-</span><span>{{ .cYr }} </span>
+    {{end }}
+</div>

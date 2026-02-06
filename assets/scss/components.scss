@@ -1,4 +1,8 @@
 .work-list .list-item { 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
     h2 {
         
     }
@@ -6,9 +10,8 @@
         margin-top: 0px;
     }
 
-    .duration-block {
+    .year-span-block {
         width: calc(var(--cell-size) * 4);
     }
-
 }
 
