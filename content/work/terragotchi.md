@@ -11,6 +11,7 @@ areas:
   - ux design
   - project management
 weight: 5
+toc: false
 ---
 ![](https://cdn.prod.website-files.com/652f0cc73610f38db0f3fbc9/68201113de3fede4f6a349b2_landing-gif.gif)
 
@@ -277,7 +278,7 @@ From the climate change communication expert, I recognized the value in effectiv
 
 ## Acknowledgements
 
-I wanted to extend my gratitude to my professors & advisors (Arkadiy, Christina Lee, Logan, Meg Kemp), my subject matter experts (Karl Hausker, Sam Dillard), all of my discovery interview and usability study participants, and my classmates and peers of the Spring 2025 MICA MPS UX Design program.
+I wanted to extend my gratitude to my professors & advisors—Arkadiy Avrorov, Christina Lee, Logan , Meg Kemp), my subject matter experts—Karl Hausker and Sam Dillard— all of my discovery interview and usability study participants, and my classmates and peers of the Spring 2025 MICA MPS UX Design program.
 
 ## Citations
 

@@ -11,5 +11,6 @@ areas:
   - web development
   - ux design
 weight: 12
+toc: false
 ---
 NA

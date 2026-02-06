@@ -13,6 +13,7 @@ areas:
   - graphic design
   - marketing
 weight: 11
+toc: false
 ---
 I designed and developed a modernized web presence for the [John Carroll School](https://www.johncarroll.org/). This was my first significant professional project, working independently to meet design, development, and client management needs. 
 ## Context 

@@ -7,5 +7,6 @@ started: 2024-10-01
 completed: 2024-12-01
 tags:
 weight: 7
+toc: false
 ---
 NA
