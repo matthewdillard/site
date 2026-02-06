@@ -4,7 +4,7 @@
     <div class="spacer__md"></div>
     <div class="grid-wrap__text">
         <h1>{{ .Title }}</h1>
-        {{ .Content }}
+            {{ .Content }}
         {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
     </div>
     {{ partial "grid-paper.html" . }}
