@@ -1,6 +1,6 @@
 ---
 title: Landing page builder
-description: Templated
+description: Tool combining form inputs and Jinja2 templates to generate lightweight web presences targeted at non-profits organizations.
 date:
 draft: false
 tags:
