@@ -31,8 +31,7 @@ Terragotchi is a concept app researched, designed, and developed between January
 
 ## Summary
 
-Climate anxiety creates avoidance patterns, leading to disengagement & inaction, particularly for the youngest generations, who have the most at stake. 
-The barriers to sustainable action are often lack of knowledge, social norms, personal capacity, and poor supportive infrastructure. On the other hand, action is made possible by environmental awareness, accessible information, personal benefit, self-efficacy, social support, and enjoyment. To change a behavior, people need a compelling alternative.
+For many within the youngest generations, experiencing climate anxiety results in avoidance patterns which lead to disengagement & inaction. The barriers to sustainable action are often lack of knowledge, social norms, personal capacity, and poor supportive infrastructure. On the other hand, action is made possible by environmental awareness, accessible information, personal benefit, self-efficacy, social support, and enjoyment. To change a behavior, people need a compelling alternative.
 
 The two user types I focused on I describe as the *Conflicted Environmentalist*—someone with sustainable values and established behaviors who struggles to balance their ideals with reality amidst lifestyle changes—and the *Anxious Amateur*—someone who feels they should be doing more for the environment, but lacks environmental awareness, confidence, and direction, leading to anxiety and avoidance patterns.
 

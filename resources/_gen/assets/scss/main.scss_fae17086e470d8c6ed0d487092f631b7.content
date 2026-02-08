@@ -28,6 +28,7 @@
   --color-text-light: #857e7a;
   --color-text-hover: var(--color-olive);
   --color-blockquote-border: var(--color-olive);
+  --color-blockquote-text: var(--color-olive);
   --color-bg: #faf9f2;
   /* TYPOGRAPHY */
   /* Font Families */
@@ -102,9 +103,9 @@ p {
   margin-top: var(--cell-size); }
 
 blockquote {
-  padding-inline: var(--cell-size);
-  border-left: 4px solid var(--blockquote-border-color);
-  color: var(--text-body-color); }
+  padding-inline: calc(var(--cell-size) - 2px) var(--cell-size);
+  border-left: 2px solid var(--color-blockquote-border);
+  color: var(--color-blockquote-text); }
 
 a,
 .font-link {
@@ -232,6 +233,7 @@ details {
   --color-text-light: #857e7a;
   --color-text-hover: var(--color-olive);
   --color-blockquote-border: var(--color-olive);
+  --color-blockquote-text: var(--color-olive);
   --color-bg: #faf9f2;
   /* TYPOGRAPHY */
   /* Font Families */

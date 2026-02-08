@@ -66,9 +66,9 @@ p {
 // Blockquote
 
 blockquote {
-    padding-inline: var(--cell-size);
-    border-left: 4px solid var(--blockquote-border-color);
-    color: var(--text-body-color);
+    padding-inline: calc(var(--cell-size) - 2px) var(--cell-size);
+    border-left: 2px solid var(--color-blockquote-border);
+    color: var(--color-blockquote-text);
 }
 
 // Links
