@@ -13,6 +13,7 @@ areas:
 weight: 5
 toc: false
 hollow: false
+feature: false
 ---
 
 {{<figure

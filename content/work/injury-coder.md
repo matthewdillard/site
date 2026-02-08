@@ -12,6 +12,7 @@ completed: 2025-07-01
 weight: 3
 toc: false
 hollow: true
+feature: false
 ---
 I designed a tool to help trauma center registrars accurately code patient injuries accurately under significant time constraints in high-stakes healthcare settings.
 

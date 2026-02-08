@@ -11,7 +11,8 @@ areas:
 category:
 weight: 10
 toc: false
-hollow: true
+hollow: false
+feature: false
 ---
 In the year after undergrad, I made a habit of saving wisdoms I encountered to Post-its which accumulated on the wall by my desk. I curated these handwriting exhibitions to develop a typeface that you can try for yourself by clicking in the sticky note below:
 
