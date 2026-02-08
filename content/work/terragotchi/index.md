@@ -11,7 +11,7 @@ areas:
   - ux design
   - project management
 weight: 5
-toc: false
+toc: true
 hollow: false
 feature: false
 ---
@@ -223,7 +223,8 @@ The [Untitled UI kit](http://untitledui.com/) was utilized early in development 
 ## Usability testing
 
 Usability testing was conducted at both mid and high-fidelities. Each round had three participants, and testing was conducted both in-person and via video calls, which gave me insight into what was working and not working with my design. 
-#### Adaptive thinking, addressing anxiety & self-efficacy
+
+### Adaptive thinking
 
 The best-received feature of the prototype were the Mindset activities. During usability studies, I asked participants to read [this article](https://apnews.com/article/climate-change-chaos-warming-15-pollution-carbon-832773cebb14b4ea8c8930580537e567), then complete an adaptive thinking exercise.
 
@@ -239,7 +240,7 @@ Afterwards, participants expressed that they felt more grounded, and appreciated
 
 > "It's nice to take a second and ask “now what?”... it's a question that never gets asked."
 
-#### Personal benefit
+### Personal benefit
 
 The impact of each action within Terragotchi is broken down by environmental, personal, and community benefits. Participants responded best to the inclusion of personal benefits, and the bite-sized information.
 
@@ -250,13 +251,13 @@ The impact of each action within Terragotchi is broken down by environmental, pe
 	class="ar-s ct"
 >}}
 
-#### Interconnected impact
+### Interconnected impact
 
 Participants also liked seeing the impact across small, medium, and large-scales, which demonstrated how actions they may not have considered sustainable, could be good for themselves, their community, and the planet.
 
 > "You don't think about all of the ways that these things interact with each other... I could easily see one of these bullets be something that I hadn't thought of as a benefit."
 
-#### Action completion, feedback
+### Action completion, feedback
 
 {{<figure
 	src="log-action.gif"
@@ -265,7 +266,7 @@ Participants also liked seeing the impact across small, medium, and large-scales
 
 Saved actions were initially a permanent list on the home screen, but this diminished the sense of accomplishment when users completed a behavior, as they expected behavior like that of conventional to-do apps. In the second iteration, logged actions collapsed away, but the use of a checkmark was often confused as an indicator the action was already completed. In the end, the checkmark was replaced with a plus icon, with the checkmark is now used to create a positive micro-interaction for the button.
 
-#### Finding actions, mental models
+### Finding actions, mental models
 
 I designed actions such that related behaviors are listed within. My intent was to support a wiki-style action library, where users were encouraged to fall down rabbit holes to explore actions that built upon those there already performed, or were interested in. However, when tasked with finding related actions to a specified one from the home screen, users more frequently went to Library, suggesting they associated that task with the area it pertained to.
 
@@ -290,13 +291,13 @@ Ultimately, I recognized I was both failing to provide users enough agency to se
 	class="ar-lll ct"
 >}}
 
-### High-fidelity prototype
+## High-fidelity prototype
 
-To see the final prototype as a video walkthrough, click the thumbnail below:
+To see the final prototype as a video walkthrough, [click here](https://www.youtube.com/watch?v=MWX49AXJ83A).
 
 {{<figure
 	src="yt-thumb.png"
-	src="ar-lll ct"
+	class="ar-lll ct"
 >}}
 
 ## Honorable mentions
