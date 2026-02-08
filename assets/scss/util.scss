@@ -199,6 +199,13 @@
     }
 }
 
+.ar-s {
+    &.cv,
+    &.ct {
+      aspect-ratio: 1;
+    }
+}
+
 .ar-l,
 .ar-ll,
 .ar-lll,

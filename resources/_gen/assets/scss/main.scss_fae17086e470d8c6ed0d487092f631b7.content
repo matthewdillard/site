@@ -101,6 +101,11 @@ h6, .fs-1 {
 p {
   margin-top: var(--cell-size); }
 
+blockquote {
+  padding-inline: var(--cell-size);
+  border-left: 4px solid var(--blockquote-border-color);
+  color: var(--text-body-color); }
+
 a,
 .font-link {
   color: inherit; }
@@ -382,6 +387,9 @@ details {
 
 .ar-lllll.cv, .ar-lllll.ct {
   aspect-ratio: 4 / 1; }
+
+.ar-s.cv, .ar-s.ct {
+  aspect-ratio: 1; }
 
 .ar-l.cv img,
 .ar-ll.cv img,

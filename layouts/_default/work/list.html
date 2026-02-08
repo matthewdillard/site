@@ -21,8 +21,11 @@
                 </div>    
                 
                 <div class="f-1">
-                    <!-- <h2 class="fs-1"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2> -->
-                    <h2 class="fs-1">{{ .LinkTitle }}</h2>
+                    {{ if .Params.hollow }}
+                        <h2 class="fs-1">{{ .LinkTitle }}</h2>
+                    {{ else }}
+                        <h2 class="fs-1"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+                    {{ end }}
                     <div class="hide-a-sm">
                         {{ partial "year-span.html" (dict "context" . "sYr" $startYr "cYr" $completeYr) }}
                     </div>

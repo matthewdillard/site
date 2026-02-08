@@ -9,6 +9,7 @@ started: 2025-09-01
 completed:
 weight: 2
 toc: false
+hollow: true
 ---
 Aegisonic is a project developing an adaptive audio headset designed to support individuals with heightened sound sensitivity and autism, offering a comfortable, equitable sonic experience for all. 
 

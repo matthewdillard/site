@@ -63,6 +63,14 @@ p {
   margin-top: var(--cell-size);
 }
 
+// Blockquote
+
+blockquote {
+    padding-inline: var(--cell-size);
+    border-left: 4px solid var(--blockquote-border-color);
+    color: var(--text-body-color);
+}
+
 // Links
 a,
 .font-link {

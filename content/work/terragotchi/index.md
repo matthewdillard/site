@@ -12,8 +12,14 @@ areas:
   - project management
 weight: 5
 toc: false
+hollow: false
 ---
-![](https://cdn.prod.website-files.com/652f0cc73610f38db0f3fbc9/68201113de3fede4f6a349b2_landing-gif.gif)
+
+{{<figure
+	src="terragotchi.gif"
+	alt="Terragotchi pet earth bobbing above Terragotchi logo"
+	class="ar-s cv"
+>}}
 
 > *Tend to your own pocket-sized Earth by learning and practicing sustainable behaviors and mindsets, supported by constructive strategies for navigating climate anxiety.*
 
@@ -33,8 +39,6 @@ The two user types I focused on I describe as the *Conflicted Environmentalist*‚
 My solution, Terragotchi, combines a resource wiki, habit tracking, and virtual-pet gamification to support users in learning about, and consistently practicing sustainable behaviors in a fun and engaging way. Users save behaviors from a library, and log them to keep their pet Earth healthy. Information with each action provides environmental, personal, and community benefits in accessible, bite-sized pieces, backed by trusted sources. When users are faced with climate anxiety, mindfulness exercises offer an avenue to ground themselves, cultivate greater awareness, and reinforce channeling their energy into constructive action. 
 
 Terragotchi treats sustainability like socioecological well-being: something that is good for people, and the planet. This project sought to emphasize positivity and focus on developing what's within each's control, because fighting for something is better than fighting against something, and no one can do it all, but we all must do what we can.
-
----
 
 ## Problem space
 
@@ -123,13 +127,19 @@ Drawn from patterns observed in experiences shared during user interviews, I ide
 
 Exhibiting *aspiration* and *guilt*, these individuals have strong environmental values, well developed habits, and are motivated improve in both areas. When things outside their control force them to act less sustainably, however, they struggle to maintain their behaviors and deal with feelings of guilt as their ideals conflict with their reality.
 
-![](https://cdn.prod.website-files.com/652f0cc73610f38db0f3fbc9/681fac680108d6f2be594d65_Aspiration%20%26%20Guilt%20-%20Current%20State%20Journey%20Map.png)
+{{<figure
+	src="ag-cs-jm.png"
+	alt="Current state journey map for Aspiration & Guilt user persona."
+>}}
 
 ### Anxious Amateur
 
 Exhibiting *anxiety* and *paralysis*, these individual have low levels of sustainable awareness, which results in more anxiety when they feel they should do something to address climate change. Without clear pathways to action, they develop patterns of avoidance, or else disengage entirely.
 
-![](https://cdn.prod.website-files.com/652f0cc73610f38db0f3fbc9/681fac68f7ed9d15b27eb23c_Anxiety%20%26%20Paralysis%20-%20Current%20State%20Journey%20Map.png)
+{{<figure
+	src="ap-cs-jm.png"
+	alt="Current state journey map for Anxiety & Paralysis user persona."
+>}}
 
 ### Opportunities
 
@@ -163,9 +173,15 @@ Exhibiting *anxiety* and *paralysis*, these individual have low levels of sustai
 
 By introducing these features into the scenarios of the *Conflicted Environmentalist* and the *Anxious Amateur*, we can observe how each is only only able to effectively navigate the behavioral and psychological challenges faced, but turn the situation into an opportunity for growth.
 
-![](https://cdn.prod.website-files.com/652f0cc73610f38db0f3fbc9/681fac681fb565c13224d6c0_Aspiration%20%26%20Guilt%20-%20Future%20State%20Journey%20Map.png)
+{{<figure
+	src="ag-cs-jm.png"
+	alt="Future state journey map for Aspiration & Guilt user persona."
+>}}
 
-![](https://cdn.prod.website-files.com/652f0cc73610f38db0f3fbc9/681fac686ffe7910ab8a1993_Anxiety%20%26%20Paralysis%20-%20Future%20State%20Journey%20Map.png)
+{{<figure
+	src="ap-cs-jm.png"
+	alt="Future state journey map for Anxiety & Paralysis user persona."
+>}}
 
 ## Design
 
@@ -173,13 +189,21 @@ By introducing these features into the scenarios of the *Conflicted Environmenta
 
 With the journey maps outlined and features ideated, I combined them into a holistic user-flow. The color coding here represents feature prioritization.
 
-![](https://cdn.prod.website-files.com/652f0cc73610f38db0f3fbc9/68200e43a6060e271097c23b_user-flow__priority.png)
+{{<figure
+	src="user-flow.png"
+	alt="User flow diagram color coded to signal prioritization."
+	class="ar-llll ct"
+>}}
 
 Initial user flow. The red elements in the bottom left represent the omitted social engagement features.
 
 Sketches for the necessary interface elements were then completed and incorporated into the user flow above to create the low-fidelity flow map.
 
-![](https://cdn.prod.website-files.com/652f0cc73610f38db0f3fbc9/6820106d027084bef78751da_sketch-flow.png)
+{{<figure
+	src="sketch-flow.png"
+	alt="User flow with UI sketches."
+	class="ar-lll ct"
+>}}
 
 ### Visual design
 
@@ -187,9 +211,12 @@ With Terragotchi's aesthetic, I aimed to create something simple, playful, and p
 
 The Terragotchi pet was a custom made vector graphic sourced from a hand drawn sketch. The Terragotchi typemark is also a vector graphic, sourced from my handwriting.
 
-![](https://cdn.prod.website-files.com/652f0cc73610f38db0f3fbc9/68201113de3fede4f6a349b2_landing-gif.gif)
+{{<figure
+	src="type-sketches.jpg"
+	alt="Various early iterations of the Terragotchi logo font."
+	class="ar-lll ct"
+>}}
 
-![](https://cdn.prod.website-files.com/652f0cc73610f38db0f3fbc9/68201165a86fdf2e60d920fd_typeface_seeds.jpg)
 
 The [Untitled UI kit](http://untitledui.com/) was utilized early in development to accelerate from the low to mid-fidelity prototype, however almost all component referenced would, come the final iteration, be replace by custom elements. Iconography comes credit of [Phosphor](http://phosphor.com/), and [Quicksand](https://fonts.google.com/specimen/Quicksand?query=quick) is used for the typeface. Quicksand's x-height gives it a more childish, playful feel, and both text and icons share a common thread of balanced, rounded lines.
 
@@ -200,7 +227,11 @@ Usability testing was conducted at both mid and high-fidelities. Each round had 
 
 The best-received feature of the prototype were the Mindset activities. During usability studies, I asked participants to read [this article](https://apnews.com/article/climate-change-chaos-warming-15-pollution-carbon-832773cebb14b4ea8c8930580537e567), then complete an adaptive thinking exercise.
 
-![](https://cdn.prod.website-files.com/652f0cc73610f38db0f3fbc9/68201323ca000cf3fffa68d5_ground-walkthrough.png)
+{{<figure
+	src="ground-walkthrough.png"
+	alt="Screens walking through the mindfulness activity."
+	class="ar-llll ct"
+>}}
 
 Afterwards, participants expressed that they felt more grounded, and appreciated how the suggested actions at the end of the exercise provided an answer to the question of what to do next.
 
@@ -214,7 +245,11 @@ The impact of each action within Terragotchi is broken down by environmental, pe
 
 > "I'd be most interested to see how does this action benefit me... followed by environmental benefits.‚Äù
 
-![](https://cdn.prod.website-files.com/652f0cc73610f38db0f3fbc9/6820143fb945782e0d4a7533_personal-benefit.png)
+{{<figure
+	src="personal-benefit.png"
+	class="ar-s ct"
+>}}
+
 #### Interconnected impact
 
 Participants also liked seeing the impact across small, medium, and large-scales, which demonstrated how actions they may not have considered sustainable, could be good for themselves, their community, and the planet.
@@ -223,7 +258,10 @@ Participants also liked seeing the impact across small, medium, and large-scales
 
 #### Action completion, feedback
 
-![](https://cdn.prod.website-files.com/652f0cc73610f38db0f3fbc9/682014be2e5b8c350c3820a2_log-action__iterations.gif)
+{{<figure
+	src="log-action.gif"
+	class="ar-s ct"
+>}}
 
 Saved actions were initially a permanent list on the home screen, but this diminished the sense of accomplishment when users completed a behavior, as they expected behavior like that of conventional to-do apps. In the second iteration, logged actions collapsed away, but the use of a checkmark was often confused as an indicator the action was already completed. In the end, the checkmark was replaced with a plus icon, with the checkmark is now used to create a positive micro-interaction for the button.
 
@@ -231,23 +269,35 @@ Saved actions were initially a permanent list on the home screen, but this dimin
 
 I designed actions such that related behaviors are listed within. My intent was to support a wiki-style action library, where users were encouraged to fall down rabbit holes to explore actions that built upon those there already performed, or were interested in. However, when tasked with finding related actions to a specified one from the home screen, users more frequently went to Library, suggesting they associated that task with the area it pertained to.
 
-![](https://cdn.prod.website-files.com/652f0cc73610f38db0f3fbc9/682016216de51ab8d7e4b878_related-actions-it-1.png)
+{{<figure
+	src="rel-actions.png"
+	class="ar-s ct"
+>}}
 
 A "Suggested" tab was added to the Action Library so to encourage building upon existing action at the place users instinctively went, but users overlooked this this area entirely in testing.
 
 The second iteration also revealed that the high-level category navigation within the Action library increased decision fatigue when users sought an action that belong to multiple categories. Categories are implemented in the app as mutually inclusive tags, yet their representation within the Library appeared as mutually exclusive categories.
 
-![](https://cdn.prod.website-files.com/652f0cc73610f38db0f3fbc9/6820169a36bb659c52e33b1e_suggested.png)
+{{<figure
+	src="sug-actions.png"
+	class="ar-s ct"
+>}}
 
 Ultimately, I recognized I was both failing to provide users enough agency to search and filter actions, and that a more fluid information architecture was necessary for the Library.
 
-![](https://cdn.prod.website-files.com/652f0cc73610f38db0f3fbc9/6820169204d6af0835b11613_updated-filters.png)
+{{<figure
+	src="up-filter.png"
+	class="ar-lll ct"
+>}}
 
 ### High-fidelity prototype
 
 To see the final prototype as a video walkthrough, click the thumbnail below:
 
-![](https://cdn.prod.website-files.com/652f0cc73610f38db0f3fbc9/682016bf61e4643aad9b502e_youtube-tumbnail.png)
+{{<figure
+	src="yt-thumb.png"
+	src="ar-lll ct"
+>}}
 
 ## Honorable mentions
 

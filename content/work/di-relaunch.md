@@ -8,5 +8,6 @@ completed: 2024-12-01
 tags:
 weight: 7
 toc: false
+hollow: true
 ---
 NA

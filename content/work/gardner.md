@@ -11,6 +11,7 @@ areas:
   - branding
 weight: 4
 toc: false
+hollow: true
 ---
 I designed a logo for a personal Cirrus aircraft instructor, stylizing her initials (EG) into a bold blue rudder to convey her desired brand qualities of sophistication, innovation, performance, and adventure to her wealthy clientele.
 

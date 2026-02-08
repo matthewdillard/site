@@ -8,5 +8,6 @@ completed:
 tags:
 weight: 1
 toc: false
+hollow: true
 ---
 NA
