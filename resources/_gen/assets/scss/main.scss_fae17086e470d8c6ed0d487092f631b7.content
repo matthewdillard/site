@@ -165,6 +165,10 @@ details {
   margin-top: var(--cell-size);
   box-shadow: 0px 1px 0px var(--color-grid-line); }
 
+details nav ul {
+  margin-bottom: var(--cell-size);
+  padding-bottom: var(--cell-size); }
+
 .work-list .list-item {
   display: flex;
   flex-direction: row;

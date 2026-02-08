@@ -5,3 +5,7 @@ title = 'Matthew Dillard'
 [params]
     Favicon = "images/favicon.png"
         
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 2
