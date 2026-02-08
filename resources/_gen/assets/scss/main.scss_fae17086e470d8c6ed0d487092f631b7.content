@@ -37,11 +37,11 @@
   --font-handwritten: "MD038", sans-serif;
   --font-sharpie: "Canary Post", sans-serif;
   --font-size-600: calc(var(--font-size) * 1.4);
-  --font-size-500: calc(var(--font-size) * 1.2);
+  --font-size-500: calc(var(--font-size) * 1.25);
   --font-size-400: calc(var(--font-size) * 1.1);
   --font-size-300: calc(var(--font-size) * 1.05);
   --font-size-200: calc(var(--font-size) * 1.025);
-  --font-size-100: calc(var(--font-size) * 1.0125);
+  --font-size-100: calc(var(--font-size) * 1);
   --font-size-000: var(--font-size);
   /* Grid Sizing */
   --text-h-offset: calc(var(--font-size) / 3);
@@ -65,15 +65,8 @@ span,
 summary {
   padding: 0px var(--text-h-offset); }
 
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 500; }
-
 h1, .fs-6 {
-  font-weight: 600;
+  font-weight: 700;
   font-size: var(--font-size-600);
   margin-top: var(--cell-size); }
 
@@ -85,7 +78,7 @@ h2, .fs-5 {
 h3, .fs-4 {
   font-size: var(--font-size-400);
   margin-block: var(--cell-size);
-  font-weight: 500; }
+  font-weight: 600; }
 
 h4, .fs-3 {
   font-size: var(--font-size-300);
@@ -219,6 +212,9 @@ details nav ul {
   .postit:hover .postit-shadow {
     opacity: 0.4; }
 
+:has(> iframe[src^="https://www.youtube.com"]) {
+  padding-bottom: 60% !important; }
+
 :root {
   --font-size: 15px;
   --cell-size: calc(var(--font-size) * 2);
@@ -247,11 +243,11 @@ details nav ul {
   --font-handwritten: "MD038", sans-serif;
   --font-sharpie: "Canary Post", sans-serif;
   --font-size-600: calc(var(--font-size) * 1.4);
-  --font-size-500: calc(var(--font-size) * 1.2);
+  --font-size-500: calc(var(--font-size) * 1.25);
   --font-size-400: calc(var(--font-size) * 1.1);
   --font-size-300: calc(var(--font-size) * 1.05);
   --font-size-200: calc(var(--font-size) * 1.025);
-  --font-size-100: calc(var(--font-size) * 1.0125);
+  --font-size-100: calc(var(--font-size) * 1);
   --font-size-000: var(--font-size);
   /* Grid Sizing */
   --text-h-offset: calc(var(--font-size) / 3);

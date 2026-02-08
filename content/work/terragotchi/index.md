@@ -24,11 +24,11 @@ feature: false
 
 > *Tend to your own pocket-sized Earth by learning and practicing sustainable behaviors and mindsets, supported by constructive strategies for navigating climate anxiety.*
 
-Terragotchi is a concept app researched, designed, and developed between January and May 2025 for my UX Design Masters Capstone Project at the [Maryland Institute College of Art](https://www.mica.edu/graduate-programs/ux-design-mps/), seeking to educate & cultivate everyday sustainable behaviors like socioecological well-being, with a focus on mindfulness, positivity, and fun. 
+**Terragotchi** is a concept app researched, designed, and developed between January and May 2025 for my UX Design Masters Capstone Project at the [Maryland Institute College of Art](/education), seeking to educate & cultivate everyday sustainable behaviors like socioecological well-being, with a focus on mindfulness, positivity, and fun.  
 
-- [Video walkthrough](https://www.youtube.com/watch?v=MWX49AXJ83A)
-- [Figma prototype](https://www.figma.com/proto/T1zlQt0G7rhZ20JrQ90dD2/Terragotchi?page-id=1386%3A13500&node-id=1465-28104&viewport=-1718%2C368%2C0.23&t=9NrKE4sY0gT2Yvnz-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1465%3A28104)
-- [Presentation pitchdeck](https://www.canva.com/design/DAGmL2bdHAY/I7Eei7aibNEWbs2QV6qg9Q/edit?utm_content=DAGmL2bdHAY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- Watch the [video walkthrough](#high-fidelity-prototype)
+- See the [Figma prototype](https://www.figma.com/proto/T1zlQt0G7rhZ20JrQ90dD2/Terragotchi?page-id=1386%3A13500&node-id=1465-28104&viewport=-1718%2C368%2C0.23&t=9NrKE4sY0gT2Yvnz-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1465%3A28104)
+- View the [Presentation pitchdeck](https://www.canva.com/design/DAGmL2bdHAY/I7Eei7aibNEWbs2QV6qg9Q/edit?utm_content=DAGmL2bdHAY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ## Summary
 
@@ -293,12 +293,9 @@ Ultimately, I recognized I was both failing to provide users enough agency to se
 
 ## High-fidelity prototype
 
-To see the final prototype as a video walkthrough, [click here](https://www.youtube.com/watch?v=MWX49AXJ83A).
+{{< youtube MWX49AXJ83A >}}
 
-{{<figure
-	src="yt-thumb.png"
-	class="ar-lll ct"
->}}
+To interact with the Figma prototype yourself, [click here](https://www.figma.com/proto/T1zlQt0G7rhZ20JrQ90dD2/Terragotchi?page-id=1386%3A13500&node-id=1465-28104&viewport=-1718%2C368%2C0.23&t=9NrKE4sY0gT2Yvnz-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1465%3A28104).
 
 ## Honorable mentions
 

@@ -15,18 +15,9 @@ summary {
   padding: 0px var(--text-h-offset);
 }
 
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 500;
-}
-
 h1, .fs-6 {
-  font-weight: 600;
+  font-weight: 700;
   font-size: var(--font-size-600);
-
   margin-top: var(--cell-size);
 }
 
@@ -39,7 +30,7 @@ h2, .fs-5 {
 h3, .fs-4 {
   font-size: var(--font-size-400);
   margin-block: var(--cell-size);
-  font-weight: 500;
+  font-weight: 600;
 }
 
 h4, .fs-3 {

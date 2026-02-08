@@ -71,4 +71,6 @@
     }
 }
 
-
+:has(> iframe[src^="https://www.youtube.com"]) {
+    padding-bottom: 60% !important;
+}
