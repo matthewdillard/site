@@ -28,13 +28,13 @@ Working and collaborating alongside clients, engineers, and leadership figures
 1. Continual Community
 2. Landing Pages
 3. Technology 4 Causes
-4. [[Website/content/work/john-carroll/index|John Carroll]]
+4. [[Website/content/projects/john-carroll/index|John Carroll]]
 5. Anvilor launch
 6. Harford Helps
 7. Digital Innovation relaunch
 8. AI form builder
-9. [[rw-taxonomy|Report Writer Taxonomy]]
-10. [[Website/content/work/injury-coder/index|Injury Coder]]
+9. [[Website/content/projects/rw-taxonomy/index|Report Writer Taxonomy]]
+10. [[Website/content/projects/injury-coder/index|Injury Coder]]
 11. Impact 4 Trauma
 12. TECHSEC Wiki
 

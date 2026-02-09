@@ -1,6 +1,6 @@
 ---
 title: Report Writer Taxonomy
-description: Led effort documenting complex software terms & concepts to increase accessibility for users and improve internal communication, instead of simply improving product's "look and feel."
+description: Led effort documenting complex software terms & concepts to improve user accessibility and internal communication.
 date:
 draft: false
 tags:
@@ -9,10 +9,16 @@ organization: Digital Innovation
 started: 2025-01-01
 completed: 2025-03-01
 weight: 6
-toc: false
-hollow: true
+toc: true
+hollow: false
 feature: false
 ---
+{{<figure
+	src="rw-anat__redact.png"
+	alt="Relational diagram of software terms and concepts."
+	class="ar-lll ct"
+>}}
+
 ## Context
 
 When company leadership approached me to enhance our flagship report writing tool's "look and feel," I instead argued that improving the information architecture would be a better use of company resources, addressing fundamental accessibility barriers rather than apply cosmetic fixes. 
@@ -58,8 +64,6 @@ I followed a three-step cycle to build the taxonomy:
 1. **Abstraction** — distilling concept purpose, form, and function
 2. **Combination** — creating concise definitions with readability scores
 3. **Relation** — linking terms to reveal connections and hierarchy
-
-![[rw-anatomy__censored.png]]
 
 ## Significance and impact
 

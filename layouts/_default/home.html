@@ -8,7 +8,7 @@
         <div class="spacer__sm"></div>
         <h2>Featured projects</h2>
         <div class="article-list work-list">
-            {{ range where (.Site.RegularPages.ByWeight | collections.Reverse) "Type" "work" | }}
+            {{ range where (.Site.RegularPages.ByWeight | collections.Reverse) "Type" "projects" | }}
                 {{ if .Params.feature }}
                 <div class="list-item fbr">
                     {{ $startYr := (time.AsTime (.Param "started")).Year }}
