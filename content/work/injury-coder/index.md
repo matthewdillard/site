@@ -11,7 +11,7 @@ started: 2025-05-01
 completed: 2025-07-01
 weight: 3
 toc: false
-hollow: true
+hollow: false
 feature: false
 ---
 I designed a tool to help trauma center registrars accurately code patient injuries accurately under significant time constraints in high-stakes healthcare settings.
@@ -48,13 +48,25 @@ Our tool would need to seek a balance between automation and intentional, engage
 
 ## Design
 
+{{<figure
+	src="injury-coder-blank.png"
+>}}
+
 ### Trustworthy automation
 
 Advances in ML provided the opportunity to establish an innovative natural-language injury-coding process, but I exercised caution: LLMs are opaque, are prone to hallucinate, and lack a reliable way to guarantee valid responses. Instead, we pursued a Retrieval Augmented Generation model, which references a knowledge base for its responses. This not only makes it more transparency and reliable, but less resource intensive, and easier to maintain as well.
 
+{{<figure
+	src="injury-coder-iss-meter.png"
+>}}
+
 ### Information design
 
 We addressed accuracy & efficiency through the user-interface and user-experience as well as by technical improvements. One way was by introducing a "confidence" score to accompany all codes the RAG model suggested, which repurposed a value inherently used by the model to determine the best response. By revealing this ranked value, we aid registrars in prioritizing their focus on the codes which need human review most, while also making the tool more transparent and credible. 
+
+{{<figure
+	src="injury-coder-dropdown.png"
+>}}
 
 ### Accessible interactions
 
