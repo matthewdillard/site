@@ -28,7 +28,7 @@ Working and collaborating alongside clients, engineers, and leadership figures
 1. Continual Community
 2. Landing Pages
 3. Technology 4 Causes
-4. [[john-carroll|John Carroll]]
+4. [[Website/content/work/john-carroll/index|John Carroll]]
 5. Anvilor launch
 6. Harford Helps
 7. Digital Innovation relaunch
