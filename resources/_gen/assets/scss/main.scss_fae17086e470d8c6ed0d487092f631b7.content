@@ -120,6 +120,11 @@ a:hover {
 .nav-link:hover {
   text-decoration: none; }
 
+#identity {
+  font-family: var(--font-handwritten);
+  font-size: calc(var(--font-size) * 2);
+  transform: translateY(4px); }
+
 ul,
 ol {
   margin-top: 0;
