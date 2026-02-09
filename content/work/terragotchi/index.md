@@ -24,7 +24,7 @@ feature: false
 
 > *Tend to your own pocket-sized Earth by learning and practicing sustainable behaviors and mindsets, supported by constructive strategies for navigating climate anxiety.*
 
-**Terragotchi** is a concept app researched, designed, and developed between January and May 2025 for my UX Design Masters Capstone Project at the [Maryland Institute College of Art](/education), seeking to educate & cultivate everyday sustainable behaviors like socioecological well-being, with a focus on mindfulness, positivity, and fun.  
+**Terragotchi** is a concept app researched, designed, and developed between January - May 2025 for my UX Design Master's Capstone Project at the [Maryland Institute College of Art](/education). I sought to cultivate everyday sustainable behaviors as socioecological well-being, with a focus on mindfulness, education, positivity, and fun.  
 
 - Watch the [video walkthrough](#high-fidelity-prototype)
 - See the [Figma prototype](https://www.figma.com/proto/T1zlQt0G7rhZ20JrQ90dD2/Terragotchi?page-id=1386%3A13500&node-id=1465-28104&viewport=-1718%2C368%2C0.23&t=9NrKE4sY0gT2Yvnz-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1465%3A28104)
@@ -326,7 +326,7 @@ From the climate change communication expert, I recognized the value in effectiv
 
 ## Acknowledgements
 
-I wanted to extend my gratitude to my professors & advisors (Arkadiy Avrorov, Christina Lee, Logan Perez, and Meg Kemp) my subject matter experts (Karl Hausker, Sam Dillard), all of my discovery interview and usability study participants, and my classmates and peers of the Spring 2025 MICA MPS UX Design program.
+I wanted to extend my gratitude to my professors & advisors (Arkadiy Avrorov, Christina Lee, Logan Perez, and Meg Kemp) my subject matter experts (Karl Hausker and Sam Dillard), all of my discovery interview and usability study participants, and my classmates and peers of the Spring 2025 MICA MPS UX Design program.
 
 ## Citations
 
