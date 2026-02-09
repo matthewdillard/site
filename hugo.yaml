@@ -1,0 +1,11 @@
+baseURL: 'https://matthewdillard.me/'
+languageCode: 'en-us'
+title: 'Matthew Dillard'
+
+params:
+  Favicon: "images/favicon.png"
+        
+markup:
+  tableOfContents:
+    endLevel: 2
+
