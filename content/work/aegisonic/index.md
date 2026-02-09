@@ -1,6 +1,6 @@
 ---
 title: Aegisonic
-description: Serving as brand, strategy, and UX advisor for venture developing an adaptive audio headset designed to support individuals with heightened sound sensitivity and autism.
+description: Brand, strategy, and UX advisor for venture developing an adaptive audio headset designed to support individuals with heightened sound sensitivity and autism.
 date:
 draft: false
 tags:
@@ -10,7 +10,7 @@ completed:
 weight: 2
 toc: false
 hollow: false
-feature: false
+feature: true
 ---
 {{<figure
 	src="aegisonic-combo.svg"

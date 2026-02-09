@@ -1,6 +1,6 @@
 ---
 title: Terragotchi
-description: ‍Practice sustainable behaviors, develop environmental awareness, and navigate climate anxiety by taking care of a pocket-sized Earth.
+description: ‍Practice sustainable behaviors, develop environmental awareness, and navigate climate anxiety by taking care of you own pocket-sized planet Earth.
 date:
 draft: false
 tags:
@@ -13,7 +13,7 @@ areas:
 weight: 4
 toc: true
 hollow: false
-feature: false
+feature: true
 ---
 
 {{<figure

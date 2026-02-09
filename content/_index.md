@@ -4,10 +4,10 @@ date:
 tags:
 draft: false
 ---
-Hello, my name is Matthew. 
+Howdy, my name is Matthew. 
 
-Currently serving as in-house designer for [Digital Innovation](http://www.ditrauma.com/) in support of their industry-leading trauma registry software. 
+Currently serving as in-house designer for [Digital Innovation](http://www.ditrauma.com/).
 
-Thinking about how simplicity, gentleness, and life-centered design can create a world more aligned with nature.
+Thinking about how thoughtfulness, gentleness, and life-centered design can create a better world for all living things.
 
 [Homegrown](/educationt) in Maryland, USA.
