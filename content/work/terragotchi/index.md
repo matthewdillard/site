@@ -10,7 +10,7 @@ areas:
   - ux research
   - ux design
   - project management
-weight: 5
+weight: 4
 toc: true
 hollow: false
 feature: false
