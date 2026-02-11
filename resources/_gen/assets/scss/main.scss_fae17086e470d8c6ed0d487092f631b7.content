@@ -52,7 +52,8 @@
   --text-body-color: var(--color-text-base);
   --text-color-light: var(--color-text-light);
   --blockquote-border-color: var(--color-blockquote-border);
-  --font-family-primary: var(--font-serif); }
+  --font-family-primary: var(--font-serif);
+  --color-primary: var(--color-olive); }
 
 h1,
 h2,
@@ -263,7 +264,8 @@ details nav ul {
   --text-body-color: var(--color-text-base);
   --text-color-light: var(--color-text-light);
   --blockquote-border-color: var(--color-blockquote-border);
-  --font-family-primary: var(--font-serif); }
+  --font-family-primary: var(--font-serif);
+  --color-primary: var(--color-olive); }
 
 .fbr {
   display: flex;

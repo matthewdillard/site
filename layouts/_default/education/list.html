@@ -1,0 +1,26 @@
+{{ define "main" }}
+<article class="grid-wrap">
+    {{ partial "header.html" . }}
+    <div class="spacer__sm"></div>
+    <div class="grid-wrap__text">
+        <h1>Education</h1>
+        <div class="spacer__sm"></div>
+        {{ .Content }}
+        <div class="article-list work-list">
+            {{ range where .Site.RegularPages "Type" "education" | }}
+            <div class="list-item fbr">
+                <div class="f-1">
+                    <h2 class="fs-4">{{ .LinkTitle }}</h2>
+                    <span class="fc-p"><em>{{.Description}} - {{.Params.year}}</em></span>
+                    {{ .Content }}
+                </div>
+            </div>
+            {{ end }}
+        </div>
+        {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+    </div>
+    {{ partial "grid-paper.html" .}}
+</article>
+
+
+{{ end }}
