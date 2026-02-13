@@ -9,3 +9,6 @@ markup:
   tableOfContents:
     endLevel: 2
 
+taxonomies:
+  category: "categories"
+  area: "areas"
