@@ -10,5 +10,4 @@ markup:
     endLevel: 2
 
 taxonomies:
-  category: "categories"
   area: "areas"
