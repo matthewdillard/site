@@ -168,14 +168,15 @@ details nav ul {
   margin-bottom: var(--cell-size);
   padding-bottom: var(--cell-size); }
 
-.work-list .list-item {
+.project-list .list-item {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap; }
-  .work-list .list-item p, .work-list .list-item h2 {
+  .project-list .list-item p, .project-list .list-item h2 {
     margin-top: 0px; }
-  .work-list .list-item .year-span-block {
-    width: calc(var(--cell-size) * 4); }
+
+.meta-span-block {
+  width: calc(var(--cell-size) * 4); }
 
 .postit__wrap {
   padding: var(--cell-size); }
@@ -220,6 +221,15 @@ details nav ul {
 
 :has(> iframe[src^="https://www.youtube.com"]) {
   padding-bottom: 60% !important; }
+
+.taxonomy-list {
+  list-style: none;
+  padding-inline: var(--text-h-offset);
+  margin-block: var(--cell-size); }
+  .taxonomy-list li {
+    display: inline-block; }
+  .taxonomy-list li:last-child {
+    margin-right: 0px; }
 
 :root {
   --font-size: 15px;

@@ -6,7 +6,7 @@
         <h1>{{ .Title }}</h1>
         <div class="spacer__sm"></div>
         {{ .Content }}
-        <div class="article-list work-list">
+        <div class="article-list project-list">
             {{ range sort .Pages.ByWeight }}
                 {{ partial "project-item.html" . }}
             {{ end }}

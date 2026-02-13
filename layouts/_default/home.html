@@ -38,6 +38,17 @@
                 {{ end}}
             {{ end }}
         </div>
+        <h2>Project areas</h2>
+        <!-- (Modified) Credit: https://bwaycer.github.io/hugo_tutorial.hugo/taxonomies/displaying/ -->
+        <ul class="taxonomy-list" id="areas">
+            {{ $areas := .Site.Taxonomies.areas.ByCount }}
+            {{ $length := $areas | len }}
+            {{ range $areas }}
+                {{ $length = sub $length 1 }}
+                <li class="d-ib"><a href="{{ "/areas/" | relLangURL }}{{ .Name | urlize }}">{{ .Name }}</a>{{if $length }},{{end}} </li>
+            {{ end }}
+        </ul>
+
     </div>
     
 
