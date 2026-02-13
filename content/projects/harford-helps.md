@@ -5,6 +5,16 @@ date:
 draft: false
 started: 2024-02-01
 completed: 2024-08-01
+category:
+  - work
+area:
+  - web design
+  - web development
+  - ux design
+  - information architecture
+  - design systems
+  - accessibility
+  - cms
 tags:
 weight: 9
 toc: false

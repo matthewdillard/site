@@ -4,7 +4,6 @@ description: Led effort documenting complex software terms & concepts to improve
 date:
 draft: false
 tags:
-duration:
 organization: Digital Innovation
 started: 2025-01-01
 completed: 2025-03-01
@@ -12,6 +11,10 @@ weight: 6
 toc: true
 hollow: false
 feature: false
+category:
+  - information architecture
+  - documentation
+area:
 ---
 {{<figure
 	src="rw-anat__redact.png"
@@ -21,9 +24,11 @@ feature: false
 
 ## Context
 
-When company leadership approached me to enhance our flagship report writing tool's "look and feel," I instead argued that improving the information architecture would be a better use of company resources, addressing fundamental accessibility barriers rather than apply cosmetic fixes. 
+When Digital Innovation leadership approached me to enhance the "look and feel" our flagship report writing tool, I pushed back, and argued for investing in improvements to information architecture that addressed the fundamental accessibility barriers of complex software concepts and functionality, rather than just apply cosmetic fixes. 
 
-Advocating for systematic information architecture improvements was not just an economical and robust way to reduce mental fatigue for our users working in high-pressure clinical environments, but also to reduce cognitive barriers that affect all users — but disproportionately impact those with varying information processing needs.
+My standing up resulted in a commitment to IA, interviews with management and developers, to lay the foundation for a product taxonomy.
+
+This effort would not just be an economical way to reduce mental fatigue and cognitive barriers for our users working in high-pressure healthcare environments, but the work of solidifying our terminology and component function would improve our ability to communicate across departments and teams, leading to more effective collaboration and efficient development.
 
 ## Building the case
 
@@ -72,6 +77,10 @@ Complex, niche software terminology creates accessibility barriers that run deep
 By establishing a clear, consistent vocabulary for administrative functions and daily operations, this taxonomy serves to reduce cognitive load for task-focused users, preserve the flexibility required by power users. It also follows plain language guidelines in support of cognitive accessibility, laying the foundation for future interface improvements.
 
 Furthermore, by advocating for foundational improvements over visual changes, I demonstrated how systemic thinking enables accessibility from the ground up. 
+
+> revealed inconsistencies in labeling and affordances within the product software
+
+>"rubber-ducking" with developers, to help them arrive at the ways in which the existing vocabulary fell short, and at the same time guided them towards the answers on their own—without needing the deep technical understanding myself.
 
 ## Lessons
 

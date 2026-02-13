@@ -6,15 +6,20 @@ draft: false
 tags:
 started: 2023-02-01
 completed: 2023-08-01
-areas:
+category:
+  - work
+area:
   - web design
   - web development
   - project management
   - graphic design
   - marketing
+  - accessibility
+  - design systems
+  - cms
 weight: 11
 toc: true
-hollow: false
+hollow: true
 feature: false
 ---
 {{<figure

@@ -4,6 +4,10 @@ title: Inyerix
 description: An Instagram account for digital art.
 draft: false
 date:
+category:
+  - personal
+area:
+  - digital art
 started: 2015-08-01
 completed: 2018-05-01
 toc: false

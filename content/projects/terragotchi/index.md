@@ -6,16 +6,19 @@ draft: false
 tags:
 started: 2025-01-25
 completed: 2025-05-08
-areas:
+area:
   - ux research
   - ux design
   - project management
+  - prototyping
+  - usability testing
+  - product strategy
+  - presentation
 weight: 4
 toc: true
 hollow: false
 feature: true
 ---
-
 {{<figure
 	src="terragotchi.gif"
 	alt="Terragotchi pet earth bobbing above Terragotchi logo"

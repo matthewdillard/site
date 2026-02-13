@@ -6,9 +6,10 @@ draft: false
 tags:
 started: 2023-07-01
 completed: 2023-10-01
-areas:
+area:
   - typography
 category:
+  - personal
 weight: 10
 toc: false
 hollow: false
