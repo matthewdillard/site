@@ -8,31 +8,7 @@
         {{ .Content }}
         <div class="article-list work-list">
             {{ range sort .Pages.ByWeight }}
-            <div class="list-item fbr">
-                {{ $startYr := (time.AsTime (.Param "started")).Year }}
-                {{ $completed := .Param "completed" }}
-                {{ $completeYr := -1 }}
-                
-                {{ if $completed }}                
-                    {{ $completeYr = (time.AsTime $completed).Year }}
-                {{ end }}
-                <div class="hide-b-sm">
-                    {{ partial "year-span.html" (dict "context" . "sYr" $startYr "cYr" $completeYr) }}
-                </div>    
-                
-                <div class="f-1">
-                    {{ if .Params.hollow }}
-                        <h2 class="fs-1">{{ .LinkTitle }}</h2>
-                    {{ else }}
-                        <h2 class="fs-1"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-                    {{ end }}
-                    <div class="hide-a-sm">
-                        {{ partial "year-span.html" (dict "context" . "sYr" $startYr "cYr" $completeYr) }}
-                    </div>
-                    <p class="fw-3">{{ .Description }}</p>
-                </div>
-                
-            </div>
+                {{ partial "project-item.html" . }}
             {{ end }}
         </div>
         {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
