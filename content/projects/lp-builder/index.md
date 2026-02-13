@@ -6,13 +6,13 @@ draft: false
 tags:
 started: 2022-06-01
 completed: 2023-06-01
-area:
+areas:
   - web design
   - web development
   - ux design
   - accessibility
   - prototyping
-category:
+categories:
   - work
 weight: 12
 toc: false

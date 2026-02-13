@@ -11,10 +11,10 @@ weight: 6
 toc: true
 hollow: false
 feature: false
-category:
+categories:
   - information architecture
   - documentation
-area:
+areas:
 ---
 {{<figure
 	src="rw-anat__redact.png"

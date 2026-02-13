@@ -5,9 +5,9 @@ date:
 draft: false
 started: 2024-02-01
 completed: 2024-08-01
-category:
+categories:
   - work
-area:
+areas:
   - web design
   - web development
   - ux design

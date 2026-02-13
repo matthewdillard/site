@@ -6,9 +6,9 @@ draft: false
 tags:
 started: 2023-02-01
 completed: 2023-08-01
-category:
+categories:
   - work
-area:
+areas:
   - web design
   - web development
   - project management

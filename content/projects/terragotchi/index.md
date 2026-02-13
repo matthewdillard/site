@@ -6,7 +6,7 @@ draft: false
 tags:
 started: 2025-01-25
 completed: 2025-05-08
-area:
+areas:
   - ux research
   - ux design
   - project management
