@@ -8,20 +8,8 @@
             <div class="spacer__sm"></div>
             {{ .Content }}
             <div class="article-list project-list">
-            {{ range .Pages }}
+            {{ range where .Pages "Type" "projects" }}
                 {{ partial "project-item.html" . }}
-                <!-- {{.Params.started}}
-                <div class="list-item fbr">
-                    <div class="f-1">
-                        <h2 class="fs-1 m-b-0"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-                        <p class="fw-3 m-t-0">{{ .Description }}</p>
-                    </div>
-                    <div class="hide-b-sm">
-                        <div class="subtle meta-span-block f-0 fbr">
-                            <span>#{{.Type}}</span>
-                        </div>
-                    </div>    
-                </div> -->
             {{ end }}
             </div>
         </div>

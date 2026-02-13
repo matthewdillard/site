@@ -5,39 +5,16 @@
     <div class="grid-wrap__text">
         <div class="spacer__sm"></div>
         {{ .Content }}
-        <div class="spacer__sm"></div>
+        <div class="spacer__md"></div>
         <h2>Featured projects</h2>
-        <div class="article-list work-list">
+        <div class="article-list project-list">
             {{ range where (.Site.RegularPages.ByWeight | collections.Reverse) "Type" "projects" | }}
                 {{ if .Params.feature }}
-                <div class="list-item fbr">
-                    {{ $startYr := (time.AsTime (.Param "started")).Year }}
-                    {{ $completed := .Param "completed" }}
-                    {{ $completeYr := -1 }}
-
-                    {{ if $completed }}
-                    {{ $completeYr = (time.AsTime $completed).Year }}
-                    {{ end }}
-                    <div class="hide-b-sm">
-                        {{ partial "year-span.html" (dict "context" . "sYr" $startYr "cYr" $completeYr) }}
-                    </div>
-
-                    <div class="f-1">
-                        {{ if .Params.hollow }}
-                        <h2 class="fs-1">{{ .LinkTitle }}</h2>
-                        {{ else }}
-                        <h2 class="fs-1"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-                        {{ end }}
-                        <div class="hide-a-sm">
-                            {{ partial "year-span.html" (dict "context" . "sYr" $startYr "cYr" $completeYr) }}
-                        </div>
-                        <p class="fw-3">{{ .Description }}</p>
-                    </div>
-
-                </div>
+                    {{ partial "project-item.html" . }}
                 {{ end}}
             {{ end }}
         </div>
+        <div class="spacer__sm"></div>
         <h2>Project areas</h2>
         <!-- (Modified) Credit: https://bwaycer.github.io/hugo_tutorial.hugo/taxonomies/displaying/ -->
         <ul class="taxonomy-list" id="areas">
