@@ -174,6 +174,8 @@ details nav ul {
   flex-wrap: wrap; }
   .project-list .list-item p, .project-list .list-item h2 {
     margin-top: 0px; }
+  .project-list .list-item:not(:last-child) {
+    margin-bottom: var(--cell-size); }
 
 .meta-span-block {
   width: calc(var(--cell-size) * 4); }
@@ -502,9 +504,6 @@ article {
 
 .article-list h1, .article-list h2, .article-list h3, .article-list h4, .article-list h5, .article-list h6, .article-list p, .article-list span {
   margin-bottom: 0px; }
-
-.article-list .list-item {
-  margin-bottom: var(--cell-size); }
 
 td, th {
   padding: 0px calc(var(--text-h-offset) * 3) 0px var(--text-h-offset); }
