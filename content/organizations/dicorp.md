@@ -6,6 +6,7 @@ draft:
 tags:
   - organization
 summary:
+weight: 0
 ---
 I joined DICORP, Inc. in 2022, serving as the first & only designer in the healthcare software company's nearly 40-year history. My primary responsibilities are user-experience, graphic, and web design, with additional roles in research, development, IT, branding, and communications. 
 
