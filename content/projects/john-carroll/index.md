@@ -19,7 +19,7 @@ areas:
   - cms
 weight: 11
 toc: true
-hollow: true
+hollow: false
 feature: false
 ---
 {{<figure
@@ -28,31 +28,34 @@ feature: false
 	class="ar-lllll cv"
 >}}
 
-I designed and developed a modernized web presence for the [John Carroll School](https://www.johncarroll.org/). This was my first significant professional project, working independently to meet design, development, and client management needs. 
+I designed and developed a modernized web presence for the [John Carroll School](https://www.johncarroll.org/). 
 
 ## Context 
 
-As part of a larger software agreement between my company and John Carroll, I was responsible for rebuilding the school website, which had become costly to maintain, poorly integrated with their data systems, and failed to communicate effectively with prospective families. Information architecture was unclear, and WCAG accessibility violations made the site both difficult to navigate and visually unappealing. The administration believed these shortcomings negatively impacted enrollment, community engagement, and their ability to connect with alumni.
+As part of a larger software agreement between my company and John Carroll, I took on the responsibility of rebuilding the school website. The site had become costly to maintain due to a lack of integration with the school database, meaning information like calendars and rosters needed to be synced manually. The site was also not communicating effectively with prospective families as well as the school wished. Information architecture was unclear, and WCAG accessibility violations made the site both difficult to navigate and visually unappealing. In building a new site, the school looked to me to correct these shortcomings, which they believed were negatively impacted enrollment, community engagement, and their ability to connect with alumni.
 
 ## Design 
 
-I began by addressing the information architecture in collaboration with the school's marketing director to improve navigability in such a way that it aligned with both visitor and school goals. 
+I began by addressing the information architecture in collaboration with the school's marketing director to improve navigability in such a way that it aligned with both visitor and school goals. We identified flows for the various users and use-cases, and defined the site to serve the needs of:
+- new/prospective students and their families and they learn about and complete the application process
+- current students accessing update to date information 
+- alumni seeking to connect, develop networks, and give back
 
-I developed a new visual system inspired by IBM's design language, seeking to be punchy, accessible, and professional. This involved adapting the school's current application of brand colors within digital contexts to meet web accessibility standards without undermining the school's identity. 
+I developed a new visual system seeking to be both eye-catching and professional, which required adapting the school's brand colors for digital contexts to meet web accessibility standards without undermining the school identity. This system was developed and tested in Figma, where I designed a representative sample of site pages, templates, and components, then moved to build.
 
 ## Deliverable 
 The site was developed in Webflow, and build with an atomic system of over 100 reusable components, tokens variables, and CSS utility classes. Combined with a documented design system, 20 CMS collections, and template strategy, the site empowers school staff to add, edit, and manage content without the need for web-development experience. 
 
 Automation was another key way that we further limited the burden of maintenance for school staff. I mapped out the school's data needs upfront, then worked with our engineering team to build services that pulled information from school databases and updated the site on regular intervals. 
 
-## Takeaways 
-This was my first serious professional project of scale, and one where I regularly needed to figure things out on my own. I learned that planning and project management are crucial, but not as much as your ability to adapt. Requirements would shift, new information emerged, and unforeseen problems arose, which meant my ability to learn and stay open-minded was a requirement for this project to succeed. 
-
-This project also gave me a profound appreciate and understanding for the role of communication in large-scale projects. When things went wrong—from unmet expectations to technical challenges—my ability to talk with members of my team and the client determined how effectively we were able to address the problem, and reach a solution. 
-
 You can explore the finished site at [www.johncarroll.org](https://www.johncarroll.org/). 
 
 *Note: As of 2025, site ownership and responsibility for the website has been transferred to the [253 Media](https://www.253media.com/) company.*
+
+## Takeaways 
+This was my first serious professional project of scale, and one where I regularly needed to figure things out on my own. I learned that planning and project management are crucial, but not as much as your ability to adapt. Requirements would shift, new information emerged, and unforeseen problems arose, which meant my ability to learn and stay open-minded was a requirement for this project to succeed. 
+
+This project also was also a learning opportunity for the importance of good communication in large-scale projects. When things didn't go according to plan, my ability to talk with members of my team and the client determined how effectively we were able to address the problem, and reach a solution. 
 
 <!--
 Problem
