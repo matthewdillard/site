@@ -53,3 +53,35 @@ This project also gave me a profound appreciate and understanding for the role o
 You can explore the finished site at [www.johncarroll.org](https://www.johncarroll.org/). 
 
 *Note: As of 2025, site ownership and responsibility for the website has been transferred to the [253 Media](https://www.253media.com/) company.*
+
+<!--
+Problem
+- visually outdated site, falling short of competing schools
+- burden to enter, update, and maintain content manually
+	- e.g., athletic rosters, school & sports calendar, faculty
+	- information is duplicated in database, but not linked
+- accessibility shortcomings
+- site structure/information architecture not supporting
+	- needs of new/prospective students and their families, learning about the school, application process
+	- needs of current students to access update to date information 
+	- ability for school to connect and cultivate their alumni network
+	- 
+
+- John Carroll
+	- work with clients to identify, accomodate needs with site development
+		- Information architecture
+			- support introduction/welcoming for new students
+			- increase content infrastructure for alumni (news, spotlights, giving opportunities)
+			- dynamic content to automate/sync database with school site
+				- identified form of incoming data
+				- designed format data endpoint within website
+				- API integration to populate CMS on a regular schedule
+		- Accessibility
+			- WCG AA color contrast/legibility, semantic HTML, heading hierarchy
+		- Content strategy
+			- page, component templates linked to CMS collections
+				- *e.g.* teams, players, athletics & school schedule, performances, news articles, clubs and activities, announcements, bus schedules, faculty & staff
+			- component library
+				- documented component library with guidance on using and adjusting page, section, and component template variants
+		- 
+-->

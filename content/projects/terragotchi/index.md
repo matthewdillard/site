@@ -98,7 +98,7 @@ Convenience is a significant contributor as to whether an action is adopted, or 
 
 ### Incentives for action
 
-No one does anything without an incentive. So, if you intend to change behavior, you should not try to change people — instead, give them a compelling alternative. External forces can incite action, but the most sustainable motivations are personal, and positively-focused.
+No one does anything without an incentive. So, if you intend to change behavior, you should not try to change people — instead, give them a compelling alternative. External forces can incite action, but the most sustainable motivations are personal, and positively-focused.  
 
 #### Information: accessible, balanced, relevant
 
