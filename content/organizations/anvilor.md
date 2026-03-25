@@ -15,7 +15,7 @@ tags:
 - Data-based framework for developing custom data-collection solutions
 - Conceived as part of R&D efforts at DICORP, Anvilor launched as it's own company in early 2024
 ## Company launch
-- [[anvilor-launch]]
+- [[Website/content/projects/anvilor/index]]
 	- [x] *Anvilor logo (iterations)?*
 
 ## Support internal team operations, tool UX
@@ -50,12 +50,6 @@ With the introduction of AI, there was renewed interest on the R&D front for exp
 
 ---
 
-- brand identity, development
-- graphic design
-	- logo
-	- marketing
-	- visual identity
-- web design and development (webflow)
 - UX research
 	- user interviews
 	- synthesis, pain points
