@@ -171,6 +171,29 @@ details nav ul {
   margin-bottom: var(--cell-size);
   padding-bottom: var(--cell-size); }
 
+p a[href^="https://www"]:not([href*="matthewdillard.me"]), span a[href^="https://www"]:not([href*="matthewdillard.me"]) {
+  display: inline-flex;
+  text-decoration: none;
+  align-items: center;
+  margin: 0;
+  text-decoration: underline; }
+
+p a[href^="https://www"]:not([href*="matthewdillard.me"]):hover, span a[href^="https://www"]:not([href*="matthewdillard.me"]):hover {
+  text-decoration: underline; }
+
+p a[href^="https://www"]:not([href*="matthewdillard.me"])::after, span a[href^="https://www"]:not([href*="matthewdillard.me"])::after {
+  content: "";
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  margin-left: .1em;
+  background-color: #aaa;
+  mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="m256-240-56-56 384-384H240v-80h480v480h-80v-344L256-240Z"/></svg>') no-repeat center;
+  mask-size: contain;
+  -webkit-mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="m256-240-56-56 384-384H240v-80h480v480h-80v-344L256-240Z"/></svg>') no-repeat center;
+  -webkit-mask-size: contain;
+  opacity: 1; }
+
 .project-list .list-item {
   display: flex;
   flex-direction: row;

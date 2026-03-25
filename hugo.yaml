@@ -6,6 +6,7 @@ params:
   Favicon: "images/favicon.png"
         
 markup:
+  defaultMarkdownHandler: goldmark
   tableOfContents:
     endLevel: 2
 
