@@ -1,7 +1,10 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 public
+resources
 site/public
+site/resources
 
+.hugo_build.lock
 
 # Environment files.
 .env
