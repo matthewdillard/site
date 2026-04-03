@@ -1,6 +1,6 @@
 ---
 title: Johns Hopkins University
-description: Bachelor of Science in Computer Science
+description: BS Computer Science
 year: 2022
 date:
 draft: false

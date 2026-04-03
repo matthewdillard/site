@@ -1,6 +1,6 @@
 ---
 title: Harford Helps
-description: Developed new website for county non-profit providing a volunteer, donation, and resource directory containing over 300 organizations.
+description: Developed new website for non-profit providing a county-wide volunteer, donation, and resource directory with over 300 organizations.
 date:
 draft: false
 started: 2024-02-01

@@ -1,6 +1,6 @@
 ---
 title: Maryland Institute College of Art
-description: Master of Professional Studies in UX Design
+description: MPS UX Design
 year: 2025
 date:
 draft: false
