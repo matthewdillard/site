@@ -1,13 +1,16 @@
 ---
-title: "Therapy and user-experience design"
+title: Therapy and user-experience design
 description:
-date:
+published: 2026-04-02
 weight:
-draft: true
+draft: false
 tags:
 categories:
 areas:
+  - ux design
+  - psychology
 feature: false
+toc: false
 ---
 ## Blocks and pain points
 In *Neurosis and Human Growth*, the psychoanalyst Karen Horney claims that if unobstructed, human beings are inclined towards self-realization. The role of a therapist is therefore to help identify and remove their patient's points of resistance, enabling them to mature naturally, rather than by trying to change their character or behavior.
@@ -22,6 +25,10 @@ To accomplish this, designers and therapists must first establish a compassionat
 These strategies are necessary because it's impossible to truly know the emotions and experiences of another. Nobody can ever truly step into someone else's shoes. Only the individual can be an expert of themselves. They are who best understands their challenges, environment, needs, goals, desires, and all the complex intricacies that make up their daily life. It is with this knowledge that the individual can craft the best solution, one which takes all of themselves into consideration.
 
 ### Build from within
-That is why the best solutions are those people create for themselves. Anything externally imposed, or else made for many people, will inevitably fall short. Understanding the nuances of one's own experiences is what makes a solution fit naturally into their lived experience—because it was made *from* their lived experience. 
+That is why the best solutions are those people create for themselves. Anything externally imposed, or else made for many people, will inevitably fall short. Understanding the nuances of one's own experiences is what makes a solution fit naturally into their lived experience—because it was made *from* their lived experience.
 
 Good designers and therapists understand this. Which is they they impart their tools, mindsets, and knowledge onto others, cultivating the efficacy necessary for individuals to apply those resources within their daily lives, uncovering solutions that exists within them already.
+
+## Sources
+_The Gift of Therapy_, Irvin D. Yalom  
+_The Timeless Way of Building_, Christopher Alexander

@@ -1,0 +1,48 @@
+{{ define "main" }}
+<article class="grid-wrap">
+    {{ partial "header.html" . }}
+    <div class="spacer__sm"></div>
+    <div class="grid-wrap__text">
+        <h1>{{ .Title }}</h1>
+        <div class="subtle">
+            {{ $y := (time.AsTime (.Param "published")).Year }}
+            {{ $m := (time.AsTime (.Param "published")).Month }}
+            {{ $d := (time.AsTime (.Param "published")).Day }}
+            
+            <span>{{ $m }} {{ $d }}, {{ $y }}</span>
+        </div>
+        <!-- <span class="subtle"><i>{{.Description}}</i></span> -->
+        
+        {{ if .Param "toc" }}
+        <details>
+            <summary>Table of contents</summary>
+            {{ .TableOfContents }}
+        </details>
+        {{ end }}
+
+        {{ .Content }}
+        <ol>
+            {{ range sort (.Resources.ByType "page") "Params.weight" }}
+            <li>
+                <a href="#{{ .Title | anchorize }}">{{ .Title }}</a>
+            </li>
+            {{ end }}
+        </ol>
+        {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+    </div>
+    {{ partial "grid-paper.html" .}}
+</article>
+
+{{ range sort (.Resources.ByType "page") "Params.weight" }}
+<div class="spacer__lg"></div>
+<article id="{{ .Title | anchorize }}" class="grid-wrap">
+    <div class="grid-wrap__text"> 
+        {{ .Content }}
+        {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+    </div>
+    {{ partial "grid-paper.html" .}}
+</article>
+{{ end }}
+
+
+{{ end }}
