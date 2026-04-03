@@ -24,11 +24,12 @@ To accomplish this, designers and therapists must first establish a compassionat
 
 These strategies are necessary because it's impossible to truly know the emotions and experiences of another. Nobody can ever truly step into someone else's shoes. Only the individual can be an expert of themselves. They are who best understands their challenges, environment, needs, goals, desires, and all the complex intricacies that make up their daily life. It is with this knowledge that the individual can craft the best solution, one which takes all of themselves into consideration.
 
-### Build from within
+## Build from within
 That is why the best solutions are those people create for themselves. Anything externally imposed, or else made for many people, will inevitably fall short. Understanding the nuances of one's own experiences is what makes a solution fit naturally into their lived experience—because it was made *from* their lived experience.
 
 Good designers and therapists understand this. Which is they they impart their tools, mindsets, and knowledge onto others, cultivating the efficacy necessary for individuals to apply those resources within their daily lives, uncovering solutions that exists within them already.
 
 ## Sources
-_The Gift of Therapy_, Irvin D. Yalom  
+
+_The Gift of Therapy_, Irvin D. Yalom
 _The Timeless Way of Building_, Christopher Alexander
