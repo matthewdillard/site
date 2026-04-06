@@ -32,7 +32,16 @@ I designed and developed a modernized web presence for the [John Carroll School]
 
 ## Context 
 
-As part of a larger software agreement between my company and John Carroll, I took on the responsibility of rebuilding the school website. The site had become costly to maintain due to a lack of integration with the school database, meaning information like calendars and rosters needed to be synced manually. The site was also not communicating effectively with prospective families as well as the school wished. Information architecture was unclear, and WCAG accessibility violations made the site both difficult to navigate and visually unappealing. In building a new site, the school looked to me to correct these shortcomings, which they believed were negatively impacted enrollment, community engagement, and their ability to connect with alumni.
+As part of a larger software agreement between my company and John Carroll, I took on the responsibility of rebuilding the school website. The site had become costly to maintain due to a lack of integration with the school database, meaning information like calendars and rosters needed to be synced manually. 
+
+The site was also not communicating as effectively with prospective families as the school wanted. Information architecture was unclear, and WCAG accessibility violations made the site both difficult to navigate and visually unappealing. In building a new site, the school looked to me to correct these shortcomings, which they believed were negatively impacted enrollment, community engagement, and their ability to connect with alumni.
+
+{{<figure
+	src="jc-isometric.png"
+	alt="Isometric graphic depicting a small, stylized city where data is being transported from building to building."
+	class="ar-s ct"
+	caption="An isometric graphic I created for a presentation to school leadership."
+>}}
 
 ## Design 
 
