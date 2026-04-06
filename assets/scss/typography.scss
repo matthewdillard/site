@@ -178,5 +178,9 @@ p a[href^="https://www"]:not([href*="matthewdillard.me"])::after,span a[href^="h
     mask-size: contain;
     -webkit-mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="m256-240-56-56 384-384H240v-80h480v480h-80v-344L256-240Z"/></svg>')no-repeat center;
     -webkit-mask-size: contain;
-    opacity: 1
+    opacity: 1;
+}
+
+p a[href^="https://www"]:not([href*="matthewdillard.me"]):hover::after,span a[href^="https://www"]:not([href*="matthewdillard.me"]):hover::after {
+    background-color: var(--color-olive);
 }

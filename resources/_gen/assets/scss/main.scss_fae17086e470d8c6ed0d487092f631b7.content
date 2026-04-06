@@ -194,6 +194,9 @@ p a[href^="https://www"]:not([href*="matthewdillard.me"])::after, span a[href^="
   -webkit-mask-size: contain;
   opacity: 1; }
 
+p a[href^="https://www"]:not([href*="matthewdillard.me"]):hover::after, span a[href^="https://www"]:not([href*="matthewdillard.me"]):hover::after {
+  background-color: var(--color-olive); }
+
 .project-list .list-item {
   display: flex;
   flex-direction: row;
