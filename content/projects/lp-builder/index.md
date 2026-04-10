@@ -22,6 +22,7 @@ feature: false
 
 {{<figure
 	src="lp-banner.png"
+    class="ar-lllll cv"
 >}}
 
 Between 2022-2023 while working in the philanthropic arm of DICORP, Inc., I develop a tool that could generate lightweight "landing pages" from a form alone by populating responsive Jinja2 templates with input data. This tool has been used to create hundreds of pages, including for non-profit organizations, special events, legacy and memorial pages, fundraisers, and more.
@@ -52,6 +53,7 @@ Learning from these lessons, I evolved page components to adapt to a wider range
 
 {{<figure
 	src="lp-figma.png"
+    class="ar-lll ct"
 >}}
 
 By this time, the tool was being used by interns within our non-profit. To support them, I expanded my Figma file for this project to go beyond documentation and become a playground to design/test content, layout, and design. And by listening to feedback from these interns, I expanded the set of page sections and components to better tailor to specific page content and narrative needs.
