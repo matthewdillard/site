@@ -1,14 +1,8 @@
 :root {
   --font-size: 15px;
   --cell-size: calc(var(--font-size) * 2);
-  --cell-spacing: calc(var(--cell-size) / 2);
   --grid-padding: 3;
-  --grid-cells: 26;
-
-  /* Viewport sizing */
-
-  /* Base Grid Configuration */
-  --grid-base-default: 32px;
+  --grid-cells: 30;
 
   /* Color */
   --color-moss: #565e3b;

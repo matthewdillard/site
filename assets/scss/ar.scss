@@ -1,0 +1,120 @@
+// Aspect ratios
+// Portrait
+.ar-pppp {
+  &.cv, &.ct {
+    aspect-ratio: 1 / 2;
+  }
+}
+
+.ar-ppp {
+  @media screen and (min-width: 441px) {
+    &.cv, &.ct {
+      aspect-ratio: .625;
+    }
+  }
+  @media screen and (max-width: 441px) {
+    &.cv, &.ct {
+      aspect-ratio: .666;
+    }
+  }
+}
+
+.ar-pp {
+    &.cv, &.ct {
+      aspect-ratio: .75;
+    }
+}
+
+.ar-p { &.cv, &.ct { aspect-ratio: .8; } }
+
+// Square
+.ar-s {
+    &.cv, &.ct {
+      aspect-ratio: 1;
+    }
+}
+
+// Landscape
+.ar-l {
+  @media screen and (min-width: 441px) {
+    &.cv, &.ct {
+      aspect-ratio: 10 / 8;
+    }
+  }
+  @media screen and (max-width: 441px) {
+    &.cv, &.ct {
+      aspect-ratio: 12 / 10;
+    }
+  }
+}
+
+.ar-ll {
+    &.cv, &.ct {
+      aspect-ratio: 4 / 3;
+    }
+}
+
+.ar-lll {
+  @media screen and (min-width: 441px) {
+    &.cv, &.ct {
+      aspect-ratio: 5 / 3;
+    }
+  }
+  @media screen and (max-width: 441px) {
+    &.cv, &.ct {
+      aspect-ratio: 12 / 7;
+    }
+  }
+}
+
+.ar-llll {
+    &.cv,
+    &.ct {
+        aspect-ratio: 2 / 1;
+    }
+}
+
+.ar-lllll {
+    &.cv,
+    &.ct {
+      aspect-ratio: 4 / 1;
+    }
+}
+
+.ar-s {
+    &.cv,
+    &.ct {
+      aspect-ratio: 1;
+    }
+}
+
+.ar-l,
+.ar-ll,
+.ar-lll,
+.ar-llll,
+.ar-lllll,
+.ar-s,
+.ar-pppp,
+.ar-ppp,
+.ar-pp,
+.ar-p {
+  &.cv {
+    img {
+      object-fit: cover;
+    }
+  }
+
+  &.ct {
+    img {
+      object-fit: contain;
+    }
+  }
+
+  &.cv,
+  &.ct {
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

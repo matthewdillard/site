@@ -1,34 +1,37 @@
 /* Responsive sizing */
 
-@media screen and (max-width: 832px) {
+@media screen and (max-width: 840px) {
   :root {
-    --viewport-cells: 52;
-    --font-size: calc(100vw / var(--viewport-cells));
+    --grid-cells: 30;
     --grid-padding: 3;
-    --grid-cells: 26;
+    --font-size: calc(100vw / calc(var(--grid-cells) * 2));
   }
 }
 
-@media screen and (max-width: 728px) {
+@media screen and (max-width: 720px) {
   :root {
-    --viewport-cells: 48;
-    --grid-padding: 2;
     --grid-cells: 24;
-  }
-}
-
-@media screen and (max-width: 672px) {
-  :root {
-    --viewport-cells: 32;
     --grid-padding: 2;
-    --grid-cells: 16;
   }
 }
 
-@media screen and (max-width: 441px) {
+@media screen and (max-width: 576px) {
   :root {
-    --viewport-cells: 28;
-    --grid-padding: 1;
+    --grid-cells: 20;
+    --grid-padding: 2;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  :root {
+    --grid-cells: 16;
+    --grid-padding: 2;
+  }
+}
+
+@media screen and (max-width: 384px) {
+  :root {
     --grid-cells: 14;
+    --grid-padding: 1;
   }
 }
