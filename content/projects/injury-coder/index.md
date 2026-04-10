@@ -52,6 +52,7 @@ Our tool would need to seek a balance between automation and intentional, engage
 
 {{<figure
 	src="injury-coder-blank.png"
+	class="ar-lll ct"
 >}}
 
 ### Trustworthy automation
@@ -60,6 +61,7 @@ Advances in ML provided the opportunity to establish an innovative natural-langu
 
 {{<figure
 	src="injury-coder-iss-meter.png"
+	class="ar-lllll ct"
 >}}
 
 ### Information design
@@ -68,6 +70,7 @@ We addressed accuracy & efficiency through the user-interface and user-experienc
 
 {{<figure
 	src="injury-coder-dropdown.png"
+	class="ar-lll ct"
 >}}
 
 ### Accessible interactions
