@@ -12,9 +12,9 @@
 @font-face {
     font-family: 'MD038';
     src: local('MD038'), 
-        url('MD038.woff2') format('woff2'),
-        url('MD038.woff') format('woff'),
-        url('MD038.ttf') format('truetype');
+        url('/fonts/MD038.woff2') format('woff2'),
+        url('/fonts/MD038.woff') format('woff'),
+        url('/fonts/MD038.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
