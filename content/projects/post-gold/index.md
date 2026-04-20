@@ -15,7 +15,7 @@ toc: false
 hollow: false
 feature: false
 ---
-In the year after undergrad, I made a habit of saving wisdoms I encountered to Post-its which accumulated on the wall by my desk. I curated these handwriting exhibitions to develop a typeface that you can try for yourself by clicking in the sticky note below:
+In the year after undergrad, I made a habit of saving wisdoms I encountered to Post-its. These notes accumulated on the wall by my desk, and I curated the handwriting exhibitions to develop the typeface below. Try it for yourself by clicking in the sticky note:
 
 {{< postit >}}
 
