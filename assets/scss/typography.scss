@@ -95,11 +95,21 @@ a:hover {
 }
 
 // Identity
-#identity {
+.identity-type {
     font-family: var(--font-handwritten);
     font-size: calc(var(--font-size) * 2);
     transform: translateY(calc(var(--font-size) * .3));
 }
+
+.identity-img {
+    height: var(--cell-size);
+
+    img {
+        height: 100%;
+        padding: var(--text-h-offset);  
+    }
+}
+
 // Lists
 
 ul,
