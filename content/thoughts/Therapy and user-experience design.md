@@ -15,7 +15,7 @@ toc: false
 ## Blocks and pain points
 In *Neurosis and Human Growth*, the psychoanalyst Karen Horney claims that if unobstructed, human beings are inclined towards self-realization. The role of a therapist is therefore to help identify and remove their patient's points of resistance, enabling them to mature naturally, rather than by trying to change their character or behavior.
 
-In user-experience design, these "points of resistance" are referred to as "pain points," and it is a central responsibility of the designer to identity and understand the pain points experienced by their users because they represent opportunities for improvement. These opportunities are traditionally ideated on, before selecting the most promising idea to design, prototype, and test. 
+In user-experience design, we refer to these "points of resistance" as "pain points," and it is a central responsibility of the designer to identity and understand the pain points experienced by their users because they represent opportunities for improvement. These opportunities are traditionally ideated on, before selecting the most promising idea to design, prototype, and test. 
 
 ## Show the way, but don't steer
 I believe what makes a good designer is the same approach that makes a good therapist. Akin to how good teachers direct the attention and curiosity of their students while ensuring they learn the lessons themselves, good designers and therapists are effective at guiding people to clearly identify their points of resistance, and in doing so, help them to uncover their own solution.
@@ -31,5 +31,5 @@ Good designers and therapists understand this. Which is they they impart their t
 
 ## Sources
 
-_The Gift of Therapy_, Irvin D. Yalom
+_The Gift of Therapy_, Irvin D. Yalom  
 _The Timeless Way of Building_, Christopher Alexander
