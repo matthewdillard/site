@@ -18,6 +18,8 @@ weight: 4
 toc: true
 hollow: false
 feature: true
+aliases:
+  - Terragotchi
 ---
 {{<figure
 	src="terragotchi.gif"
