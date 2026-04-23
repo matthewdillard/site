@@ -6,11 +6,12 @@
         <h1>{{ .Title }}</h1>
         <div class="spacer__sm"></div>
         {{ .Content }}
-        <div class="article-list project-list">
+        
+        <ul class="article-list project-list">
             {{ range sort .Pages.ByWeight }}
                 {{ partial "project-item.html" . }}
             {{ end }}
-        </div>
+        </ul>
         {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
     </div>
     {{ partial "grid-paper.html" .}}

@@ -2,11 +2,11 @@
 created: 2026-02-05
 tags:
 title: Anvilor
-description: Served as design lead for launch of data-collection software company, and UX designer during R&D of an AI-assisted form building tool.
+description: Served as design lead for launch of data-collection software company, and UX designer during R&D of its AI-assisted form building tool.
 date:
 draft: false
 started: 2023-01-01
-completed: 2023-05-01
+completed: 2024-07-01
 weight: 12
 categories:
   - work
