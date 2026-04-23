@@ -99,3 +99,10 @@
 .project-list {
     padding-left:  var(--text-h-offset);
 }
+
+.filter-row {
+    display: flex;
+    flex-direction: row;
+    gap: calc(var(--cell-size) / 2);
+    border-bottom: 1px solid var(--color-primary);
+}

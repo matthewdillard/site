@@ -6,7 +6,16 @@
         <h1>{{ .Title }}</h1>
         <div class="spacer__sm"></div>
         {{ .Content }}
-        
+        <div class="filter-row">
+            <div class="form-field">
+                <input type="checkbox" name="filter" id="filter-personal">
+                <label for="filter-personal">Personal</label>
+            </div>
+            <div class="form-field">
+                <input type="checkbox" name="filter" id="filter-work">
+                <label for="filter-work">Work</label>
+            </div>
+        </div>
         <ul class="article-list project-list">
             {{ range sort .Pages.ByWeight }}
                 {{ partial "project-item.html" . }}
