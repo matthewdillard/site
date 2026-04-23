@@ -7,13 +7,27 @@
         <div class="spacer__sm"></div>
         {{ .Content }}
         <div class="filter-row">
-            <div class="form-field">
-                <input type="checkbox" name="filter" id="filter-personal">
-                <label for="filter-personal">Personal</label>
+            <span class="fw-6">Categories:</span>
+            <div class="form-field checkbox">
+                <label for="filter-work">
+                    Work
+                    <input type="checkbox" name="filter" id="filter-work" checked>
+                    <span class="pseudobox"></span>
+                </label>
             </div>
-            <div class="form-field">
-                <input type="checkbox" name="filter" id="filter-work">
-                <label for="filter-work">Work</label>
+            <div class="form-field checkbox">
+                <label for="filter-school">
+                    School
+                    <input type="checkbox" name="filter" id="filter-school" checked>
+                    <span class="pseudobox"></span>
+                </label>
+            </div>
+            <div class="form-field checkbox">
+                <label for="filter-personal">
+                    Personal
+                    <input type="checkbox" name="filter" id="filter-personal" checked>
+                    <span class="pseudobox"></span>
+                </label>
             </div>
         </div>
         <ul class="article-list project-list">

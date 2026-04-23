@@ -46,9 +46,9 @@
 .ai-c { align-items: center; }
 .ai-e { align-items: end; }
 
-.fw-w { flex-wrap: wrap; }
-.fw-wr { flex-wrap: wrap-reverse; }
-.fw-nw { flex-wrap: nowrap; }
+.fbw-w { flex-wrap: wrap; }
+.fbw-wr { flex-wrap: wrap-reverse; }
+.fbw-nw { flex-wrap: nowrap; }
 
 /* Hide above breakpoint */
 @media (min-width: 480px) {

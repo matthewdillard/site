@@ -103,6 +103,66 @@
 .filter-row {
     display: flex;
     flex-direction: row;
-    gap: calc(var(--cell-size) / 2);
-    border-bottom: 1px solid var(--color-primary);
+    border-bottom: 1px solid var(--color-grid-line);
+    margin-bottom: var(--cell-size);
 }
+
+// Custom checkbox
+// Modified from: https://www.geeksforgeeks.org/css/how-to-style-a-checkbox-using-css/
+
+.form-field.checkbox {
+    position: relative;
+    cursor: pointer;
+    padding-left: calc(var(--cell-size) * 0.75);
+}
+
+.form-field label {
+    cursor: pointer;
+    padding-inline: calc(var(--cell-size) * 0.25);
+
+}
+
+.form-field input[type=checkbox] {
+    visibility: hidden;
+    position: absolute;
+}
+
+.pseudobox {
+    position: absolute;
+    top: calc(calc(var(--cell-size) * (1 - 0.62)) * 0.5);
+    left: calc(calc(var(--cell-size) * (1 - 0.62)) * 0.5);
+    height: calc(var(--cell-size) * 0.62);
+    width: calc(var(--cell-size) * 0.62);
+    background-color: transparent;
+    border: 1px solid var(--color-grid-line);
+    border-radius: 99px;
+}
+
+/* Hover effect */
+.form-field:hover input~.pseudobox,
+.form-field input:checked~.pseudobox {
+    border-color: var(--color-primary);
+}
+
+/* Checkmark */
+.pseudobox::after {
+    content: "";
+    position: absolute;
+    display: none;
+    background-color: var(--color-primary);
+    left: 4px;
+    top: 4px;
+    width: 9px;
+    height: 9px;
+    border-radius: 99px;
+}
+
+.form-field input:checked~.pseudobox::after {
+    display: block;
+}
+
+// List filter 
+
+#filter-personal:checked ~ .project-list .cat--work { display: none; }
+#filter-work:checked ~ .project-list .cat--personal { display: none; }
+#filter-work:checked ~ .project-list .cat--personal { display: none; }
