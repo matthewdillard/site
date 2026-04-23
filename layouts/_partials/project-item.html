@@ -1,4 +1,11 @@
-<div class="list-item fbr">
+
+
+{{ $categories := .Params.categories }}
+{{ $cat := index $categories 0 }}
+
+
+
+<li data-type="{{ $cat }}" class="list-item fbr">
     {{ $startYr := (time.AsTime (.Param "started")).Year }}
     {{ $completed := .Param "completed" }}
     {{ $completeYr := -1 }}
@@ -21,4 +28,4 @@
         </div>
         <p class="fw-3">{{ .Description }}</p>
     </div>
-</div>
+</li>

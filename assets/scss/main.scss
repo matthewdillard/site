@@ -1,9 +1,6 @@
-@import '/flex.scss';
 @import '/typography.scss';
 @import '/components.scss';
 @import '/mixins.scss';
-@import '/variables.scss';
-@import '/util.scss';
 @import '/responsive.scss';
 
 
@@ -53,3 +50,23 @@ tbody tr > td:last-child {
 // tr:first-child {
 //     box-shadow: 0px -1px 0px var(--color-grid-line), 0px 1px 0px var(--color-grid-line);
 // }
+
+// Identity
+#identity {
+    flex-grow: 1;
+}
+
+.identity-type {
+    font-family: var(--font-handwritten);
+    font-size: calc(var(--font-size) * 2);
+    transform: translateY(calc(var(--font-size) * .3));
+}
+
+.identity-img {
+    height: var(--cell-size);
+
+    img {
+        height: 100%;
+        padding: var(--text-h-offset);  
+    }
+}

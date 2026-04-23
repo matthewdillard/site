@@ -6,15 +6,68 @@
         <h1>{{ .Title }}</h1>
         <div class="spacer__sm"></div>
         {{ .Content }}
-        <div class="article-list project-list">
+        <div class="filter-row">
+            <!-- <span class="fw-6">Categories:</span> -->
+            <div class="form-field radio">
+                <label for="filter-all">
+                    All
+                    <input type="radio" name="filter" id="filter-all" value="all" checked>
+                    <span class="pseudobox"></span>
+                </label>
+            </div>
+            <div class="form-field radio">
+                <label for="filter-work">
+                    Work
+                    <input type="radio" name="filter" id="filter-work" value="work">
+                    <span class="pseudobox"></span>
+                </label>
+            </div>
+            <div class="form-field radio">
+                <label for="filter-school">
+                    School
+                    <input type="radio" name="filter" id="filter-school" value="school">
+                    <span class="pseudobox"></span>
+                </label>
+            </div>
+            <div class="form-field radio">
+                <label for="filter-personal">
+                    Personal
+                    <input type="radio" name="filter" id="filter-personal" value="personal">
+                    <span class="pseudobox"></span>
+                </label>
+            </div>
+        </div>
+        <ul class="article-list project-list">
             {{ range sort .Pages.ByWeight }}
                 {{ partial "project-item.html" . }}
             {{ end }}
-        </div>
+        </ul>
         {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
     </div>
     {{ partial "grid-paper.html" .}}
 </article>
+<script>
+document.querySelectorAll('input[name="filter"]').forEach(input => {
+  input.addEventListener('change', () => {
+    document.querySelectorAll('.list-item').forEach(project => {
+      project.style.display =
+        input.value === 'all' || project.dataset.type === input.value
+          ? '' : 'none';
+    });
+  });
+});
 
-
+// document.querySelectorAll('input[name="filter"]').forEach(input => {
+//   input.addEventListener('change', () => {
+//     let checked = new Set(
+//       [...document.querySelectorAll('input[name="filter"]:checked')]
+//         .map(el => el.value)
+//     );
+//     console.log(checked);
+//     document.querySelectorAll('.list-item').forEach(project => {
+//       project.style.display = checked.has(project.dataset.type) ? '' : 'none';
+//     });
+//   });
+// });
+</script>
 {{ end }}

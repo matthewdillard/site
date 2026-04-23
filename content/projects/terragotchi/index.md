@@ -6,6 +6,8 @@ draft: false
 tags:
 started: 2025-01-25
 completed: 2025-05-08
+categories:
+  - school
 areas:
   - ux research
   - ux design
@@ -14,10 +16,12 @@ areas:
   - usability testing
   - product strategy
   - presentation
-weight: 4
+weight: 6
 toc: true
 hollow: false
 feature: true
+aliases:
+  - Terragotchi
 ---
 {{<figure
 	src="terragotchi.gif"

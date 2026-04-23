@@ -9,12 +9,14 @@ areas:
   - ux research
 started: 2025-05-01
 completed: 2025-07-01
-weight: 3
+weight: 4
 toc: false
 hollow: false
 feature: true
 categories:
   - work
+aliases:
+  - Injury Coder
 ---
 I designed a tool to help trauma center registrars accurately code patient injuries accurately under significant time constraints in high-stakes healthcare settings.
 
