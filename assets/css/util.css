@@ -10,17 +10,30 @@
 
 .pos-r { position: relative; }
 
-.d-in { display: inline; }
-.d-ib { display: inline-block; }
-.d-b { display: block; }
-.d-fb { display: flex; }
-.d-fb-r {
+.d-in, .ds-in { display: inline; }
+.d-ib, .ds-ib { display: inline-block; }
+.d-b, .ds-b { display: block; }
+.d-fb, .ds-fb, .ds-f { display: flex; }
+.ds-fb-r, .fd-r, .fbr {
   display: flex;
   flex-direction: row;
 }
-.d-fb-c {
+.d-fb-c, .fd-c, .fbc {
   display: flex;
   flex-direction: column;
+}
+
+.f-1 { flex: 1; }
+.f-0 { flex: 0 0 auto; }
+
+.flex-grow {
+    display: flex;
+    flex-grow: 1;
+}
+
+.flex-shrink {
+    display: flex;
+    flex-shrink: 1;
 }
 
 .jc-s { justify-content: start;}
