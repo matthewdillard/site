@@ -6,6 +6,8 @@ draft: false
 tags:
 started: 2025-01-25
 completed: 2025-05-08
+categories:
+  - school
 areas:
   - ux research
   - ux design
@@ -20,6 +22,7 @@ hollow: false
 feature: true
 aliases:
   - Terragotchi
+
 ---
 {{<figure
 	src="terragotchi.gif"

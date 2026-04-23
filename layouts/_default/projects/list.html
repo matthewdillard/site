@@ -7,25 +7,32 @@
         <div class="spacer__sm"></div>
         {{ .Content }}
         <div class="filter-row">
-            <span class="fw-6">Categories:</span>
-            <div class="form-field checkbox">
+            <!-- <span class="fw-6">Categories:</span> -->
+            <div class="form-field radio">
+                <label for="filter-all">
+                    All
+                    <input type="radio" name="filter" id="filter-all" value="all" checked>
+                    <span class="pseudobox"></span>
+                </label>
+            </div>
+            <div class="form-field radio">
                 <label for="filter-work">
                     Work
-                    <input type="checkbox" name="filter" id="filter-work" checked>
+                    <input type="radio" name="filter" id="filter-work" value="work">
                     <span class="pseudobox"></span>
                 </label>
             </div>
-            <div class="form-field checkbox">
+            <div class="form-field radio">
                 <label for="filter-school">
                     School
-                    <input type="checkbox" name="filter" id="filter-school" checked>
+                    <input type="radio" name="filter" id="filter-school" value="school">
                     <span class="pseudobox"></span>
                 </label>
             </div>
-            <div class="form-field checkbox">
+            <div class="form-field radio">
                 <label for="filter-personal">
                     Personal
-                    <input type="checkbox" name="filter" id="filter-personal" checked>
+                    <input type="radio" name="filter" id="filter-personal" value="personal">
                     <span class="pseudobox"></span>
                 </label>
             </div>
@@ -39,6 +46,28 @@
     </div>
     {{ partial "grid-paper.html" .}}
 </article>
+<script>
+document.querySelectorAll('input[name="filter"]').forEach(input => {
+  input.addEventListener('change', () => {
+    document.querySelectorAll('.list-item').forEach(project => {
+      project.style.display =
+        input.value === 'all' || project.dataset.type === input.value
+          ? '' : 'none';
+    });
+  });
+});
 
-
+// document.querySelectorAll('input[name="filter"]').forEach(input => {
+//   input.addEventListener('change', () => {
+//     let checked = new Set(
+//       [...document.querySelectorAll('input[name="filter"]:checked')]
+//         .map(el => el.value)
+//     );
+//     console.log(checked);
+//     document.querySelectorAll('.list-item').forEach(project => {
+//       project.style.display = checked.has(project.dataset.type) ? '' : 'none';
+//     });
+//   });
+// });
+</script>
 {{ end }}

@@ -12,9 +12,10 @@ toc: true
 hollow: false
 feature: false
 categories:
+  - work
+areas:
   - information architecture
   - documentation
-areas:
 ---
 {{<figure
 	src="rw-anat__redact.png"

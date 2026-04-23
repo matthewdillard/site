@@ -5,6 +5,8 @@ date:
 draft: false
 started: 2024-10-01
 completed: 2024-12-01
+categories:
+  - work
 tags:
 weight: 7
 toc: false

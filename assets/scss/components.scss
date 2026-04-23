@@ -110,7 +110,7 @@
 // Custom checkbox
 // Modified from: https://www.geeksforgeeks.org/css/how-to-style-a-checkbox-using-css/
 
-.form-field.checkbox {
+.form-field.radio {
     position: relative;
     cursor: pointer;
     padding-left: calc(var(--cell-size) * 0.75);
@@ -122,7 +122,7 @@
 
 }
 
-.form-field input[type=checkbox] {
+.form-field input[type=radio] {
     visibility: hidden;
     position: absolute;
 }

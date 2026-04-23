@@ -10,7 +10,7 @@ started: 2018-08-01
 completed: 2022-05-01
 tags:
 categories:
-  - freelance
+  - work
 ---
 In my undergraduate years at Johns Hopkins, I held a campus job doing graphic design work for various teams and programs. This included social media posts, mailouts & marketing material, and custom designs for things like player pins. I worked with varsity baseball, lacrosse, basketball, and the Athletics Administration. This page lists a selection of these works, alongside personal commissions I completed during this period of time.
 

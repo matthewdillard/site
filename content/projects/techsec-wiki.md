@@ -6,6 +6,8 @@ draft: false
 started: 2026-01-01
 completed:
 tags:
+categories:
+  - work
 weight: 1
 toc: false
 hollow: true

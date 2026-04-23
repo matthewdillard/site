@@ -3,7 +3,9 @@
 {{ $categories := .Params.categories }}
 {{ $cat := index $categories 0 }}
 
-<li class="list-item cat--{{$cat}} fbr">
+
+
+<li data-type="{{ $cat }}" class="list-item fbr">
     {{ $startYr := (time.AsTime (.Param "started")).Year }}
     {{ $completed := .Param "completed" }}
     {{ $completeYr := -1 }}

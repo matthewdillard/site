@@ -8,6 +8,8 @@ organization:
 started: 2025-09-01
 completed:
 weight: 2
+categories:
+  - work
 toc: false
 hollow: false
 feature: true
