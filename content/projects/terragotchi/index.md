@@ -16,13 +16,12 @@ areas:
   - usability testing
   - product strategy
   - presentation
-weight: 4
+weight: 6
 toc: true
 hollow: false
 feature: true
 aliases:
   - Terragotchi
-
 ---
 {{<figure
 	src="terragotchi.gif"
