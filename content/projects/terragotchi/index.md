@@ -33,8 +33,8 @@ aliases:
 
 **Terragotchi** is a concept app researched, designed, and developed between January - May 2025 for my UX Design Master's Capstone Project at the [Maryland Institute College of Art](/education). I sought to cultivate everyday sustainable behaviors as socioecological well-being, with a focus on mindfulness, education, positivity, and fun.  
 
-- Watch the [video walkthrough](#high-fidelity-prototype)
-- See the [Figma prototype](https://www.figma.com/proto/T1zlQt0G7rhZ20JrQ90dD2/Terragotchi?page-id=1386%3A13500&node-id=1465-28104&viewport=-1718%2C368%2C0.23&t=9NrKE4sY0gT2Yvnz-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1465%3A28104)
+- Watch the [video walkthrough](https://youtu.be/MWX49AXJ83A)
+- Explore the [Figma prototype](https://www.figma.com/proto/T1zlQt0G7rhZ20JrQ90dD2/Terragotchi?page-id=1386%3A13500&node-id=1465-28104&viewport=-1718%2C368%2C0.23&t=9NrKE4sY0gT2Yvnz-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1465%3A28104)
 - View the [Presentation pitchdeck](https://www.canva.com/design/DAGmL2bdHAY/I7Eei7aibNEWbs2QV6qg9Q/edit?utm_content=DAGmL2bdHAY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ## Summary
@@ -300,9 +300,7 @@ Ultimately, I recognized I was both failing to provide users enough agency to se
 
 ## High-fidelity prototype
 
-{{< youtube MWX49AXJ83A >}}
-
-To interact with the Figma prototype yourself, [click here](https://www.figma.com/proto/T1zlQt0G7rhZ20JrQ90dD2/Terragotchi?page-id=1386%3A13500&node-id=1465-28104&viewport=-1718%2C368%2C0.23&t=9NrKE4sY0gT2Yvnz-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1465%3A28104).
+Watch a walkthrough of the [final product walkthrough on Youtube](https://youtu.be/MWX49AXJ83A), or interact with the [Figma prototype](https://www.figma.com/proto/T1zlQt0G7rhZ20JrQ90dD2/Terragotchi?page-id=1386%3A13500&node-id=1465-28104&viewport=-1718%2C368%2C0.23&t=9NrKE4sY0gT2Yvnz-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1465%3A28104).
 
 ## Honorable mentions
 

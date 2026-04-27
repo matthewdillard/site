@@ -16,7 +16,7 @@ toc: false
 hollow: false
 feature: false
 ---
-A print I designed, painted, and framed as a gift for a friend to celebrate his engagement (the proposal was backdropped by the Golden Gate Bridge). Congratulations Jonah & Sarah!
+I designed, painted, and framed this print as a gift for a friend to celebrate his engagement (the proposal was backdropped by the Golden Gate Bridge). Congratulations Jonah & Sarah!
 
 {{<figure
 	src="js-img.jpg"
