@@ -7,7 +7,7 @@ tags:
 organization:
 started: 2025-09-01
 completed:
-weight: 3
+weight: 13
 categories:
   - work
 toc: false

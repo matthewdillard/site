@@ -14,7 +14,7 @@ areas:
   - prototyping
 categories:
   - work
-weight: 13
+weight: 3
 toc: false
 hollow: false
 feature: false

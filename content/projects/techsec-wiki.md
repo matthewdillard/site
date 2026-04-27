@@ -8,7 +8,7 @@ completed:
 tags:
 categories:
   - work
-weight: 2
+weight: 15
 toc: false
 hollow: true
 feature: false

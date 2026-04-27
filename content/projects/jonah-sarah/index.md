@@ -7,7 +7,7 @@ date:
 draft: false
 started: 2026-03-02
 completed: 2026-03-11
-weight: 1
+weight: 16
 categories:
   - personal
 areas:

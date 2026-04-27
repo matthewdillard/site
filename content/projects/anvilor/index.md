@@ -7,7 +7,7 @@ date:
 draft: false
 started: 2023-01-01
 completed: 2024-07-01
-weight: 12
+weight: 4
 categories:
   - work
 areas:

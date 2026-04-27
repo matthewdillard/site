@@ -3,7 +3,7 @@ title: Handmade Banagrams
 description: " A Banagrams tileset lettered and finished by me."
 date:
 weight: 14
-draft: true
+draft: false
 tags:
 categories:
   - personal

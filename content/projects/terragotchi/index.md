@@ -16,7 +16,7 @@ areas:
   - usability testing
   - product strategy
   - presentation
-weight: 6
+weight: 10
 toc: true
 hollow: false
 feature: true
