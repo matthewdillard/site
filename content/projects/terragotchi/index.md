@@ -31,7 +31,7 @@ aliases:
 
 > *Tend to your own pocket-sized Earth by learning and practicing sustainable behaviors and mindsets, supported by constructive strategies for navigating climate anxiety.*
 
-**Terragotchi** is a concept app researched, designed, and developed between January - May 2025 for my UX Design Master's Capstone Project at the [Maryland Institute College of Art](/education). I sought to cultivate everyday sustainable behaviors as socioecological well-being, with a focus on mindfulness, education, positivity, and fun.  
+**Terragotchi** is a concept app researched, designed, and developed between January - May 2025 for my UX Design Master's Capstone Project at the [Maryland Institute College of Art](https://www.mica.edu/). I sought to cultivate everyday sustainable behaviors as socioecological well-being, with a focus on mindfulness, education, positivity, and fun.  
 
 - Watch the [video walkthrough](https://youtu.be/MWX49AXJ83A)
 - Explore the [Figma prototype](https://www.figma.com/proto/T1zlQt0G7rhZ20JrQ90dD2/Terragotchi?page-id=1386%3A13500&node-id=1465-28104&viewport=-1718%2C368%2C0.23&t=9NrKE4sY0gT2Yvnz-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1465%3A28104)
