@@ -8,7 +8,7 @@
         <div class="spacer__md"></div>
         <h2>Featured projects</h2>
         <div class="article-list project-list">
-            {{ range where (.Site.RegularPages.ByWeight | collections.Reverse) "Type" "projects" | }}
+            {{ range where (.Site.RegularPages.ByWeight.Reverse | collections.Reverse) "Type" "projects" | }}
                 {{ if .Params.feature }}
                     {{ partial "project-item.html" . }}
                 {{ end}}
