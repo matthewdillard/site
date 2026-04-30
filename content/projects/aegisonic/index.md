@@ -15,9 +15,9 @@ hollow: false
 feature: true
 ---
 {{<figure
-	src="aegisonic-combo.svg"
-	alt="Aegisonic logo."
-	class="ar-llll ct"
+	src="aegisonic-cover.png"
+	alt="Aegisonic. Tagline: equitable acoustics."
+	class="ar-llll cv"
 >}}
 
 [Aegisonic](https://www.aegisonic.com) is a venture developing an adaptive audio headset designed to support individuals with heightened sound sensitivity and autism, offering a comfortable, equitable sonic experience for all. 
