@@ -21,6 +21,18 @@
         {{ end }}
 
         {{ .Content }}
+
+        <hr>
+
+        {{ if .Param "citations" }}
+        <h2>Sources</h2>
+        <ul id="citations" class="citations">
+            {{ range .Param "citations" }}
+                <li>{{ . | markdownify }}</li>
+            {{ end }}
+        </ul>
+        {{ end }}
+        
         <ol>
             {{ range sort (.Resources.ByType "page") "Params.weight" }}
             <li>

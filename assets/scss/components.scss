@@ -1,20 +1,3 @@
-.project-list .list-item { 
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-
-    h2 {
-        
-    }
-    p, h2 {
-        margin-top: 0px;
-    }
-
-    &:not(:last-child) {
-        margin-bottom: var(--cell-size);
-    }
-
-}
 .meta-span-block {
     width: calc(var(--cell-size) * 4);
 }
@@ -95,10 +78,34 @@
     }
 }
 
-// Projects
-.project-list {
+// Article list
+.article-list {
     padding-inline:  0px;
+
+    .list-item { 
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        p, h2 {
+            margin-block: 0px;
+        }
+    }
 }
+
+// Projects
+
+@media screen and (max-width: 480px) {
+    .article-list .list-item:not(:last-child) {
+        margin-bottom: var(--cell-size);
+    }
+}
+
+.project-list .list-item:not(:last-child) {
+    margin-bottom: var(--cell-size);
+}
+
+
 
 .filter-row {
     display: flex;
@@ -166,3 +173,10 @@
 #filter-personal:checked ~ .project-list .cat--work { display: none; }
 #filter-work:checked ~ .project-list .cat--personal { display: none; }
 #filter-work:checked ~ .project-list .cat--personal { display: none; }
+
+
+// Citations
+
+ul.citations {
+    padding-left: calc(var(--cell-size) * .42);
+}

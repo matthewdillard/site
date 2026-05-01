@@ -6,17 +6,15 @@
         <h1>Writing</h1>
         <div class="spacer__sm"></div>
         {{ .Content }}
-        <div class="article-list project-list">
+        <ul class="article-list">
             {{ range sort .Pages.ByWeight }}
-                <div class="list-item fbr">
-                    {{ $yr := (time.AsTime (.Param "published")).Year }}
-                    <!-- {{ $mo := (time.AsTime (.Param "published")).Month | int }} -->
-                    {{ $mo := time.AsTime (.Param "published") }}
-                    {{ $mo := time.Format "Apr" $mo }}
+                <li class="list-item fbr">
+                    {{ $publishDate := (time.AsTime (.Param "published"))}}
+                    {{ $publishDate := time.Format "Jan 02 2006" $publishDate }}
 
                     <div class="hide-b-sm">
                         <div class="subtle meta-span-block f-0 fbr">
-                            <span>{{ $mo }} {{ $yr }}</span>
+                            <span>{{ $publishDate }}</span>
                         </div>
                     </div>    
                     
@@ -24,14 +22,13 @@
                         <h2 class="fs-1"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
                         <div class="hide-a-sm">
                             <div class="subtle meta-span-block f-0 fbr">
-                                <span>{{ $mo }}</span><span>-</span><span>{{ $yr }}</span>
+                                <span>{{ $publishDate }}</span>
                             </div>
                         </div>
-                        <!-- <p class="fw-3">{{ .Description }}</p> -->
                     </div>
-                </div>
+                </li>
             {{ end }}
-        </div>
+        </ul>
         {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
     </div>
     {{ partial "grid-paper.html" .}}
