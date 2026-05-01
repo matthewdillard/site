@@ -38,7 +38,7 @@
             </div>
         </div>
         <ul class="article-list project-list">
-            {{ range sort .Pages.ByWeight }}
+            {{ range sort .Pages.ByWeight.Reverse }}
                 {{ partial "project-item.html" . }}
             {{ end }}
         </ul>

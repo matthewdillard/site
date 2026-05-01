@@ -16,7 +16,7 @@ areas:
   - accessibility
   - cms
 tags:
-weight: 9
+weight: 7
 toc: false
 hollow: true
 feature: false

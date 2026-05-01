@@ -9,7 +9,7 @@ completed: 2025-02-01
 areas:
   - graphic design
   - branding
-weight: 5
+weight: 11
 toc: false
 hollow: false
 feature: false

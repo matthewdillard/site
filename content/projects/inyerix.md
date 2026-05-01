@@ -1,5 +1,5 @@
 ---
-weight: 15
+weight: 1
 title: Inyerix
 description: An Instagram account for digital art.
 draft: false

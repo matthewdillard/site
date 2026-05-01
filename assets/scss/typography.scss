@@ -99,11 +99,12 @@ ul,
 ol {
   margin-top: 0;
   padding-right: var(--text-h-offset);
+  list-style: disc;
   list-style-position: inside;
 }
 
 ul {
-    padding-left: calc(var(--cell-size) * 1.4);
+    padding-left: calc(var(--cell-size) * 1.42);
 }
 
 ol {

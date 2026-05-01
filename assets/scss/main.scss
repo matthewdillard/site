@@ -32,6 +32,13 @@ article {
     }
 }
 
+hr {
+    border-style: none;
+    height: 1px;
+    box-shadow: 0px 1px 0px var(--color-grid-line);
+    margin-block-start: calc(var(--cell-size) - 1px);
+    margin-block-end: var(--cell-size);
+}
 
 // Table
 

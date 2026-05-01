@@ -9,7 +9,7 @@ areas:
   - ux research
 started: 2025-05-01
 completed: 2025-07-01
-weight: 4
+weight: 12
 toc: false
 hollow: false
 feature: true
