@@ -44,9 +44,9 @@ The richer one's vocabulary, and better their grasp of grammar, the more they ha
 >"The limits of my language means the limits of my world"  
 >— Ludwig Wittgenstein, *Tractatus Logico-Philosophicus Proposition 5.6*
 
-Contrast English, a language dominated by nouns, with Potawatomi, a language dominated by verbs. Most words in Potawatomi are animate and alive (e.g., rocks, mountains, rivers, songs, cities), and what few words there are often belong to the man-made world (e.g., machines, vehicles).
+Contrast English, a language dominated by nouns, with Potawatomi, a language dominated by verbs. Most words in Potawatomi are animate and alive (e.g., rocks, mountains, rivers, songs, cities), and what few inanimate words there are often belong to the man-made world (e.g., machines, vehicles).
 
-In English, "tree" is a static, objective, inanimate *thing*. In Potawatomi, the word for "tree" is closer to *the act of being a tree*. A tree is a alive, a person, a neighbor, a process. Indigenous ways of knowing understand the natural world to be an architecture of connections and relationships, conceptualized by change, rhythm, wisdom, behavior, and context. Their language is a reflection of that worldview, and their worldview reflects their language. 
+In English, "tree" is a static, objective, inanimate _thing_. In Potawatomi, the word for "tree" is closer to _the act of being a tree_. A tree is a alive, a person, a neighbor, a process. Indigenous ways of knowing understand the natural world to be an architecture of connections and relationships, conceptualized by change, rhythm, wisdom, behavior, and context. Their language is a reflection of that worldview, and their worldview reflects their language. 
 
 >The universe is a communion of subjects rather than a collection of objects”  
 >— Brian Swimme and Thomas Berry, *The Universe Story*

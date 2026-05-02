@@ -30,4 +30,4 @@ These strategies are necessary because it's impossible to truly know the emotion
 ## Build from within
 That is why the best solutions are those people create for themselves. Anything externally imposed, or else made for many people, will inevitably fall short. Understanding the nuances of one's own experiences is what makes a solution fit naturally into their lived experience—because it was made *from* their lived experience.
 
-Good designers and therapists understand this. Which is they they impart their tools, mindsets, and knowledge onto others, cultivating the efficacy necessary for individuals to apply those resources within their daily lives, uncovering solutions that exists within them already.
+Good designers and therapists understand this. They impart their tools, mindsets, and knowledge onto others, cultivating the efficacy necessary for individuals to apply those resources within their daily lives, uncovering solutions that exists within them already.
