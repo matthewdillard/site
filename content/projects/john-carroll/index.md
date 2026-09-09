@@ -17,7 +17,7 @@ areas:
   - accessibility
   - design systems
   - cms
-weight: 11
+weight: 5
 toc: true
 hollow: false
 feature: false

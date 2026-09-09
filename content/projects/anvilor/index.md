@@ -6,8 +6,8 @@ description: Served as design lead for launch of data-collection software compan
 date:
 draft: false
 started: 2023-01-01
-completed: 2023-05-01
-weight: 12
+completed: 2024-07-01
+weight: 4
 categories:
   - work
 areas:

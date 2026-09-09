@@ -9,3 +9,25 @@
     <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}" crossorigin="anonymous">
   {{- end }}
 {{- end }}
+{{- with resources.Get "scss/ar.scss" }}
+  {{- if hugo.IsDevelopment }}
+    {{- $options := dict "enableSourceMap" true }}
+    {{- $style := . | toCSS $options }}
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+  {{- else }}
+    {{- $options := dict "outputStyle" "compressed" }}
+    {{- $style := . | toCSS $options | fingerprint }}
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}" crossorigin="anonymous">
+  {{- end }}
+{{- end }}
+{{- with resources.Get "scss/typography.scss" }}
+  {{- if hugo.IsDevelopment }}
+    {{- $options := dict "enableSourceMap" true }}
+    {{- $style := . | toCSS $options }}
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+  {{- else }}
+    {{- $options := dict "outputStyle" "compressed" }}
+    {{- $style := . | toCSS $options | fingerprint }}
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}" crossorigin="anonymous">
+  {{- end }}
+{{- end }}

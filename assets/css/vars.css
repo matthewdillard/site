@@ -5,17 +5,19 @@
   --grid-cells: 30;
 
   /* Color */
-  --color-moss: #565e3b;
-  --color-green: #6a8616;
+  /* --color-moss: #565e3b; */
+  /* --color-green: #6a8616; */
   --color-yellow: #ffdc13;
   --color-olive: #677736;
+
+  --color-primary: var(--color-olive);
   
   --color-grid-line: #a1c6ba;
   --color-text-base: #2a2624;
   --color-text-light: #857e7a;
-  --color-text-hover: var(--color-olive);
-  --color-blockquote-border: var(--color-olive);
-  --color-blockquote-text: var(--color-olive);
+  --color-text-hover: var(--color-primary);
+  --color-blockquote-border: var(--color-primary);
+  --color-blockquote-text: var(--color-primary);
   --color-bg: #faf9f2;
 
   /* TYPOGRAPHY */
@@ -46,6 +48,4 @@
   --text-color-light: var(--color-text-light);
   --blockquote-border-color: var(--color-blockquote-border);
   --font-family-primary: var(--font-serif);
-
-  --color-primary: var(--color-olive);
 }

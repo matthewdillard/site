@@ -10,7 +10,7 @@ areas:
   - typography
 categories:
   - personal
-weight: 10
+weight: 6
 toc: false
 hollow: false
 feature: false

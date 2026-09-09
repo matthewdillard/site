@@ -5,17 +5,25 @@
     <div class="grid-wrap__text">
         <div class="spacer__sm"></div>
         {{ .Content }}
-        <div class="spacer__md"></div>
+        <div class="spacer__sm"></div>
+        
+        <h2>Recent thoughts</h2>
+        {{ partial "article-list.html" (dict "context" . "limit" 3) }}
+        
+        <div class="spacer__sm"></div>
+
         <h2>Featured projects</h2>
         <div class="article-list project-list">
-            {{ range where (.Site.RegularPages.ByWeight | collections.Reverse) "Type" "projects" | }}
+            {{ range where (.Site.RegularPages.ByWeight.Reverse | collections.Reverse) "Type" "projects" | }}
                 {{ if .Params.feature }}
                     {{ partial "project-item.html" . }}
                 {{ end}}
             {{ end }}
         </div>
+        
         <div class="spacer__sm"></div>
-        <h2>Project areas</h2>
+
+        <h3>Project areas</h3>
         <!-- (Modified) Credit: https://bwaycer.github.io/hugo_tutorial.hugo/taxonomies/displaying/ -->
         <ul class="taxonomy-list" id="areas">
             {{ $areas := .Site.Taxonomies.areas.ByCount }}
