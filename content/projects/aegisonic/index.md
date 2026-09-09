@@ -13,6 +13,8 @@ categories:
 toc: false
 hollow: false
 feature: true
+aliases:
+  - Aegisonic
 ---
 {{<figure
 	src="aegisonic-cover.png"
@@ -22,7 +24,7 @@ feature: true
 
 [Aegisonic](https://www.aegisonic.com) is a venture developing an adaptive audio headset designed to support individuals with heightened sound sensitivity and autism, offering a comfortable, equitable sonic experience for all. 
 
-Founded by my longtime friend Harilaos Rentzeperis, Aegisonic was kickstarted during a Mount Sinai development program. I've served as design advisor through the project launch, contributing to branding, strategy, communications, and user-experience. 
+Founded by my longtime friend Harilaos Rentzeperis, Aegisonic was kickstarted during a Mount Sinai development program, and I've guided branding, strategy, communications, and user-experience design as the project has developed.
 
 Aegisonic was selected as a winner at the Mount Sinai Discovery & Innovation Hub Pitch Day competition in December 2025. Aegisonic will join the Mount Sinai Incubator in early 2026. 
 
