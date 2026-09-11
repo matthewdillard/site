@@ -1,0 +1,38 @@
+{{ define "main" }}
+<article class="grid-wrap">
+    {{ partial "header.html" . }}
+    <div class="spacer__sm"></div>
+    <div class="grid-wrap__text">
+        <h1>Blog</h1>
+        <div class="spacer__sm"></div>
+        {{ .Content }}
+        <ul class="article-list">
+            {{ range sort .Pages.ByWeight }}
+                <li class="list-item fbr">
+                    {{ $publishDate := (time.AsTime (.Param "published"))}}
+                    {{ $publishDate := time.Format "Jan 02 2006" $publishDate }}
+
+                    <div class="hide-b-sm">
+                        <div class="subtle meta-span-block f-0 fbr">
+                            <span>{{ $publishDate }}</span>
+                        </div>
+                    </div>    
+                    
+                    <div class="f-1">
+                        <h2 class="fs-1"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+                        <div class="hide-a-sm">
+                            <div class="subtle meta-span-block f-0 fbr">
+                                <span>{{ $publishDate }}</span>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            {{ end }}
+        </ul>
+        {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+    </div>
+    {{ partial "grid-paper.html" .}}
+</article>
+
+
+{{ end }}
