@@ -7,10 +7,11 @@
         {{ .Content }}
         <div class="spacer__sm"></div>
         
-        <h2>Recent thoughts</h2>
+        <h2>Recent writing</h2>
         {{ partial "article-list.html" (dict "context" . "limit" 3) }}
-        
-        <div class="spacer__sm"></div>
+        <a class="cta__block" href="/thoughts">All writing →</a>
+
+        <hr>
 
         <h2>Featured projects</h2>
         <div class="article-list project-list">
@@ -20,10 +21,12 @@
                 {{ end}}
             {{ end }}
         </div>
-        
-        <div class="spacer__sm"></div>
 
-        <h3>Project areas</h3>
+        <a class="cta__block" href="/projects">All projects →</a>
+
+        <hr>
+        
+        <h2>Areas</h3>
         <!-- (Modified) Credit: https://bwaycer.github.io/hugo_tutorial.hugo/taxonomies/displaying/ -->
         <ul class="taxonomy-list" id="areas">
             {{ $areas := .Site.Taxonomies.areas.ByCount }}
@@ -33,7 +36,7 @@
                 <li class="d-ib"><a href="{{ "/areas/" | relLangURL }}{{ .Name | urlize }}">{{ .Name }}</a>{{if $length }},{{end}} </li>
             {{ end }}
         </ul>
-
+        
     </div>
     
 
