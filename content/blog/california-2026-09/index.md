@@ -1,7 +1,7 @@
 ---
 title: California in late summer
 description:
-published: 2026-09-11
+date: 2026-09-09
 weight: 1
 draft: false
 tags:

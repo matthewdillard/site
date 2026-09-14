@@ -1,15 +1,13 @@
 ---
-title: "Fiji"
+title: Layover in Fiji
 description:
-date: 2026-09-07
-published: 2026-09-12
+date: 2026-09-11
 started: 2026-09-07
 completed: 2026-09-07
 weight: 1
 draft: false
 tags:
 ---
-
 {{<figure
 	src="river.jpg"
 >}}

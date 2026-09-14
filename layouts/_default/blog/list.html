@@ -7,9 +7,9 @@
         <div class="spacer__sm"></div>
         {{ .Content }}
         <ul class="article-list">
-            {{ range sort .Pages.ByWeight }}
+            {{ range sort .Pages.ByDate.Reverse }}
                 <li class="list-item fbr">
-                    {{ $publishDate := (time.AsTime (.Param "published"))}}
+                    {{ $publishDate := (time.AsTime (.Param "date"))}}
                     {{ $publishDate := time.Format "Jan 02 2006" $publishDate }}
 
                     <div class="hide-b-sm">
