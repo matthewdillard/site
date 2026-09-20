@@ -10,14 +10,13 @@ areas:
 started: 2026-08-29
 completed: 2026-09-06
 ---
-
-{{<figure	src="sf.jpg" >}}
-{{<figure	src="jonah.jpg" >}}
-{{<figure	src="homer.jpg" >}}
-{{<figure	src="monterey.jpg" >}}
-{{<figure	src="cypress.jpg" >}}
-{{<figure	src="pebble.jpg" >}}
-{{<figure	src="coast.jpg" >}}
-{{<figure	src="sb.jpg" >}}
-{{<figure	src="workspace.jpg" >}}
-{{<figure	src="dodgers.jpg" >}}
+{{<figure	src="sf.jpg" loading="lazy">}}
+{{<figure	src="jonah.jpg" loading="lazy" >}}
+{{<figure	src="homer.jpg" loading="lazy" >}}
+{{<figure	src="monterey.jpg" loading="lazy" >}}
+{{<figure	src="cypress.jpg" loading="lazy" >}}
+{{<figure	src="pebble.jpg" loading="lazy" >}}
+{{<figure	src="coast.jpg" loading="lazy" >}}
+{{<figure	src="sb.jpg" loading="lazy" >}}
+{{<figure	src="workspace.jpg" loading="lazy" >}}
+{{<figure	src="dodgers.jpg" loading="lazy" >}}
