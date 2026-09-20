@@ -19,4 +19,4 @@ tags:
 {{<figure	src="fernz-3.jpg" >}}
 {{<figure	src="wintergarden.jpg" caption="Winter Garden at Auckland Domain.">}}
 {{<figure	src="domain.jpg" caption="Lover's Walk at Auckland Domain. ">}}
-{{<figure	src="tiri-1.jpg" caption="Hobbs Beach Track on Tiritiri Matangi.">}}
+{{<figure	src="tiri-1.jpg" caption="Hobbs Beach Track on Tiritiri Matangi looking out at Rangitoto Island.">}}
