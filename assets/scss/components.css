@@ -74,8 +74,14 @@
   flex-direction: row;
   flex-wrap: wrap;
 }
-.article-list .list-item p, .article-list .list-item h2 {
+.article-list .list-item p, .article-list .list-item h2, .article-list .list-item h3, .article-list .list-item h4, .article-list .list-item h5, .article-list .list-item h6 {
   margin-block: 0px;
+}
+.article-list .list-group {
+  margin-top: var(--cell-size);
+}
+.article-list .list-group ul {
+  padding-inline: var(--text-h-offset);
 }
 
 @media screen and (max-width: 480px) {

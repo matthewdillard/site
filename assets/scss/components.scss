@@ -87,11 +87,19 @@
         flex-direction: row;
         flex-wrap: wrap;
 
-        p, h2 {
+        p, h2, h3, h4, h5, h6 {
             margin-block: 0px;
         }
     }
+    
+    .list-group {
+        margin-top: var(--cell-size);
+
+        ul { padding-inline: var(--text-h-offset); }
+    }
+    
 }
+
 
 // Projects
 
