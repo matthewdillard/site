@@ -1,0 +1,258 @@
+@media screen and (min-width: 721px) {
+  .ar-pppp.cv, .ar-pppp.ct {
+    aspect-ratio: 12/24;
+  }
+}
+@media screen and (max-width: 720px) {
+  .ar-pppp.cv, .ar-pppp.ct {
+    aspect-ratio: 10/20;
+  }
+}
+@media screen and (max-width: 576px) {
+  .ar-pppp.cv, .ar-pppp.ct {
+    aspect-ratio: 8/16;
+  }
+}
+@media screen and (max-width: 480px) {
+  .ar-pppp.cv, .ar-pppp.ct {
+    aspect-ratio: 6/12;
+  }
+}
+
+@media screen and (min-width: 721px) {
+  .ar-ppp.cv, .ar-ppp.ct {
+    aspect-ratio: 15/24;
+  }
+}
+@media screen and (max-width: 720px) {
+  .ar-ppp.cv, .ar-ppp.ct {
+    aspect-ratio: 12/20;
+  }
+}
+@media screen and (max-width: 576px) {
+  .ar-ppp.cv, .ar-ppp.ct {
+    aspect-ratio: 10/16;
+  }
+}
+@media screen and (max-width: 480px) {
+  .ar-ppp.cv, .ar-ppp.ct {
+    aspect-ratio: 8/12;
+  }
+}
+
+@media screen and (min-width: 721px) {
+  .ar-pp.cv, .ar-pp.ct {
+    aspect-ratio: 18/24;
+  }
+}
+@media screen and (max-width: 720px) {
+  .ar-pp.cv, .ar-pp.ct {
+    aspect-ratio: 16/20;
+  }
+}
+@media screen and (max-width: 576px) {
+  .ar-pp.cv, .ar-pp.ct {
+    aspect-ratio: 12/16;
+  }
+}
+@media screen and (max-width: 480px) {
+  .ar-pp.cv, .ar-pp.ct {
+    aspect-ratio: 9/12;
+  }
+}
+
+@media screen and (min-width: 721px) {
+  .ar-p.cv, .ar-p.ct {
+    aspect-ratio: 20/24;
+  }
+}
+@media screen and (max-width: 720px) {
+  .ar-p.cv, .ar-p.ct {
+    aspect-ratio: 16/20;
+  }
+}
+@media screen and (max-width: 576px) {
+  .ar-p.cv, .ar-p.ct {
+    aspect-ratio: 13/16;
+  }
+}
+@media screen and (max-width: 480px) {
+  .ar-p.cv, .ar-p.ct {
+    aspect-ratio: 10/12;
+  }
+}
+
+@media screen and (min-width: 721px) {
+  .ar-s.cv, .ar-s.ct {
+    aspect-ratio: 24/24;
+  }
+}
+@media screen and (max-width: 720px) {
+  .ar-s.cv, .ar-s.ct {
+    aspect-ratio: 20/20;
+  }
+}
+@media screen and (max-width: 576px) {
+  .ar-s.cv, .ar-s.ct {
+    aspect-ratio: 16/16;
+  }
+}
+@media screen and (max-width: 480px) {
+  .ar-s.cv, .ar-s.ct {
+    aspect-ratio: 12/12;
+  }
+}
+
+@media screen and (min-width: 721px) {
+  .ar-l.cv, .ar-l.ct {
+    aspect-ratio: 24/20;
+  }
+}
+@media screen and (max-width: 720px) {
+  .ar-l.cv, .ar-l.ct {
+    aspect-ratio: 20/16;
+  }
+}
+@media screen and (max-width: 576px) {
+  .ar-l.cv, .ar-l.ct {
+    aspect-ratio: 16/13;
+  }
+}
+@media screen and (max-width: 480px) {
+  .ar-l.cv, .ar-l.ct {
+    aspect-ratio: 12/10;
+  }
+}
+
+@media screen and (min-width: 721px) {
+  .ar-ll.cv, .ar-ll.ct {
+    aspect-ratio: 24/18;
+  }
+}
+@media screen and (max-width: 720px) {
+  .ar-ll.cv, .ar-ll.ct {
+    aspect-ratio: 20/15;
+  }
+}
+@media screen and (max-width: 576px) {
+  .ar-ll.cv, .ar-ll.ct {
+    aspect-ratio: 16/12;
+  }
+}
+@media screen and (max-width: 480px) {
+  .ar-ll.cv, .ar-ll.ct {
+    aspect-ratio: 12/9;
+  }
+}
+
+@media screen and (min-width: 721px) {
+  .ar-lll.cv, .ar-lll.ct {
+    aspect-ratio: 24/15;
+  }
+}
+@media screen and (max-width: 720px) {
+  .ar-lll.cv, .ar-lll.ct {
+    aspect-ratio: 20/12;
+  }
+}
+@media screen and (max-width: 576px) {
+  .ar-lll.cv, .ar-lll.ct {
+    aspect-ratio: 16/10;
+  }
+}
+@media screen and (max-width: 480px) {
+  .ar-lll.cv, .ar-lll.ct {
+    aspect-ratio: 12/8;
+  }
+}
+
+@media screen and (min-width: 721px) {
+  .ar-llll.cv, .ar-llll.ct {
+    aspect-ratio: 24/12;
+  }
+}
+@media screen and (max-width: 720px) {
+  .ar-llll.cv, .ar-llll.ct {
+    aspect-ratio: 20/10;
+  }
+}
+@media screen and (max-width: 576px) {
+  .ar-llll.cv, .ar-llll.ct {
+    aspect-ratio: 16/8;
+  }
+}
+@media screen and (max-width: 480px) {
+  .ar-llll.cv, .ar-llll.ct {
+    aspect-ratio: 12/6;
+  }
+}
+
+@media screen and (min-width: 721px) {
+  .ar-lllll.cv, .ar-lllll.ct {
+    aspect-ratio: 24/6;
+  }
+}
+@media screen and (max-width: 720px) {
+  .ar-lllll.cv, .ar-lllll.ct {
+    aspect-ratio: 20/5;
+  }
+}
+@media screen and (max-width: 576px) {
+  .ar-lllll.cv, .ar-lllll.ct {
+    aspect-ratio: 16/4;
+  }
+}
+@media screen and (max-width: 480px) {
+  .ar-lllll.cv, .ar-lllll.ct {
+    aspect-ratio: 12/3;
+  }
+}
+
+.ar-pppp.cv img,
+.ar-ppp.cv img,
+.ar-pp.cv img,
+.ar-p.cv img,
+.ar-s.cv img,
+.ar-l.cv img,
+.ar-ll.cv img,
+.ar-lll.cv img,
+.ar-llll.cv img,
+.ar-lllll.cv img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.ar-pppp.ct img,
+.ar-ppp.ct img,
+.ar-pp.ct img,
+.ar-p.ct img,
+.ar-s.ct img,
+.ar-l.ct img,
+.ar-ll.ct img,
+.ar-lll.ct img,
+.ar-llll.ct img,
+.ar-lllll.ct img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.ar-pppp.cv img, .ar-pppp.ct img,
+.ar-ppp.cv img,
+.ar-ppp.ct img,
+.ar-pp.cv img,
+.ar-pp.ct img,
+.ar-p.cv img,
+.ar-p.ct img,
+.ar-s.cv img,
+.ar-s.ct img,
+.ar-l.cv img,
+.ar-l.ct img,
+.ar-ll.cv img,
+.ar-ll.ct img,
+.ar-lll.cv img,
+.ar-lll.ct img,
+.ar-llll.cv img,
+.ar-llll.ct img,
+.ar-lllll.cv img,
+.ar-lllll.ct img {
+  width: 100%;
+  height: 100%;
+}/*# sourceMappingURL=ar.css.map */
