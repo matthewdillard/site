@@ -1,7 +1,7 @@
 ---
 title: Taranaki
 description:
-date: 2026-10-19
+date: 2026-10-08
 started: 2026-10-07
 completed: 2026-10-09
 weight:

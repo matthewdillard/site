@@ -1,7 +1,7 @@
 ---
 title: Kaitoke
 description:
-date: 2026-10-19
+date: 2026-10-05
 started: 2026-10-05
 completed: 2026-10-05
 weight:
