@@ -1,5 +1,5 @@
 ---
-title: California in late summer
+title: California
 description:
 date: 2026-09-09
 weight: 1

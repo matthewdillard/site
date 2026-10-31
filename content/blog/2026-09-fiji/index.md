@@ -1,5 +1,5 @@
 ---
-title: Layover in Fiji
+title: Fiji
 description:
 date: 2026-09-11
 started: 2026-09-07
