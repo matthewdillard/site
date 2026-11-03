@@ -1,0 +1,6 @@
+{{- $img := or (.Page.Resources.Get .Destination) (resources.Get .Destination) -}}
+{{- if and $img (in (slice "image/jpeg" "image/png" "image/webp" "image/gif") $img.MediaType.Type) -}}
+  {{- partial "frame.html" (dict "img" $img "alt" .PlainText "caption" .Title) -}}
+{{- else -}}
+  <img src="{{ .Destination | safeURL }}" alt="{{ .PlainText }}"{{ with .Title }} title="{{ . }}"{{ end }}>
+{{- end -}}

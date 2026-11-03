@@ -124,6 +124,7 @@ strong {
 
 figure {
   margin-block: var(--cell-size);
+  position: relative;
 }
 
 figcaption p {
@@ -137,6 +138,35 @@ figcaption {
 figure img {
   display: block;
   width: 100%;
+}
+
+figure.framed {
+    padding: var(--frame-pd);
+    border: var(--frame-br) solid #000;
+    background: #fff;
+    margin-bottom: calc(var(--cell-size) * 2);
+}
+
+/* figure.framed::after {
+  content: "";
+    position: absolute;
+    pointer-events: none;
+    width: calc(100% - calc(var(--frame-pd) * 2));
+    height: calc(100% - calc(var(--frame-pd) * 2));
+    box-shadow: inset #00000020 0px 0px calc(var(--frame-br) / 2);
+    top: var(--frame-pd);
+    left: var(--frame-pd);
+} */
+
+figure.framed img::after {
+  content: "";
+    position: absolute;
+    pointer-events: none;
+    width: calc(100% - calc(var(--frame-pd) * 2));
+    height: calc(100% - calc(var(--frame-pd) * 2));
+    box-shadow: inset #00000020 0px 0px calc(var(--frame-br) / 2);
+    top: var(--frame-pd);
+    left: var(--frame-pd);
 }
 
 /* Spacers */

@@ -1,0 +1,7 @@
+<!-- args: img (resource), alt, caption, loading -->
+{{- $img := .img -}}
+{{- $ar := partial "ar-class.html" $img -}}
+<figure class="framed {{ $ar }} cv">
+    <img src="{{ $img.RelPermalink }}" alt="{{ .alt }}" loading="{{ .loading | default "lazy" }}" decoding="async"> 
+  {{- with .caption }}<figcaption>{{ . | markdownify }}</figcaption>{{ end }}
+</figure>
