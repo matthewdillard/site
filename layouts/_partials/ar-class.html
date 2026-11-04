@@ -1,0 +1,24 @@
+{{- $r := div (float .Width) .Height -}}
+{{- $classes := slice
+  (dict "c" "ar-pppp"  "r" 0.5)
+  (dict "c" "ar-ppp"   "r" 0.625)
+  (dict "c" "ar-pp"    "r" 0.75)
+  (dict "c" "ar-p"     "r" 0.8)
+  (dict "c" "ar-s"     "r" 1.0)
+  (dict "c" "ar-l"     "r" 1.25)
+  (dict "c" "ar-ll"    "r" 1.3333)
+  (dict "c" "ar-lll"   "r" 1.6667)
+  (dict "c" "ar-llll"  "r" 2.0)
+  (dict "c" "ar-lllll" "r" 4.0)
+-}}
+{{- $best := "ar-s" -}}
+{{- $min := 1000.0 -}}
+{{- range $classes -}}
+  {{- $d := sub (math.Log $r) (math.Log .r) -}}
+  {{- $d = mul $d $d -}}
+  {{- if lt $d $min -}}
+    {{- $min = $d -}}
+    {{- $best = .c -}}
+  {{- end -}}
+{{- end -}}
+{{- return $best -}}
