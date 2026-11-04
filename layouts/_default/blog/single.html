@@ -35,7 +35,7 @@
         </ol>
         {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
     </div>
-    <!-- {{ partial "grid-paper.html" .}} -->
+    {{ partial "grid-paper.html" .}}
 </article>
 
 {{ range sort (.Resources.ByType "page") "Params.weight" }}
@@ -45,7 +45,7 @@
         {{ .Content }}
         {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
     </div>
-    <!-- {{ partial "grid-paper.html" .}} -->
+    {{ partial "grid-paper.html" .}}
 </article>
 {{ end }}
 
