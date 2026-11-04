@@ -5,21 +5,22 @@
 
 <ul class="article-list">
     {{ range sort $pages.ByWeight | first $limit }}
+        {{ $publishDate := (time.AsTime (.Param "published"))}}
+        {{ $publishDate := time.Format "Jan 2, 2006" $publishDate }}
+        {{ $metadata := $publishDate }}
+        
         <li class="list-item fbr">
-            {{ $publishDate := (time.AsTime (.Param "published"))}}
-            {{ $publishDate := time.Format "Jan 2, 2006" $publishDate }}
-
             <div class="hide-b-sm">
                 <div class="subtle meta-span-block f-0 fbr">
-                    <span>{{ $publishDate }}</span>
+                    <span>{{ $metadata }}</span>
                 </div>
-            </div>    
+            </div>
             
             <div class="f-1">
                 <h2 class="fs-1"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
                 <div class="hide-a-sm">
                     <div class="subtle meta-span-block f-0 fbr">
-                        <span>{{ $publishDate }}</span>
+                        <span>{{ $metadata }}</span>
                     </div>
                 </div>
             </div>

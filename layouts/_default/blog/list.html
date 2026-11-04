@@ -1,0 +1,34 @@
+{{ define "main" }}
+<article class="grid-wrap">
+    {{ partial "header.html" . }}
+    <div class="spacer__sm"></div>
+    <div class="grid-wrap__text">
+        <h1>Blog</h1>
+        <div class="spacer__sm"></div>
+        {{ .Content }}
+        <div class="article-list">
+            {{ range .Pages.GroupByDate "Jan 2006" }}
+                <div class="list-group fbr"> 
+                    <h2 class="subtle meta-span-block f-0 fs-2 fbr m-t-0">
+                        <span>{{ .Key }}</span>
+                    </h2>
+                    <ul>
+                        {{ range sort .Pages.ByDate.Reverse }}
+                            <li class="list-item fbr">                        
+                                <div class="f-1">
+                                    <h3 class="fs-1"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h3>
+                                </div>
+                            </li>
+                        {{ end }}
+                    </ul>
+                </div>
+            {{ end }}
+
+        </div>
+        {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+    </div>
+    {{ partial "grid-paper.html" .}}
+</article>
+
+
+{{ end }}

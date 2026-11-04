@@ -77,3 +77,8 @@ tbody tr > td:last-child {
         padding: var(--text-h-offset);  
     }
 }
+
+.cta__block {
+    display: inline-block;
+    margin-block: var(--cell-size);
+}

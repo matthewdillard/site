@@ -1,0 +1,13 @@
+{{- $src := .Get "src" -}}
+{{- $img := or (.Page.Resources.Get $src) (resources.Get $src) -}}
+{{- if and $img (in (slice "image/jpeg" "image/png" "image/webp" "image/gif") $img.MediaType.Type) -}}
+  {{- $cap := .Get "caption" | default "" -}}
+  {{- $alt := .Get "alt" | default ($cap | plainify) -}}
+  {{- partial "frame.html" (dict
+        "img" $img
+        "alt" $alt
+        "caption" $cap
+        "loading" (.Get "loading")) -}}
+{{- else -}}
+  {{- warnf "figure: %q not found (page %s)" $src .Page.Path -}}
+{{- end -}}

@@ -48,4 +48,9 @@
   --text-color-light: var(--color-text-light);
   --blockquote-border-color: var(--color-blockquote-border);
   --font-family-primary: var(--font-serif);
+
+  /* Components */
+  --frame-br: calc(var(--cell-size) / 1.5);
+  --frame-pd: calc(var(--cell-size) * 1.5);
 }
+
