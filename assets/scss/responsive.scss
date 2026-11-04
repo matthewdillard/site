@@ -5,6 +5,7 @@
     --grid-cells: 30;
     --grid-padding: 3;
     --font-size: calc(100vw / calc(var(--grid-cells) * 2));
+    --frame-br: calc(var(--cell-size) / 2);
   }
 }
 
@@ -12,21 +13,25 @@
   :root {
     --grid-cells: 24;
     --grid-padding: 2;
+    --frame-pd: var(--cell-size);
   }
 }
 
 @media screen and (max-width: 576px) {
   :root {
     --grid-cells: 20;
-    --grid-padding: 2;
+    --grid-padding: 1;
+    --frame-br: calc(var(--cell-size) / 3);
+    --frame-pd: calc(var(--cell-size) / 2);
   }
 }
 
 @media screen and (max-width: 480px) {
   :root {
     --grid-cells: 16;
-    --grid-padding: 2;
-    // --grid-padding: 1;
+    --grid-padding: 1;
+    --frame-br: calc(var(--cell-size) / 4);
+    --frame-pd: calc(var(--cell-size) / 3);
   }
 }
 

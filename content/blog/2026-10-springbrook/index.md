@@ -9,19 +9,19 @@ draft: false
 tags:
 ---
 
-{{<figure src="trail-1.jpg" loading="lazy"  caption="">}}
-{{<figure src="trail-2.jpg" loading="lazy"  caption="">}}
-{{<figure src="trail-3.jpg" loading="lazy"  caption="">}}
+{{< frame src="trail-1.jpg" loading="lazy"  caption="">}}
+{{< frame src="trail-2.jpg" loading="lazy"  caption="">}}
+{{< frame src="trail-3.jpg" loading="lazy"  caption="">}}
 
-{{<figure src="plateau.jpg" loading="lazy"  caption="">}}
-{{<figure src="forest.jpg" loading="lazy"  caption="">}}
+{{< frame src="plateau.jpg" loading="lazy"  caption="">}}
+{{< frame src="forest.jpg" loading="lazy"  caption="">}}
 
-{{<figure src="purling-brook.jpg" loading="lazy"  caption="Purling Brook Falls.">}}
-{{<figure src="pool.jpg" loading="lazy"  caption="Pool overlooking the top of Purling Brook Falls.">}}
+{{< frame src="purling-brook.jpg" loading="lazy"  caption="Purling Brook Falls.">}}
+{{< frame src="pool.jpg" loading="lazy"  caption="Pool overlooking the top of Purling Brook Falls.">}}
 
-{{<figure src="twin-falls.jpg" loading="lazy"  caption="Twin Falls.">}}
-{{<figure src="behind-twin.jpg" loading="lazy"  caption="">}}
+{{< frame src="twin-falls.jpg" loading="lazy"  caption="Twin Falls.">}}
+{{< frame src="behind-twin.jpg" loading="lazy"  caption="">}}
 
-{{<figure src="forest.jpg" loading="lazy"  caption="">}}
+{{< frame src="forest.jpg" loading="lazy"  caption="">}}
 
-{{<figure src="boulder.jpg" loading="lazy"  caption="">}}
+{{< frame src="boulder.jpg" loading="lazy"  caption="">}}

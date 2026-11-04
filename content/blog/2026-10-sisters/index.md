@@ -9,8 +9,8 @@ draft: false
 tags:
 ---
 
-{{<figure src="sisters.jpg" loading="lazy"  caption="Three Sisters and Elephant Rock off the coast of Tongaporuta.">}}
-{{<figure src="pillar.jpg" loading="lazy"  caption="">}}
-{{<figure src="footprints.jpg" loading="lazy"  caption="">}}
-{{<figure src="sand.jpg" loading="lazy"  caption="">}}
-{{<figure src="sunset.jpg" loading="lazy"  caption="">}}
+{{< frame src="sisters.jpg" loading="lazy"  caption="Three Sisters and Elephant Rock off the coast of Tongaporuta.">}}
+{{< frame src="pillar.jpg" loading="lazy"  caption="">}}
+{{< frame src="footprints.jpg" loading="lazy"  caption="">}}
+{{< frame src="sand.jpg" loading="lazy"  caption="">}}
+{{< frame src="sunset.jpg" loading="lazy"  caption="">}}

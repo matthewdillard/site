@@ -9,9 +9,9 @@ draft: false
 tags:
 ---
 
-{{<figure src="trail.jpg" loading="lazy"  caption="A day walking the Escarpment Track along the Kapiti Coast.">}}
-{{<figure src="island.jpg" loading="lazy"  caption="A view of Kapiti Island.">}}
-{{<figure src="bridge.jpg" loading="lazy"  caption="">}}
-{{<figure src="shadow.jpg" loading="lazy"  caption="">}}
-{{<figure src="tui.jpg" loading="lazy"  caption="A male and female Tui taking flight.">}}
-{{<figure src="hog.jpg" loading="lazy"  caption="A curious hedgehog.">}}
+{{< frame src="trail.jpg" loading="lazy"  caption="A day walking the Escarpment Track along the Kapiti Coast.">}}
+{{< frame src="island.jpg" loading="lazy"  caption="A view of Kapiti Island.">}}
+{{< frame src="bridge.jpg" loading="lazy"  caption="">}}
+{{< frame src="shadow.jpg" loading="lazy"  caption="">}}
+{{< frame src="tui.jpg" loading="lazy"  caption="A male and female Tui taking flight.">}}
+{{< frame src="hog.jpg" loading="lazy"  caption="A curious hedgehog.">}}
