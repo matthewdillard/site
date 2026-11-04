@@ -9,9 +9,9 @@ draft: false
 tags:
 ---
 
-{{<figure src="ferns.jpg" loading="lazy"  caption="">}}
-{{<figure src="trail.jpg" loading="lazy"  caption="">}}
-{{<figure src="creek.jpg" loading="lazy"  caption="">}}
-{{<figure src="river.jpg" loading="lazy"  caption="">}}
-{{<figure src="trees.jpg" loading="lazy"  caption="">}}
-{{<figure src="arch.jpg" loading="lazy"  caption="A replica of the archway through which the Fellowship exits Rivendell, on what was once the set of Lord of The Rings.">}}
+{{< frame src="ferns.jpg" loading="lazy"  caption="">}}
+{{< frame src="trail.jpg" loading="lazy"  caption="">}}
+{{< frame src="creek.jpg" loading="lazy"  caption="">}}
+{{< frame src="river.jpg" loading="lazy"  caption="">}}
+{{< frame src="trees.jpg" loading="lazy"  caption="">}}
+{{< frame src="arch.jpg" loading="lazy"  caption="A replica of the archway through which the Fellowship exits Rivendell, on what was once the set of Lord of The Rings.">}}

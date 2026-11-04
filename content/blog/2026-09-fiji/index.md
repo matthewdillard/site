@@ -8,10 +8,10 @@ weight: 1
 draft: false
 tags:
 ---
-{{<figure src="river.jpg" loading="lazy" >}}
-{{<figure src="path.jpg" loading="lazy" >}}
-{{<figure src="overlook.jpg" loading="lazy" >}}
-{{<figure src="field.jpg" loading="lazy" >}}
-{{<figure src="diamond.jpg" loading="lazy" >}}
-{{<figure src="cave.jpg" loading="lazy" >}}
-{{<figure src="ride.jpg" loading="lazy" >}}
+{{< frame src="river.jpg" loading="lazy" >}}
+{{< frame src="path.jpg" loading="lazy" >}}
+{{< frame src="overlook.jpg" loading="lazy" >}}
+{{< frame src="field.jpg" loading="lazy" >}}
+{{< frame src="diamond.jpg" loading="lazy" >}}
+{{< frame src="cave.jpg" loading="lazy" >}}
+{{< frame src="ride.jpg" loading="lazy" >}}

@@ -8,7 +8,7 @@ weight:
 draft: false
 tags:
 ---
-{{<figure src="marokopa.jpg" loading="lazy"  caption="Marokopa Falls.">}}
-{{<figure src="bridge.jpg" loading="lazy"  caption="Natural Bridge.">}}
-{{<figure src="bridge-2.jpg" loading="lazy"  caption="">}}
-{{<figure src="omaru.jpg" loading="lazy"  caption="Omaru Falls.">}}
+{{< frame src="marokopa.jpg" loading="lazy"  caption="Marokopa Falls.">}}
+{{< frame src="bridge.jpg" loading="lazy"  caption="Natural Bridge.">}}
+{{< frame src="bridge-2.jpg" loading="lazy"  caption="">}}
+{{< frame src="omaru.jpg" loading="lazy"  caption="Omaru Falls.">}}

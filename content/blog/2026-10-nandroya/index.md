@@ -9,7 +9,7 @@ draft: false
 tags:
 ---
 
-{{<figure src="trail-1.jpg" loading="lazy"  caption="On the Nandroya Track.">}}
-{{<figure src="silver.jpg" loading="lazy"  caption="Silver Falls.">}}
-{{<figure src="nandroya.jpg" loading="lazy"  caption="Nandroya Falls.">}}
-{{<figure src="trail-2.jpg" loading="lazy"  caption="">}}
+{{< frame src="trail-1.jpg" loading="lazy"  caption="On the Nandroya Track.">}}
+{{< frame src="silver.jpg" loading="lazy"  caption="Silver Falls.">}}
+{{< frame src="nandroya.jpg" loading="lazy"  caption="Nandroya Falls.">}}
+{{< frame src="trail-2.jpg" loading="lazy"  caption="">}}
