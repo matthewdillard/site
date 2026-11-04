@@ -130,11 +130,6 @@ figcaption p {
 
 figcaption {
     color: var(--text-color-light);
-    text-align: center;
-}
-
-.frame figcaption {
-    margin-block: calc(var(--cell-size) / 2);
 }
 
 figure img,
@@ -152,6 +147,11 @@ figure .frame-img-wrap {
     border-radius: 1px;
     position: relative;
     margin-bottom: calc(var(--cell-size) * 2);
+    }
+
+    .frame figcaption {
+        margin-block: calc(var(--cell-size) / 2);
+        text-align: center;
     }
 
     .frame:has(figcaption) {

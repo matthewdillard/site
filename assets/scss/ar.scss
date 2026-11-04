@@ -1,169 +1,129 @@
 // Aspect ratios
-// >720px:  30 grid - 3 padding = 24 cells 
-// ≤720px:  24 grid - 2 padding = 20 cells
-// ≤576px:  20 grid - 2 padding = 16 cells
-// ≤480px:  16 grid - 2 padding = 12 cells
-// ≤384px:  14 grid - 1 padding = 12 cells
+// >720px --grid-body-w: 24 cells 
+// ≤720px --grid-body-w: 20 cells
+// ≤576px --grid-body-w: 16 cells
+// ≤480px --grid-body-w: 12 cells
+// ≤384px --grid-body-w: 12 cells
+
+:root {
+    --grid-body-w: calc(var(--grid-cells) - var(--grid-padding) - var(--grid-padding));
+}
 
 // 1:2
 .ar-pppp {
-  @media screen and (min-width: 721px) {
-    &.cv, &.ct { aspect-ratio: 12 / 24; }
-  }
-  @media screen and (max-width: 720px) {
-    &.cv, &.ct { aspect-ratio: 10 / 20; }
-  }
-  @media screen and (max-width: 576px) {
-    &.cv, &.ct { aspect-ratio: 8 / 16; }
-  }
-  @media screen and (max-width: 480px) {
-    &.cv, &.ct { aspect-ratio: 6 / 12; }
-  }
+    &.cv, &.ct { aspect-ratio: 1 / 2; }
 }
 
-// ~5:8
+// ~5:8 / .625
 .ar-ppp {
   @media screen and (min-width: 721px) {
-    &.cv, &.ct { aspect-ratio: 15 / 24; }
+    &.cv, &.ct { aspect-ratio: var(--grid-body-w) / 38; }
   }
   @media screen and (max-width: 720px) {
-    &.cv, &.ct { aspect-ratio: 12 / 20; }
+    &.cv, &.ct { aspect-ratio: var(--grid-body-w) / 32; }
   }
   @media screen and (max-width: 576px) {
-    &.cv, &.ct { aspect-ratio: 10 / 16; }
+    &.cv, &.ct { aspect-ratio: var(--grid-body-w) / 26; }
   }
   @media screen and (max-width: 480px) {
-    &.cv, &.ct { aspect-ratio: 8 / 12; }
+    &.cv, &.ct { aspect-ratio: var(--grid-body-w) / 19; }
   }
 }
 
 // ~3:4
 .ar-pp {
   @media screen and (min-width: 721px) {
-    &.cv, &.ct { aspect-ratio: 18 / 24; }
+    &.cv, &.ct { aspect-ratio: var(--grid-body-w) / 32; }
   }
   @media screen and (max-width: 720px) {
-    &.cv, &.ct { aspect-ratio: 16 / 20; }
+    &.cv, &.ct { aspect-ratio: var(--grid-body-w) / 26; }
   }
   @media screen and (max-width: 576px) {
-    &.cv, &.ct { aspect-ratio: 12 / 16; }
+    &.cv, &.ct { aspect-ratio: var(--grid-body-w) / 21; }
   }
   @media screen and (max-width: 480px) {
-    &.cv, &.ct { aspect-ratio: 9 / 12; }
+    &.cv, &.ct { aspect-ratio: var(--grid-body-w) / 16; }
   }
 }
 
 // ~4:5
 .ar-p {
   @media screen and (min-width: 721px) {
-    &.cv, &.ct { aspect-ratio: 20 / 25; }
+    &.cv, &.ct { aspect-ratio: var(--grid-body-w) / 30; }
   }
   @media screen and (max-width: 720px) {
-    &.cv, &.ct { aspect-ratio: 16 / 20; }
+    &.cv, &.ct { aspect-ratio: var(--grid-body-w) / 25; }
   }
   @media screen and (max-width: 576px) {
-    &.cv, &.ct { aspect-ratio: 13 / 16; }
+    &.cv, &.ct { aspect-ratio: var(--grid-body-w) / 20; }
   }
   @media screen and (max-width: 480px) {
-    &.cv, &.ct { aspect-ratio: 10 / 12; }
+    &.cv, &.ct { aspect-ratio: var(--grid-body-w) / 15; }
   }
 }
 
 // 1:1
 .ar-s {
-  @media screen and (min-width: 721px) {
-    &.cv, &.ct { aspect-ratio: 24 / 24; }
-  }
-  @media screen and (max-width: 720px) {
-    &.cv, &.ct { aspect-ratio: 20 / 20; }
-  }
-  @media screen and (max-width: 576px) {
-    &.cv, &.ct { aspect-ratio: 16 / 16; }
-  }
-  @media screen and (max-width: 480px) {
-    &.cv, &.ct { aspect-ratio: 12 / 12; }
-  }
+    &.cv, &.ct { aspect-ratio: 1; }
 }
 
 // Landscape
 // ~5:4
 .ar-l {
   @media screen and (min-width: 721px) {
-    &.cv, &.ct { aspect-ratio: 24 / 20; }
+    &.cv, &.ct { aspect-ratio: var(--grid-body-w) / 19; }
   }
   @media screen and (max-width: 720px) {
-    &.cv, &.ct { aspect-ratio: 20 / 16; }
+    &.cv, &.ct { aspect-ratio: var(--grid-body-w) / 16; }
   }
   @media screen and (max-width: 576px) {
-    &.cv, &.ct { aspect-ratio: 16 / 13; }
+    &.cv, &.ct { aspect-ratio: var(--grid-body-w) / 13; }
   }
   @media screen and (max-width: 480px) {
-    &.cv, &.ct { aspect-ratio: 12 / 10; }
+    &.cv, &.ct { aspect-ratio: var(--grid-body-w) / 10; }
   }
 }
 
 // ~4:3
 .ar-ll {
   @media screen and (min-width: 721px) {
-    &.cv, &.ct { aspect-ratio: 24 / 18; }
+    &.cv, &.ct { aspect-ratio: var(--grid-body-w) / 18; }
   }
   @media screen and (max-width: 720px) {
-    &.cv, &.ct { aspect-ratio: 20 / 15; }
+    &.cv, &.ct { aspect-ratio: var(--grid-body-w) / 15; }
   }
   @media screen and (max-width: 576px) {
-    &.cv, &.ct { aspect-ratio: 16 / 12; }
+    &.cv, &.ct { aspect-ratio: var(--grid-body-w) / 12; }
   }
   @media screen and (max-width: 480px) {
-    &.cv, &.ct { aspect-ratio: 12 / 9; }
+    &.cv, &.ct { aspect-ratio: var(--grid-body-w) / 9; }
   }
 }
 
 // ~5:3
 .ar-lll {
   @media screen and (min-width: 721px) {
-    &.cv, &.ct { aspect-ratio: 24 / 15; }
+    &.cv, &.ct { aspect-ratio: var(--grid-body-w) / 15; }
   }
   @media screen and (max-width: 720px) {
-    &.cv, &.ct { aspect-ratio: 20 / 12; }
+    &.cv, &.ct { aspect-ratio: var(--grid-body-w) / 12; }
   }
   @media screen and (max-width: 576px) {
-    &.cv, &.ct { aspect-ratio: 16 / 10; }
+    &.cv, &.ct { aspect-ratio: var(--grid-body-w) / 10; }
   }
   @media screen and (max-width: 480px) {
-    &.cv, &.ct { aspect-ratio: 12 / 8; }
+    &.cv, &.ct { aspect-ratio: var(--grid-body-w) / 8; }
   }
 }
 
 // 2:1
 .ar-llll {
-  @media screen and (min-width: 721px) {
-    &.cv, &.ct { aspect-ratio: 24 / 12; }
-  }
-  @media screen and (max-width: 720px) {
-    &.cv, &.ct { aspect-ratio: 20 / 10; }
-  }
-  @media screen and (max-width: 576px) {
-    &.cv, &.ct { aspect-ratio: 16 / 8; }
-  }
-  @media screen and (max-width: 480px) {
-    &.cv, &.ct { aspect-ratio: 12 / 6; }
-  }
+  &.cv, &.ct { aspect-ratio: 2 / 1; }
 }
 
 // 4:1
 .ar-lllll {
-  @media screen and (min-width: 721px) {
-    &.cv, &.ct { aspect-ratio: 24 / 6; }
-  }
-  @media screen and (max-width: 720px) {
-    &.cv, &.ct { aspect-ratio: 20 / 5; }
-  }
-  @media screen and (max-width: 576px) {
-    &.cv, &.ct { aspect-ratio: 16 / 4; }
-  }
-  @media screen and (max-width: 480px) {
-    &.cv, &.ct { aspect-ratio: 12 / 3; }
-  }
+  &.cv, &.ct { aspect-ratio: 4 / 1; }
 }
 
 // Shared image styles
