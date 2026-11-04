@@ -34,7 +34,7 @@ tags:
 
 {{<figure src="hammock.jpg" loading="lazy"  caption="Resting in a hammock in Mt. Victoria park.">}}
 
-{{<figure src="siren.jpg" loading="lazy"  caption="The Sirens Rocks on the coast of Island Bay.">}}
+{{<figure src="sirens.jpg" loading="lazy"  caption="The Sirens Rocks on the coast of Island Bay.">}}
 
 
 
