@@ -47,11 +47,8 @@ main {
   width: 100%;
   height: 100%;
   background-size: var(--cell-size) var(--cell-size);
-  background-image: linear-gradient(
-      to right,
-      var(--grid-line-color) 1px,
-      transparent 1px
-    ),
+  background-image:
+    linear-gradient(to right, var(--grid-line-color) 1px, transparent 1px),
     linear-gradient(to bottom, var(--grid-line-color) 1px, transparent 1px);
 }
 
@@ -132,7 +129,7 @@ figcaption p {
 }
 
 figcaption {
-    color: var(--text-color-light);
+  color: var(--text-color-light);
 }
 
 figure img {
@@ -140,33 +137,27 @@ figure img {
   width: 100%;
 }
 
-figure.framed {
-    padding: var(--frame-pd);
-    border: var(--frame-br) solid #000;
-    background: #fff;
-    margin-bottom: calc(var(--cell-size) * 2);
+.frame {
+  padding: var(--frame-pd);
+  border: var(--frame-br) solid #000;
+  background: #fff;
+  border-radius: 1px;
 }
 
-/* figure.framed::after {
-  content: "";
-    position: absolute;
-    pointer-events: none;
-    width: calc(100% - calc(var(--frame-pd) * 2));
-    height: calc(100% - calc(var(--frame-pd) * 2));
-    box-shadow: inset #00000020 0px 0px calc(var(--frame-br) / 2);
-    top: var(--frame-pd);
-    left: var(--frame-pd);
-} */
+.frame img {
+  border-radius: 1px;
+}
 
-figure.framed img::after {
+.frame::after {
   content: "";
-    position: absolute;
-    pointer-events: none;
-    width: calc(100% - calc(var(--frame-pd) * 2));
-    height: calc(100% - calc(var(--frame-pd) * 2));
-    box-shadow: inset #00000020 0px 0px calc(var(--frame-br) / 2);
-    top: var(--frame-pd);
-    left: var(--frame-pd);
+  position: absolute;
+  pointer-events: none;
+  border-radius: 3px;
+  width: calc(100% - calc(calc(var(--frame-pd) + var(--frame-br)) * 2));
+  height: calc(100% - calc(calc(var(--frame-pd) + var(--frame-br)) * 2));
+  box-shadow: inset #00000026 0px 0px calc(var(--frame-br) / 2);
+  top: calc(var(--frame-pd) + var(--frame-br));
+  left: calc(var(--frame-pd) + var(--frame-br));
 }
 
 /* Spacers */
