@@ -129,10 +129,16 @@ figcaption p {
 }
 
 figcaption {
-  color: var(--text-color-light);
+    color: var(--text-color-light);
+    text-align: center;
 }
 
-figure img {
+.frame figcaption {
+    margin-block: calc(var(--cell-size) / 2);
+}
+
+figure img,
+figure .frame-img-wrap {
   display: block;
   width: 100%;
 }
@@ -142,23 +148,36 @@ figure img {
   border: var(--frame-br) solid #000;
   background: #fff;
   border-radius: 1px;
+  position: relative;
+  margin-bottom: calc(var(--cell-size) * 2);
+}
+
+.frame:has(figcaption) {
+    padding: var(--frame-pd) var(--frame-pd) calc(var(--frame-pd) / 2) var(--frame-pd);
 }
 
 .frame img {
   border-radius: 1px;
 }
 
-.frame::after {
-  content: "";
-  position: absolute;
-  pointer-events: none;
-  border-radius: 3px;
-  width: calc(100% - calc(calc(var(--frame-pd) + var(--frame-br)) * 2));
-  height: calc(100% - calc(calc(var(--frame-pd) + var(--frame-br)) * 2));
-  box-shadow: inset #00000026 0px 0px calc(var(--frame-br) / 2);
-  top: calc(var(--frame-pd) + var(--frame-br));
-  left: calc(var(--frame-pd) + var(--frame-br));
+.frame-matte,
+.frame-img-wrap {
+    position: relative;
+} 
+
+.frame-matte,
+.frame-img-wrap::after {
+    content: "";
+    position: absolute;
+    pointer-events: none;
+    border-radius: 1px;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset #00000026 0px 0px calc(var(--frame-br) / 2);
+    top: 0;
+    left: 0;
 }
+
 
 /* Spacers */
 

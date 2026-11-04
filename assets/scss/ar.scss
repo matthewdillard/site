@@ -178,16 +178,16 @@
 .ar-llll,
 .ar-lllll {
   &.cv {
-    img { object-fit: cover; }
+    img, .frame-img-wrap { object-fit: cover; }
   }
 
   &.ct {
-    img { object-fit: contain; }
+    img, .frame-img-wrap { object-fit: contain; }
   }
 
   &.cv,
   &.ct {
-    img {
+    img, .frame-img-wrap {
       width: 100%;
       height: 100%;
     }
