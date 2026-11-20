@@ -18,7 +18,7 @@ citations:
   - "Kimmerer, Robin Wall. _Braiding Sweetgrass: Indigenous Wisdom, Scientific Knowledge and the Teachings of Plants_. Tantor Media, 2016."
   - Postman, Neil. _Amusing Ourselves to Death_. William Heinemann, 1986.
 ---
-Humanity is defined by its technology. As far back as the earliest cave paintings and the invention of writing, communications technologies have been central to our evolution as a species. Each communications technology represents a medium through which ideas may be transmitted, but not all mediums are created equal.
+Humanity is defined by its technology. As far back as the earliest cave paintings and the invention of writing, communications technologies have been central to our evolution as a species. Each communications technology represents a medium through which ideas may be transmitted.
 
 >"The medium is the message"  
 >— Marshall McLuhan
