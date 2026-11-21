@@ -3,7 +3,9 @@
     {{ partial "header.html" . }}
     <div class="spacer__sm"></div>
     <div class="grid-wrap__text">
+        {{ partial "breadcrumbs.html" . }}
         <h1>{{ .Title }}</h1>
+
         <div class="subtle">
             {{ $sm := (time.AsTime (.Param "started")).Month }}
             {{ $em := (time.AsTime (.Param "completed")).Month }}
@@ -13,8 +15,9 @@
             {{ else }}
                 <span>{{ $sm }} - {{ $em }}</span>
             {{ end }}
-            
         </div>
+
+        
         <!-- <span class="subtle"><i>{{.Description}}</i></span> -->
         
         {{ if .Param "toc" }}

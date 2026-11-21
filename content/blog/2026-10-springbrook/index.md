@@ -14,14 +14,11 @@ tags:
 {{< frame src="trail-3.jpg" loading="lazy"  caption="">}}
 
 {{< frame src="plateau.jpg" loading="lazy"  caption="">}}
-{{< frame src="forest.jpg" loading="lazy"  caption="">}}
 
 {{< frame src="purling-brook.jpg" loading="lazy"  caption="Purling Brook Falls.">}}
 {{< frame src="pool.jpg" loading="lazy"  caption="Pool overlooking the top of Purling Brook Falls.">}}
 
 {{< frame src="twin-falls.jpg" loading="lazy"  caption="Twin Falls.">}}
 {{< frame src="behind-twin.jpg" loading="lazy"  caption="">}}
-
-{{< frame src="forest.jpg" loading="lazy"  caption="">}}
 
 {{< frame src="boulder.jpg" loading="lazy"  caption="">}}

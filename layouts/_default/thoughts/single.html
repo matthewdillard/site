@@ -3,6 +3,7 @@
     {{ partial "header.html" . }}
     <div class="spacer__sm"></div>
     <div class="grid-wrap__text">
+        {{ partial "breadcrumbs.html" . }}
         <h1>{{ .Title }}</h1>
         <div class="subtle">
             {{ $y := (time.AsTime (.Param "published")).Year }}

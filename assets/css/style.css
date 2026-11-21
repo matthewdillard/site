@@ -197,3 +197,22 @@ figure .frame-img-wrap {
 .spacer__xl {
   height: calc(var(--cell-size) * 4);
 }
+
+/* Breadcrumbs */
+
+.breadcrumbs {
+  list-style: none;
+  padding: 0px var(--text-h-offset);
+  display: flex;
+  flex-direction: row;
+  margin-top: var(--cell-size);
+}
+.breadcrumbs .break {
+  margin-inline: 0.25em;
+}
+.breadcrumbs a {
+  text-decoration: none;
+}
+.breadcrumbs a:hover {
+  text-decoration: underline;
+}

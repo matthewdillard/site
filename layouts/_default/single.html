@@ -3,6 +3,7 @@
     {{ partial "header.html" . }}
     <div class="spacer__sm"></div>
     <div class="grid-wrap__text">
+        {{ partial "breadcrumbs.html" . }}
         <h1>{{ .Title }}</h1>
             {{ .Content }}
         {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
